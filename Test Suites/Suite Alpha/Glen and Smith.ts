@@ -2,7 +2,7 @@
 <TestSuiteEntity>
    <description></description>
    <name>Glen and Smith</name>
-   <tag></tag>
+   <tag>Sanity</tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>

@@ -17,7 +17,23 @@ WebUI.openBrowser('')
 
 WebUI.deleteAllCookies()
 
-WebUI.navigateToUrl('Need to add something so the git thing works as exected ')
+WebUI.maximizeWindow()
 
-WebUI.acceptAlert()
+WebUI.navigateToUrl('http://enspire-qa.gbrx.com/')
+
+WebUI.waitForPageLoad(0)
+
+WebUI.sendKeys(findTestObject('Enspire/Login Page/Username Field'), 'Smith')
+
+WebUI.sendKeys(findTestObject('Enspire/Login Page/Password Field'), 'Smith')
+
+WebUI.click(findTestObject('Enspire/Login Page/Login Button'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementPresent(findTestObject('Enspire/Login Page/Enspire Image'), 0)
+
+WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\Smith Fail1.jpg')
+
+WebUI.closeBrowser()
 

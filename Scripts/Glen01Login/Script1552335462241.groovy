@@ -23,13 +23,11 @@ WebUI.navigateToUrl('http://enspire-qa.gbrx.com/')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Enspire/Login Page/Login Page/Enspire Image'), 0)
+WebUI.sendKeys(findTestObject('Enspire/Login Page/Username Field'), 'glentest1gms')
 
-WebUI.sendKeys(findTestObject('Login Page/Username Field'), 'glentest1gms')
+WebUI.sendKeys(findTestObject('Enspire/Login Page/Password Field'), '12345678')
 
-WebUI.sendKeys(findTestObject('Login Page/Password Field'), '12345678')
-
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Enspire/Login Page/Login Button'))
 
 WebUI.waitForPageLoad(0)
 

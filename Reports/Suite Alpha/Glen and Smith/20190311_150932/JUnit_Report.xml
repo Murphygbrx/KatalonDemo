@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Glen and Smith" time="17" tests="2" failures="0" errors="0">
+   <testsuite name="Glen and Smith" tests="2" failures="0" errors="0" time="17" timestamp="2019-03-11 15:09:34" hostname="patrick.murphy - BOU-CH78ST2.corp.gbrx.com" id="Test Suites/Suite Alpha/Glen and Smith">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Reports\\Suite Alpha\\Glen and Smith\\20190311_150932"/>
+         <property name="logFiles" value="C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Reports\\Suite Alpha\\Glen and Smith\\20190311_150932\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\GlenSuccess1.jpg, C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\Smith Fail1.jpg"/>
+         <property name="hostName" value="patrick.murphy - BOU-CH78ST2.corp.gbrx.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="10.35.200.141"/>
+         <property name="sessionId" value="9bc6a39b48482382e1ff028c83c795d6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Glen01Login" classname="Test Cases/Glen01Login" status="PASSED">
+         <system-out><![CDATA[2019-03-11 15:09:34 - [TEST_CASE][PASSED] - Test Cases/Glen01Login: Test Cases/Glen01Login
+
+2019-03-11 15:09:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-11 15:09:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-11 15:09:35 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-11 15:09:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-11 15:09:39 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-03-11 15:09:39 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-03-11 15:09:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-11 15:09:40 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-11 15:09:40 - [TEST_STEP][PASSED] - navigateToUrl("http://enspire-qa.gbrx.com/"): Navigate to 'http://enspire-qa.gbrx.com/' successfully
+
+2019-03-11 15:09:42 - [MESSAGE][PASSED] - Navigate to 'http://enspire-qa.gbrx.com/' successfully
+
+2019-03-11 15:09:42 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-03-11 15:09:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-11 15:09:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-11 15:09:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Enspire/Login Page/Username Field"), "glentest1gms"): Keys 'glentest1gms' sent to object: 'Object Repository/Enspire/Login Page/Username Field'
+
+2019-03-11 15:09:42 - [MESSAGE][PASSED] - Keys 'glentest1gms' sent to object: 'Object Repository/Enspire/Login Page/Username Field'
+
+2019-03-11 15:09:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Enspire/Login Page/Password Field"), "12345678"): Keys '12345678' sent to object: 'Object Repository/Enspire/Login Page/Password Field'
+
+2019-03-11 15:09:42 - [MESSAGE][PASSED] - Keys '12345678' sent to object: 'Object Repository/Enspire/Login Page/Password Field'
+
+2019-03-11 15:09:42 - [TEST_STEP][PASSED] - click(findTestObject("Enspire/Login Page/Login Button")): Object: 'Object Repository/Enspire/Login Page/Login Button' is clicked on
+
+2019-03-11 15:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Enspire/Login Page/Login Button' is clicked on
+
+2019-03-11 15:09:43 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-03-11 15:09:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-11 15:09:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-11 15:09:43 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\patrick.murphy\Katalon Studio\KatalonDemo\Screenshots\GlenSuccess1.jpg"): Taking screenshot successfully
+
+2019-03-11 15:09:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\GlenSuccess1.jpg]]
+
+2019-03-11 15:09:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-11 15:09:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smith Failed Login" classname="Test Cases/Smith Failed Login" status="PASSED">
+         <system-out><![CDATA[2019-03-11 15:09:45 - [TEST_CASE][PASSED] - Test Cases/Smith Failed Login: Test Cases/Smith Failed Login
+
+2019-03-11 15:09:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-11 15:09:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-11 15:09:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-11 15:09:48 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-03-11 15:09:48 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-03-11 15:09:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-11 15:09:49 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-11 15:09:49 - [TEST_STEP][PASSED] - navigateToUrl("http://enspire-qa.gbrx.com/"): Navigate to 'http://enspire-qa.gbrx.com/' successfully
+
+2019-03-11 15:09:50 - [MESSAGE][PASSED] - Navigate to 'http://enspire-qa.gbrx.com/' successfully
+
+2019-03-11 15:09:50 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-03-11 15:09:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-11 15:09:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-11 15:09:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Enspire/Login Page/Username Field"), "Smith"): Keys 'Smith' sent to object: 'Object Repository/Enspire/Login Page/Username Field'
+
+2019-03-11 15:09:50 - [MESSAGE][PASSED] - Keys 'Smith' sent to object: 'Object Repository/Enspire/Login Page/Username Field'
+
+2019-03-11 15:09:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Enspire/Login Page/Password Field"), "Smith"): Keys 'Smith' sent to object: 'Object Repository/Enspire/Login Page/Password Field'
+
+2019-03-11 15:09:50 - [MESSAGE][PASSED] - Keys 'Smith' sent to object: 'Object Repository/Enspire/Login Page/Password Field'
+
+2019-03-11 15:09:50 - [TEST_STEP][PASSED] - click(findTestObject("Enspire/Login Page/Login Button")): Object: 'Object Repository/Enspire/Login Page/Login Button' is clicked on
+
+2019-03-11 15:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Enspire/Login Page/Login Button' is clicked on
+
+2019-03-11 15:09:50 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-03-11 15:09:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-11 15:09:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-11 15:09:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Enspire/Login Page/Enspire Image"), 0): Object 'Object Repository/Enspire/Login Page/Enspire Image' is present
+
+2019-03-11 15:09:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-11 15:09:50 - [MESSAGE][PASSED] - Object 'Object Repository/Enspire/Login Page/Enspire Image' is present
+
+2019-03-11 15:09:50 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\patrick.murphy\Katalon Studio\KatalonDemo\Screenshots\Smith Fail1.jpg"): Taking screenshot successfully
+
+2019-03-11 15:09:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\Smith Fail1.jpg]]
+
+2019-03-11 15:09:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-11 15:09:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-11 15:09:34 - [TEST_SUITE][PASSED] - Glen and Smith: Test Cases/Smith Failed Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

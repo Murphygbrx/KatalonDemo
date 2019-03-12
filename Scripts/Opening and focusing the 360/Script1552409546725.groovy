@@ -23,6 +23,8 @@ WebUI.navigateToUrl('http://enspire-qa.gbrx.com/')
 
 WebUI.waitForPageLoad(0)
 
+WebUI.verifyElementPresent(findTestObject('Login Page/Enspire Image'), 0)
+
 WebUI.sendKeys(findTestObject('Login Page/Username Field'), 'glentest1gms')
 
 WebUI.sendKeys(findTestObject('Login Page/Password Field'), '12345678')
@@ -31,7 +33,35 @@ WebUI.click(findTestObject('Login Page/Login Button'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\GlenSuccess1.jpg')
+WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Maintenance Management'), 0)
+
+WebUI.click(findTestObject('GBMS Home Page/button_Mechanical Dashboard'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.click(findTestObject('360 New Window/AOK 354450 Link'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.click(findTestObject('360 New Window/AssetView 360 Button'))
+
+WebUI.switchToWindowUrl('http://enspire-qa.gbrx.com/AssetManagement/Asset/AssetView360Popout/141375977')
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementPresent(findTestObject('360 New Window/h3_Asset Information'), 0)
+
+WebUI.waitForElementVisible(findTestObject('360 New Window/label_Asset Mark'), 0)
+
+WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\360View.jpg')
+
+WebUI.closeWindowUrl('http://enspire-qa.gbrx.com/AssetManagement/Asset/AssetView360Popout/141375977')
+
+WebUI.switchToDefaultContent()
+
+WebUI.verifyElementPresent(findTestObject('360 New Window/AssetView 360 Button'), 0)
+
+WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\360BacktoHome.jpg')
 
 WebUI.closeBrowser()
 

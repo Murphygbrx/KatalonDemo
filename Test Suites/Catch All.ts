@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Glen and Smith</name>
+   <name>Catch All</name>
    <tag>Sanity</tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -21,5 +21,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Smith Failed Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>af1524f5-db7d-4e8e-92d3-192e1ac99526</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Opening and focusing the 360</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='main']/div/div/div/div/center/img</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@src = '/media/enspireBig.png']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

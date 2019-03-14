@@ -45,10 +45,7 @@ WebUI.verifyElementNotHasAttribute(findTestObject('File Loading/td_TestFile.txt'
 
 WebUI.selectOptionByValue(findTestObject('File Loading/Non-Approved Shops Option'), 'NonApprovedShop', true)
 
-WebUI.click(findTestObject('File Loading/File Name Text Box'))
-
-WebUI.uploadFile(findTestObject('Page_AAR500 File Import/input_File Name_ctl00_MainContent_rpAAR500FileImport_AAR500FileUpl_Input_0'), 
-    'C:\\Users\\patrick.murphy\\Desktop\\Notepad\\TestFile.txt')
+WebUI.sendKeys(findTestObject('File Loading/File Name Text Box'), 'C:\\Users\\patrick.murphy\\Desktop\\Notepad\\TestFile.txt')
 
 WebUI.click(findTestObject('Object Repository/input_File Name_ctl00MainContentrpAAR500FileImportcmdUpload'))
 

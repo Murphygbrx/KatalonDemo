@@ -33,7 +33,7 @@ WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementPresent(findTestObject('Login Page/Enspire Image'), 0)
 
-WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\Smith Fail1.jpg')
+WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\Smith Fail1.jpg', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()
 

@@ -53,7 +53,7 @@ WebUI.verifyElementPresent(findTestObject('360 New Window/h3_Asset Information')
 
 WebUI.waitForElementVisible(findTestObject('360 New Window/label_Asset Mark'), 0)
 
-WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\360View.jpg')
+WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\360View.jpg', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeWindowUrl('http://enspire-qa.gbrx.com/AssetManagement/Asset/AssetView360Popout/141375977')
 
@@ -61,7 +61,7 @@ WebUI.switchToDefaultContent()
 
 WebUI.verifyElementPresent(findTestObject('360 New Window/AssetView 360 Button'), 0)
 
-WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\360BacktoHome.jpg')
+WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\360BacktoHome.jpg', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()
 

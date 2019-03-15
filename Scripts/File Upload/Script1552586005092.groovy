@@ -47,23 +47,23 @@ WebUI.selectOptionByValue(findTestObject('File Loading/Non-Approved Shops Option
 
 WebUI.sendKeys(findTestObject('File Loading/File Name Text Box'), 'C:\\Users\\patrick.murphy\\Desktop\\Notepad\\TestFile.txt')
 
-WebUI.click(findTestObject('Object Repository/input_File Name_ctl00MainContentrpAAR500FileImportcmdUpload'))
+WebUI.clickOffset(findTestObject('File Loading/HomeButton'), 580, 190)
+
+WebUI.delay(1)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementText(findTestObject('Page_AAR500 File Import/td_TestFile.txt'), 'TestFile.txt')
-
 WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\ItemUploaded.jpg', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/input_Error_ctl00MainContentrpAAR500SubmissionsgvActiveAAR500Submissionscell0_0imgDeleteAAR500Submission'))
+WebUI.click(findTestObject('File Loading/Table Row 1 Delete'))
 
 WebUI.waitForAlert(0)
 
 WebUI.acceptAlert()
 
-WebUI.click(findTestObject('Object Repository/input_Incoming CRB_ctl00HomeButton'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('File Loading/HomeButton'))
 
 WebUI.waitForPageLoad(0)
+
+WebUI.closeBrowser()
 

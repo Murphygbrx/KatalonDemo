@@ -33,35 +33,37 @@ WebUI.click(findTestObject('Login Page/Login Button'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Maintenance Management'), 0)
+WebUI.click(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
 
-WebUI.click(findTestObject('GBMS Home Page/button_Mechanical Dashboard'))
-
-WebUI.waitForPageLoad(0)
-
-WebUI.click(findTestObject('360 New Window/AOK 354450 Link'))
+WebUI.click(findTestObject('GBMS Home Page Dropdowns/Loading Option'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.click(findTestObject('360 New Window/AssetView 360 Button'))
+WebUI.waitForElementVisible(findTestObject('File Loading/Import AAR500 File'), 0)
 
-WebUI.switchToWindowUrl('http://enspire-qa.gbrx.com/AssetManagement/Asset/AssetView360Popout/141375977')
+WebUI.verifyElementNotHasAttribute(findTestObject('File Loading/td_TestFile.txt'), 'TestFile.txt', 0)
+
+WebUI.selectOptionByValue(findTestObject('File Loading/Non-Approved Shops Option'), 'NonApprovedShop', true)
+
+WebUI.sendKeys(findTestObject('File Loading/File Name Text Box'), 'C:\\Users\\patrick.murphy\\Desktop\\Notepad\\TestFile.txt')
+
+WebUI.clickOffset(findTestObject('File Loading/HomeButton'), 580, 190)
+
+WebUI.delay(1)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('360 New Window/h3_Asset Information'), 0)
+WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\ItemUploaded.jpg', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('360 New Window/label_Asset Mark'), 0)
+WebUI.click(findTestObject('File Loading/Table Row 1 Delete'))
 
-WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\360View.jpg', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForAlert(0)
 
-WebUI.closeWindowUrl('http://enspire-qa.gbrx.com/AssetManagement/Asset/AssetView360Popout/141375977')
+WebUI.acceptAlert()
 
-WebUI.switchToDefaultContent()
+WebUI.click(findTestObject('File Loading/HomeButton'))
 
-WebUI.verifyElementPresent(findTestObject('360 New Window/AssetView 360 Button'), 0)
-
-WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\360BacktoHome.jpg', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForPageLoad(0)
 
 WebUI.closeBrowser()
 

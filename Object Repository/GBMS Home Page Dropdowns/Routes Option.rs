@@ -9,6 +9,14 @@
          <key>XPATH</key>
          <value>//div[@id='MenuBarTabs']/ul/li[9]/ul/li[17]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/Envizion/Route' and (text() = 'Routes' or . = 'Routes')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

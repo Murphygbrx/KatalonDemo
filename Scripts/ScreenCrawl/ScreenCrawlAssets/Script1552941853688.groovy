@@ -31,9 +31,19 @@ WebUI.click(findTestObject('Login Page/Login Button'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\GlenSuccess1.jpg', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Assets'), 0)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('GBMS Home Page/button_Report Repository'))
 
-WebUI.closeBrowser()
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Report Repository/Report Repository Search Header'), 0)
+
+WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\ReportRepoScreen.jpg', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.back()
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Assets'), 0)
 

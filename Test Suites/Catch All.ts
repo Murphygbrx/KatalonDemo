@@ -28,4 +28,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Opening and focusing the 360</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>082382f8-c338-48a9-8e17-e3a81e296c7c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/File Upload</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

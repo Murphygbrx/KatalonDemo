@@ -4,4 +4,14 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Smith'</initValue>
+      <name>ScreenCrawlUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Smith'</initValue>
+      <name>ScreenCrawlPass</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

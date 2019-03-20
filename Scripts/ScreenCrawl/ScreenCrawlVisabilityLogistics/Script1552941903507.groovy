@@ -13,3 +13,93 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.deleteAllCookies()
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('http://enspire-qa.gbrx.com/')
+
+WebUI.waitForPageLoad(0)
+
+WebUI.sendKeys(findTestObject('Login Page/Username Field'), GlobalVariable.ScreenCrawlUser)
+
+WebUI.sendKeys(findTestObject('Login Page/Password Field'), GlobalVariable.ScreenCrawlPass)
+
+WebUI.click(findTestObject('Login Page/Login Button'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Visibility  Logistics'), 0)
+
+WebUI.click(findTestObject('GBMS Home Page/button_Problem Trips'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.takeScreenshot()
+
+WebUI.back()
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Visibility  Logistics'), 0)
+
+WebUI.click(findTestObject('GBMS Home Page/button_CLM Search'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.waitForElementPresent(findTestObject(null), 0)
+
+WebUI.takeScreenshot()
+
+WebUI.back()
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Visibility  Logistics'), 0)
+
+WebUI.click(findTestObject('GBMS Home Page/button_Trace Projects'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.waitForElementPresent(findTestObject(null), 0)
+
+WebUI.takeScreenshot()
+
+WebUI.back()
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Visibility  Logistics'), 0)
+
+WebUI.click(findTestObject('GBMS Home Page/button_Trip Search'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.waitForElementPresent(findTestObject(null), 0)
+
+WebUI.takeScreenshot()
+
+WebUI.back()
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Visibility  Logistics'), 0)
+
+WebUI.click(findTestObject('GBMS Home Page/button_Yard Dashboard'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.waitForElementPresent(findTestObject(null), 0)
+
+WebUI.takeScreenshot()
+
+WebUI.back()
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Visibility  Logistics'), 0)
+
+WebUI.closeBrowser()
+

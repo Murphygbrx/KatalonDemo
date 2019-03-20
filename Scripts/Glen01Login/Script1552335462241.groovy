@@ -33,7 +33,5 @@ WebUI.waitForPageLoad(0)
 
 WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\GlenSuccess1.jpg', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.acceptAlert()
-
 WebUI.closeBrowser()
 

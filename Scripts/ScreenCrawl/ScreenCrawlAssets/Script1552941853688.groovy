@@ -23,9 +23,9 @@ WebUI.navigateToUrl('http://enspire-qa.gbrx.com/')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.sendKeys(findTestObject('Login Page/Username Field'), 'glentest1gms')
+WebUI.sendKeys(findTestObject('Login Page/Username Field'), GlobalVariable.ScreenCrawlUser)
 
-WebUI.sendKeys(findTestObject('Login Page/Password Field'), '12345678')
+WebUI.sendKeys(findTestObject('Login Page/Password Field'), GlobalVariable.ScreenCrawlPass)
 
 WebUI.click(findTestObject('Login Page/Login Button'))
 
@@ -46,4 +46,34 @@ WebUI.back()
 WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Assets'), 0)
+
+WebUI.click(findTestObject('GBMS Home Page/button_Shop Forms'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.waitForElementPresent(findTestObject(null), 0)
+
+WebUI.takeScreenshot()
+
+WebUI.back()
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Assets'), 0)
+
+WebUI.click(findTestObject('GBMS Home Page/button_Customer Portal'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.waitForElementPresent(findTestObject(null), 0)
+
+WebUI.takeScreenshot()
+
+WebUI.back()
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Assets'), 0)
+
+WebUI.closeBrowser()
 

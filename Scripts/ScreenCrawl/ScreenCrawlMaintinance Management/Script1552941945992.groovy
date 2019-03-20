@@ -85,7 +85,7 @@ WebUI.click(findTestObject('Object Repository/Tank Car Gauge/Back to Gbrx.com'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Greenbrier/NYSE_logo'))
+WebUI.verifyElementVisible(findTestObject('Greenbrier Corp Home/NYSE_logo'))
 
 WebUI.switchToWindowUrl('http://enspire-qa.gbrx.com/Home/Landing')
 

@@ -31,75 +31,65 @@ WebUI.click(findTestObject('Login Page/Login Button'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Visibility  Logistics'), 0)
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Visibility  Logistics'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('GBMS Home Page/button_Problem Trips'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.takeScreenshot()
-
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Visibility  Logistics'), 0)
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Visibility  Logistics'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('GBMS Home Page/button_CLM Search'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementPresent(findTestObject(null), 0)
-
-WebUI.takeScreenshot()
+WebUI.waitForElementVisible(findTestObject(null), 0)
 
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Visibility  Logistics'), 0)
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Visibility  Logistics'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('GBMS Home Page/button_Trace Projects'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementPresent(findTestObject(null), 0)
-
-WebUI.takeScreenshot()
+WebUI.waitForElementVisible(findTestObject(null), 0)
 
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Visibility  Logistics'), 0)
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Visibility  Logistics'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('GBMS Home Page/button_Trip Search'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementPresent(findTestObject(null), 0)
-
-WebUI.takeScreenshot()
+WebUI.waitForElementVisible(findTestObject(null), 0)
 
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Visibility  Logistics'), 0)
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Visibility  Logistics'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('GBMS Home Page/button_Yard Dashboard'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementPresent(findTestObject(null), 0)
-
-WebUI.takeScreenshot()
+WebUI.waitForElementVisible(findTestObject(null), 0)
 
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Visibility  Logistics'), 0)
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Visibility  Logistics'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

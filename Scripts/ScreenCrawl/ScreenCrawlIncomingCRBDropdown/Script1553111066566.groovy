@@ -39,7 +39,13 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Mechanical Dashboard Option
 
 WebUI.waitForPageLoad(0)
 
-WebUI.takeScreenshot()
+WebUI.verifyElementVisible(findTestObject('Mechanical Dashbord/b_Assets'))
+
+WebUI.verifyElementVisible(findTestObject('Mechanical Dashbord/b_Audit Tracking'))
+
+WebUI.verifyElementVisible(findTestObject('Mechanical Dashbord/b_Car Events or Invoice Search'))
+
+WebUI.verifyElementVisible(findTestObject('Mechanical Dashbord/b_Event Tracking'))
 
 WebUI.back()
 
@@ -53,7 +59,9 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Loading Option'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.takeScreenshot()
+WebUI.verifyElementVisible(findTestObject('File Loading/File Name Text Box'))
+
+WebUI.verifyElementVisible(findTestObject('File Loading/Import AAR500 File'))
 
 WebUI.back()
 
@@ -67,7 +75,9 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Assignment Option'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.takeScreenshot()
+WebUI.waitForElementNotVisible(findTestObject('Event Assignment/Processing Notification'), 100)
+
+WebUI.verifyElementVisible(findTestObject('Event Assignment/Events'))
 
 WebUI.back()
 
@@ -81,7 +91,7 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Agreement Errors Option'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.takeScreenshot()
+WebUI.verifyElementVisible(findTestObject('Agreement Errors/Drag a Column Header'))
 
 WebUI.back()
 
@@ -89,13 +99,17 @@ WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
 
-WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Multiple Car Invoice Option'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.takeScreenshot()
+WebUI.verifyElementVisible(findTestObject('Object Repository/Multi-Car Invoice Upload/Load AAR500 File'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Multi-Car Invoice Upload/Multi-Car Invoice Upload'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Multi-Car Invoice Upload/Loaded Files'))
 
 WebUI.back()
 
@@ -109,8 +123,6 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Load Cover Sheets Option'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.takeScreenshot()
-
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
@@ -122,8 +134,6 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Manage Invoices Option'))
 
 WebUI.waitForPageLoad(0)
-
-WebUI.takeScreenshot()
 
 WebUI.back()
 
@@ -137,8 +147,6 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Rejectable Invoices Option'
 
 WebUI.waitForPageLoad(0)
 
-WebUI.takeScreenshot()
-
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
@@ -151,8 +159,6 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Unsent Rejection Letters Op
 
 WebUI.waitForPageLoad(0)
 
-WebUI.takeScreenshot()
-
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
@@ -164,8 +170,6 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Exception Dashboard Option'))
 
 WebUI.waitForPageLoad(0)
-
-WebUI.takeScreenshot()
 
 WebUI.back()
 

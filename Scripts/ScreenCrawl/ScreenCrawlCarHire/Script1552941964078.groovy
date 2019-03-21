@@ -31,61 +31,53 @@ WebUI.click(findTestObject('Login Page/Login Button'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Car Hire'), 0)
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Car Hire'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('GBMS Home Page/button_Payables'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.takeScreenshot()
-
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Car Hire'), 0)
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Car Hire'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('GBMS Home Page/button_Reclaim Validation'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementPresent(findTestObject(null), 0)
-
-WebUI.takeScreenshot()
+WebUI.waitForElementVisible(findTestObject(null), 0)
 
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Car Hire'), 0)
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Car Hire'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('GBMS Home Page/button_Reporting Dashboard'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementPresent(findTestObject(null), 0)
-
-WebUI.takeScreenshot()
+WebUI.waitForElementVisible(findTestObject(null), 0)
 
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Car Hire'), 0)
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Car Hire'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('GBMS Home Page/button_Claims Management'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementPresent(findTestObject(null), 0)
-
-WebUI.takeScreenshot()
+WebUI.waitForElementVisible(findTestObject(null), 0)
 
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Car Hire'), 0)
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Car Hire'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

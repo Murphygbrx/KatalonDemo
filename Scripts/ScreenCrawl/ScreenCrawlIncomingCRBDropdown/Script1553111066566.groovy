@@ -75,6 +75,7 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Assignment Option'))
 
 WebUI.waitForPageLoad(0)
 
+'Take 60 seconds for page to load. '
 WebUI.waitForElementNotVisible(findTestObject('Event Assignment/Processing Notification'), 100)
 
 WebUI.verifyElementVisible(findTestObject('Event Assignment/Events'))
@@ -85,13 +86,14 @@ WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
 
+'Page stays on Home while loading Agreement Errors. Takes 2-3 min for page to load. '
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Agreement Errors Option'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('Agreement Errors/Drag a Column Header'))
+WebUI.verifyElementVisible(findTestObject('Agreement Errors/Errors Grid View'))
 
 WebUI.back()
 
@@ -105,11 +107,11 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Multiple Car Invoice Option
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Multi-Car Invoice Upload/Load AAR500 File'))
+WebUI.verifyElementVisible(findTestObject('Multi-Car Invoice Upload/Load AAR500 File'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Multi-Car Invoice Upload/Multi-Car Invoice Upload'))
+WebUI.verifyElementVisible(findTestObject('Multi-Car Invoice Upload/Multi-Car Invoice Upload'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Multi-Car Invoice Upload/Loaded Files'))
+WebUI.verifyElementVisible(findTestObject('Multi-Car Invoice Upload/Loaded Files'))
 
 WebUI.back()
 
@@ -123,6 +125,10 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Load Cover Sheets Option'))
 
 WebUI.waitForPageLoad(0)
 
+WebUI.verifyElementVisible(findTestObject('Load Cover Sheets/Load Cover Sheets Header'))
+
+WebUI.verifyElementVisible(findTestObject('Load Cover Sheets/Cover Sheets Table'))
+
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
@@ -134,6 +140,10 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Manage Invoices Option'))
 
 WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementVisible(findTestObject('Manage Invoices/Manage Invoices Header'))
+
+WebUI.verifyElementVisible(findTestObject('Manage Invoices/Invoices Table'))
 
 WebUI.back()
 
@@ -147,6 +157,10 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Rejectable Invoices Option'
 
 WebUI.waitForPageLoad(0)
 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Rejectable Invoices/Rejectable Invoices Header'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Rejectable Invoices/Invoice Number Table'))
+
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
@@ -159,6 +173,12 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Unsent Rejection Letters Op
 
 WebUI.waitForPageLoad(0)
 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Rejection Letters Not Sent/Unsent Rejection Letters Header'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Rejection Letters Not Sent/Unsent Invoice Table'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Rejection Letters Not Sent/Bulk Options'))
+
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
@@ -170,6 +190,18 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Exception Dashboard Option'))
 
 WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Exception Dashboard/Exceptionable Invoices'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Exception Dashboard/CBA Entry'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Exception Dashboard/Completed CBA Search'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Exception Dashboard/Exception Letters'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Exception Dashboard/1st Tracer'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Exception Dashboard/2nd Tracer'))
 
 WebUI.back()
 

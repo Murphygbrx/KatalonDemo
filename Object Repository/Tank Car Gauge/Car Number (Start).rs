@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Assets</name>
+   <name>Car Number (Start)</name>
    <tag></tag>
-   <elementGuidId>7b658eee-48df-484b-b628-60333983a891</elementGuidId>
+   <elementGuidId>e177e0d8-94cd-4841-93d1-d20c75e0d032</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main']/div/div/div/div/div/div/div</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Car Mark:'])[1]/following::label[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,57 +17,50 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>img-title</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Assets</value>
+      <value>Car Number (Start):</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main&quot;)/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;panel landing-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6 col-md-6 col-sm-6 col-xs-12&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;img-wrapper&quot;]/div[@class=&quot;img-title&quot;]</value>
+      <value>/html[1]/body[@class=&quot;ng-scope&quot;]/ng-view[@class=&quot;ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;container&quot;]/form[@class=&quot;row ng-pristine ng-invalid ng-invalid-required&quot;]/div[@class=&quot;form-group col-md-4&quot;]/label[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//div[@id='main']/div/div/div/div/div/div/div</value>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Car Mark:'])[1]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change your default landing page'])[1]/following::div[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DISCLAIMER:'])[1]/following::label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report Repository'])[3]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Car Number (End):'])[1]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop Forms'])[3]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SUBMIT'])[1]/preceding::label[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div/div/div/div/div/div/div</value>
+      <value>//div[2]/label</value>
    </webElementXpaths>
 </WebElementEntity>

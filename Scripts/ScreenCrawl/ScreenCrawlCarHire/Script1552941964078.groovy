@@ -13,3 +13,71 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.deleteAllCookies()
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('http://enspire-qa.gbrx.com/')
+
+WebUI.waitForPageLoad(0)
+
+WebUI.sendKeys(findTestObject('Login Page/Username Field'), GlobalVariable.ScreenCrawlUser)
+
+WebUI.sendKeys(findTestObject('Login Page/Password Field'), GlobalVariable.ScreenCrawlPass)
+
+WebUI.click(findTestObject('Login Page/Login Button'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Car Hire'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('GBMS Home Page/button_Payables'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.back()
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Car Hire'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('GBMS Home Page/button_Reclaim Validation'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.waitForElementVisible(findTestObject(null), 0)
+
+WebUI.back()
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Car Hire'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('GBMS Home Page/button_Reporting Dashboard'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.waitForElementVisible(findTestObject(null), 0)
+
+WebUI.back()
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Car Hire'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('GBMS Home Page/button_Claims Management'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.waitForElementVisible(findTestObject(null), 0)
+
+WebUI.back()
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Car Hire'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
+

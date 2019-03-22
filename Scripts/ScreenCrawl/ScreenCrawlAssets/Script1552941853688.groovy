@@ -23,27 +23,54 @@ WebUI.navigateToUrl('http://enspire-qa.gbrx.com/')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.sendKeys(findTestObject('Login Page/Username Field'), 'glentest1gms')
+WebUI.sendKeys(findTestObject('Login Page/Username Field'), GlobalVariable.ScreenCrawlUser)
 
-WebUI.sendKeys(findTestObject('Login Page/Password Field'), '12345678')
+WebUI.sendKeys(findTestObject('Login Page/Password Field'), GlobalVariable.ScreenCrawlPass)
 
 WebUI.click(findTestObject('Login Page/Login Button'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Assets'), 0)
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Assets'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('GBMS Home Page/button_Report Repository'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Report Repository/Report Repository Search Header'), 0)
+WebUI.verifyElementVisible(findTestObject('Report Repository/Search Results'))
 
-WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\ReportRepoScreen.jpg', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Report Repository/Report Repository Search Header'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('GBMS Home Page/Assets'), 0)
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Assets'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('GBMS Home Page/button_Shop Forms'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Shop Reference Documents/Shop Reference Documents'))
+
+WebUI.verifyElementVisible(findTestObject('Shop Reference Documents/button_Clear Filter'))
+
+WebUI.back()
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Assets'), FailureHandling.STOP_ON_FAILURE)
+
+'User doenst have acces to Cust portal. \r\n'
+WebUI.click(findTestObject('GBMS Home Page/button_Customer Portal'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.back()
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Assets'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
 

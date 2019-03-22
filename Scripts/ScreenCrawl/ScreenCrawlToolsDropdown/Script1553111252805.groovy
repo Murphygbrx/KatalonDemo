@@ -13,25 +13,3 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.deleteAllCookies()
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('http://enspire-qa.gbrx.com/')
-
-WebUI.waitForPageLoad(0)
-
-WebUI.sendKeys(findTestObject('Login Page/Username Field'), 'glentest1gms')
-
-WebUI.sendKeys(findTestObject('Login Page/Password Field'), '12345678')
-
-WebUI.click(findTestObject('Login Page/Login Button'))
-
-WebUI.waitForPageLoad(0)
-
-WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\GlenSuccess1.jpg', FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.closeBrowser()
-

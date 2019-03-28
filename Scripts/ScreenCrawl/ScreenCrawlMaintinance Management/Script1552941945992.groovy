@@ -71,6 +71,8 @@ WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Maintenance Management
 
 WebUI.click(findTestObject('GBMS Home Page/button_Gauge Tables'))
 
+WebUI.delay(3)
+
 WebUI.switchToWindowUrl('http://tankcar.gbrx.com/#/')
 
 WebUI.waitForPageLoad(0)

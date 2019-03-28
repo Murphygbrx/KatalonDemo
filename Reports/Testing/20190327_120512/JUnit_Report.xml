@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testing" time="14" tests="0" failures="1" errors="0">
+   <testsuite name="Testing" tests="0" failures="1" errors="0" time="14" timestamp="2019-03-27 12:05:14" hostname="patrick.murphy - BOU-CH78ST2.corp.gbrx.com" id="Test Suites/Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Reports\\Testing\\20190327_120512"/>
+         <property name="logFiles" value="C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Reports\\Testing\\20190327_120512\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Reports\\Testing\\20190327_120512\\1553709925266.png"/>
+         <property name="hostName" value="patrick.murphy - BOU-CH78ST2.corp.gbrx.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Firefox 65.0"/>
+         <property name="hostAddress" value="10.35.200.141"/>
+         <property name="sessionId" value="317cd224-18cd-4abe-a1fe-0a31e831e53e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ScreenCrawl/ScreenCrawlIncomingCRBDropdown" classname="Test Cases/ScreenCrawl/ScreenCrawlIncomingCRBDropdown" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ScreenCrawl/ScreenCrawlIncomingCRBDropdown FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/GBMS Home Page Dropdowns/Loading Option'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at ScreenCrawlIncomingCRBDropdown.run(ScreenCrawlIncomingCRBDropdown:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553709912447.run(TempTestSuite1553709912447.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-27 12:05:14 - [TEST_CASE][FAILED] - Test Cases/ScreenCrawl/ScreenCrawlIncomingCRBDropdown: Test Cases/ScreenCrawl/ScreenCrawlIncomingCRBDropdown FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/GBMS Home Page Dropdowns/Loading Option'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at ScreenCrawlIncomingCRBDropdown.run(ScreenCrawlIncomingCRBDropdown:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553709912447.run(TempTestSuite1553709912447.groovy:35)
+
+
+2019-03-27 12:05:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-27 12:05:15 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-03-27 12:05:15 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-27 12:05:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-27 12:05:19 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-03-27 12:05:19 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-03-27 12:05:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-27 12:05:20 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-27 12:05:20 - [TEST_STEP][PASSED] - navigateToUrl("http://enspire-qa.gbrx.com/"): Navigate to 'http://enspire-qa.gbrx.com/' successfully
+
+2019-03-27 12:05:21 - [MESSAGE][PASSED] - Navigate to 'http://enspire-qa.gbrx.com/' successfully
+
+2019-03-27 12:05:21 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-03-27 12:05:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-27 12:05:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-27 12:05:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser): Keys 'glentest1gms' sent to object: 'Object Repository/Login Page/Username Field'
+
+2019-03-27 12:05:21 - [MESSAGE][PASSED] - Keys 'glentest1gms' sent to object: 'Object Repository/Login Page/Username Field'
+
+2019-03-27 12:05:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass): Keys '12345678' sent to object: 'Object Repository/Login Page/Password Field'
+
+2019-03-27 12:05:21 - [MESSAGE][PASSED] - Keys '12345678' sent to object: 'Object Repository/Login Page/Password Field'
+
+2019-03-27 12:05:21 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Login Button")): Object: 'Object Repository/Login Page/Login Button' is clicked on
+
+2019-03-27 12:05:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Login Button' is clicked on
+
+2019-03-27 12:05:22 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-03-27 12:05:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-27 12:05:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-27 12:05:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Incoming CRB Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Incoming CRB Dropdown' is visible
+
+2019-03-27 12:05:22 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Incoming CRB Dropdown' is visible
+
+2019-03-27 12:05:22 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Incoming CRB Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Incoming CRB Dropdown' is clicked on
+
+2019-03-27 12:05:23 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Incoming CRB Dropdown' is clicked on
+
+2019-03-27 12:05:23 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Mechanical Dashboard Option")): Object: 'Object Repository/GBMS Home Page Dropdowns/Mechanical Dashboard Option' is clicked on
+
+2019-03-27 12:05:23 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Mechanical Dashboard Option' is clicked on
+
+2019-03-27 12:05:23 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-03-27 12:05:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-27 12:05:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-27 12:05:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Mechanical Dashbord/b_Assets")): Object 'Object Repository/Mechanical Dashbord/b_Assets' is visible
+
+2019-03-27 12:05:24 - [MESSAGE][PASSED] - Object 'Object Repository/Mechanical Dashbord/b_Assets' is visible
+
+2019-03-27 12:05:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Mechanical Dashbord/b_Audit Tracking")): Object 'Object Repository/Mechanical Dashbord/b_Audit Tracking' is visible
+
+2019-03-27 12:05:24 - [MESSAGE][PASSED] - Object 'Object Repository/Mechanical Dashbord/b_Audit Tracking' is visible
+
+2019-03-27 12:05:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Mechanical Dashbord/b_Car Events or Invoice Search")): Object 'Object Repository/Mechanical Dashbord/b_Car Events or Invoice Search' is visible
+
+2019-03-27 12:05:24 - [MESSAGE][PASSED] - Object 'Object Repository/Mechanical Dashbord/b_Car Events or Invoice Search' is visible
+
+2019-03-27 12:05:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Mechanical Dashbord/b_Event Tracking")): Object 'Object Repository/Mechanical Dashbord/b_Event Tracking' is visible
+
+2019-03-27 12:05:24 - [MESSAGE][PASSED] - Object 'Object Repository/Mechanical Dashbord/b_Event Tracking' is visible
+
+2019-03-27 12:05:24 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-03-27 12:05:24 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-03-27 12:05:24 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-03-27 12:05:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-27 12:05:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-27 12:05:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Incoming CRB Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Incoming CRB Dropdown' is visible
+
+2019-03-27 12:05:24 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Incoming CRB Dropdown' is visible
+
+2019-03-27 12:05:24 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Incoming CRB Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Incoming CRB Dropdown' is clicked on
+
+2019-03-27 12:05:25 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Incoming CRB Dropdown' is clicked on
+
+2019-03-27 12:05:25 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("GBMS Home Page Dropdowns/Loading Option"), 0): Object 'Object Repository/GBMS Home Page Dropdowns/Loading Option' is clickable
+
+2019-03-27 12:05:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-27 12:05:25 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Loading Option' is clickable
+
+2019-03-27 12:05:25 - [TEST_STEP][FAILED] - click(findTestObject("GBMS Home Page Dropdowns/Loading Option")): click(findTestObject("GBMS Home Page Dropdowns/Loading Option")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/GBMS Home Page Dropdowns/Loading Option'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at ScreenCrawlIncomingCRBDropdown.run(ScreenCrawlIncomingCRBDropdown:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553709912447.run(TempTestSuite1553709912447.groovy:35)
+
+
+2019-03-27 12:05:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/GBMS Home Page Dropdowns/Loading Option'
+[[ATTACHMENT|C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Reports\\Testing\\20190327_120512\\1553709925266.png]]
+
+2019-03-27 12:05:25 - [MESSAGE][FAILED] - click(findTestObject("GBMS Home Page Dropdowns/Loading Option")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/GBMS Home Page Dropdowns/Loading Option'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at ScreenCrawlIncomingCRBDropdown.run(ScreenCrawlIncomingCRBDropdown:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553709912447.run(TempTestSuite1553709912447.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-03-27 12:05:14 - [TEST_CASE][FAILED] - Test Cases/ScreenCrawl/ScreenCrawlIncomingCRBDropdown: Test Cases/ScreenCrawl/ScreenCrawlIncomingCRBDropdown FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/GBMS Home Page Dropdowns/Loading Option'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at ScreenCrawlIncomingCRBDropdown.run(ScreenCrawlIncomingCRBDropdown:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553709912447.run(TempTestSuite1553709912447.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-27 12:05:14 - [TEST_SUITE][FAILED] - Testing: Test Cases/ScreenCrawl/ScreenCrawlIncomingCRBDropdown FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/GBMS Home Page Dropdowns/Loading Option'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at ScreenCrawlIncomingCRBDropdown.run(ScreenCrawlIncomingCRBDropdown:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553709912447.run(TempTestSuite1553709912447.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-03-27 12:05:14 - [TEST_SUITE][FAILED] - Testing: Test Cases/ScreenCrawl/ScreenCrawlIncomingCRBDropdown FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/GBMS Home Page Dropdowns/Loading Option'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at ScreenCrawlIncomingCRBDropdown.run(ScreenCrawlIncomingCRBDropdown:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553709912447.run(TempTestSuite1553709912447.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

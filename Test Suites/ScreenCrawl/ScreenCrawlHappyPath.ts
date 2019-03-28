@@ -11,27 +11,21 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>b9fd6c7d-07d5-4a6f-8a54-143d21e97a96</testSuiteGuid>
    <testCaseLink>
-      <guid>5d8ba14a-a6e9-454c-b451-1df1cd0c6a50</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ScreenCrawl/ScreenCrawlAssets</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7b0db860-6d49-4ad2-98d2-ddafb8dfd925</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ScreenCrawl/ScreenCrawlCarHire</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>aedcd3d4-ca86-4c84-a611-496bc4c8606d</guid>
+      <guid>8e9ed4e6-bcf1-455f-b77d-cd19e7034aba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ScreenCrawl/ScreenCrawlMaintinance Management</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e8c56381-544b-4cbd-81ee-8ffab8a29b0d</guid>
+      <guid>e8f4f0e4-614a-47ca-963e-745e05b7e3eb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ScreenCrawl/ScreenCrawlVisabilityLogistics</testCaseId>
+      <testCaseId>Test Cases/ScreenCrawl/ScreenCrawlAccountingDropdown</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e79a69b1-3da4-407b-b18b-79f6bcb08afa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ScreenCrawl/ScreenCrawlIncomingCRBDropdown</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

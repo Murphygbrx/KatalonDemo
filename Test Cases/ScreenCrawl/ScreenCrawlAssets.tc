@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Not complete, Cust Portal needs work. Cant get to it w/ current test user. </description>
+   <description>Test user given correct rights, test runs correctly. 
+~20 seconds
+</description>
    <name>ScreenCrawlAssets</name>
    <tag></tag>
    <comment></comment>

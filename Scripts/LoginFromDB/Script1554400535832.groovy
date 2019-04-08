@@ -1,3 +1,4 @@
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -13,27 +14,13 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+def data = TestDataFactory.findTestData('Data Files/GetAppPassword')
 
-WebUI.deleteAllCookies()
+println('This is the data: ' + data.getObjectValue(1, 1))
 
-WebUI.maximizeWindow()
+return data.getObjectValue(1, 1)
 
-WebUI.navigateToUrl('http://enspire-qa.gbrx.com/')
+WebUI.acceptAlert()
 
-WebUI.waitForPageLoad(0)
-
-WebUI.sendKeys(findTestObject('Login Page/Username Field'), 'Smith')
-
-WebUI.sendKeys(findTestObject('Login Page/Password Field'), 'Smith')
-
-WebUI.click(findTestObject('Login Page/Login Button'))
-
-WebUI.waitForPageLoad(0)
-
-WebUI.verifyElementPresent(findTestObject('Login Page/Enspire Image'), 0)
-
-not_run: WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\Smith Fail1.jpg', FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.closeBrowser()
+CustomKeywords.'com.database.DemoMySql.closeDatabaseConnection'()
 

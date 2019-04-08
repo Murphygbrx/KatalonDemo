@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Test user given correct rights, test runs correctly. 
-~20 seconds
+   <description>~20 seconds Test user given correct rights, test runs correctly. 
 </description>
    <name>ScreenCrawlAssets</name>
    <tag></tag>

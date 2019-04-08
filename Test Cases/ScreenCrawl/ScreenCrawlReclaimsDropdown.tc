@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>~30 Seconds. 
+Runs on Chrome. Further testing needed in FF and IE. </description>
+   <name>ScreenCrawlReclaimsDropdown</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1c2ae98d-8185-42dc-93ed-5b56b62656c5</testCaseGuid>
+</TestCaseEntity>

@@ -73,7 +73,7 @@ WebUI.click(findTestObject('GBMS Home Page/button_Gauge Tables'))
 
 WebUI.delay(5)
 
-WebUI.switchToWindowTitle('Tank Car')
+WebUI.switchToWindowTitle('Tank Car: Gauge Table Data - The Greenbrier Companies')
 
 WebUI.waitForPageLoad(0)
 

@@ -43,7 +43,7 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Reclaim Dashboard Option'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Reclaim Dashboard/Reclaim Search'))
+WebUI.verifyElementVisible(findTestObject('Reclaim Dashboard/Reclaim Search'))
 
 WebUI.back()
 
@@ -61,9 +61,9 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Single Car Detail Option'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Single Car Detail/Car Detail Section'))
+WebUI.verifyElementVisible(findTestObject('Single Car Detail/Car Detail Section'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Single Car Detail/Show Processed Candidates'))
+WebUI.verifyElementClickable(findTestObject('Single Car Detail/Show Processed Candidates'))
 
 WebUI.back()
 
@@ -81,9 +81,7 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Multi-Car Lookup Option'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Multi-Car Lookup/Details'))
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/Multi-Car Lookup/button_Clear Filter'))
+WebUI.verifyElementClickable(findTestObject('Multi-Car Lookup/button_Clear Filter'))
 
 WebUI.back()
 
@@ -101,11 +99,9 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Process Candidates Option')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Counter Reclaim Management/Details'))
+WebUI.verifyElementVisible(findTestObject('Counter Reclaim Management/Details'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Counter Reclaim Management/Date Range'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Counter Reclaim Management/Equipment'))
+WebUI.verifyElementVisible(findTestObject('Counter Reclaim Management/Date Range'))
 
 WebUI.back()
 
@@ -123,7 +119,7 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Produce Counters Option'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Produce Counters/Produce Counters'))
+WebUI.verifyElementVisible(findTestObject('Produce Counters/Produce Counters'))
 
 WebUI.back()
 
@@ -141,7 +137,7 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Relief Reclaims Option'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Relief Reclaims Reconcile/Month Search'))
+WebUI.verifyElementVisible(findTestObject('Relief Reclaims Reconcile/Month Search'))
 
 WebUI.back()
 
@@ -159,7 +155,7 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Investigator Option'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Reclaim Investigator/Investigator Search Modal'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Reclaim Investigator/Investigator'))
 
 WebUI.back()
 

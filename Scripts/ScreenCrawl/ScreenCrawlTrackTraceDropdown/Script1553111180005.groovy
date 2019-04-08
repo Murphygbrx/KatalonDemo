@@ -31,9 +31,29 @@ WebUI.click(findTestObject('Login Page/Login Button'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/GBX Logo'))
+
+WebUI.verifyElementClickable(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
+
+WebUI.verifyElementClickable(findTestObject(null))
+
+WebUI.click(findTestObject(null))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.back()
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/GBX Logo'))
+
+WebUI.verifyElementClickable(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
+
+WebUI.click(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
+
+WebUI.verifyElementClickable(findTestObject('GBMS Home Page Dropdowns/Search Existing CLMs Option'))
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Search Existing CLMs Option'))
 
@@ -43,9 +63,11 @@ WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
+WebUI.verifyElementClickable(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
+
+WebUI.verifyElementClickable(findTestObject('GBMS Home Page Dropdowns/Trace List Option'))
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Trace List Option'))
 
@@ -55,9 +77,11 @@ WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
+WebUI.verifyElementClickable(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
+
+WebUI.verifyElementClickable(findTestObject('GBMS Home Page Dropdowns/CLM Request Option'))
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/CLM Request Option'))
 
@@ -67,9 +91,11 @@ WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
+WebUI.verifyElementClickable(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
+
+WebUI.verifyElementClickable(findTestObject('GBMS Home Page Dropdowns/Current Location Map Option'))
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Current Location Map Option'))
 
@@ -79,9 +105,11 @@ WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
+WebUI.verifyElementClickable(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
+
+WebUI.verifyElementClickable(findTestObject('GBMS Home Page Dropdowns/Car History Map Option'))
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Car History Map Option'))
 

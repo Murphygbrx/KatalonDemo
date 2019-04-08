@@ -1,0 +1,360 @@
+1
+00:00:00,255 --> 00:00:00,255
+1. openBrowser("")
+
+2
+00:00:03,544 --> 00:00:03,544
+5. deleteAllCookies()
+
+3
+00:00:03,557 --> 00:00:03,557
+9. maximizeWindow()
+
+4
+00:00:04,695 --> 00:00:04,695
+13. navigateToUrl("http://enspire-qa.gbrx.com/")
+
+5
+00:00:05,859 --> 00:00:05,860
+17. waitForPageLoad(0)
+
+6
+00:00:05,873 --> 00:00:05,874
+21. sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser)
+
+7
+00:00:06,032 --> 00:00:06,032
+25. sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass)
+
+8
+00:00:06,125 --> 00:00:06,125
+29. click(findTestObject("Login Page/Login Button"))
+
+9
+00:00:08,880 --> 00:00:08,880
+33. waitForPageLoad(0)
+
+10
+00:00:08,892 --> 00:00:08,893
+37. verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+11
+00:00:08,939 --> 00:00:08,939
+41. click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+12
+00:00:09,007 --> 00:00:09,007
+45. click(findTestObject("GBMS Home Page Dropdowns/Accounting Search Option"))
+
+13
+00:00:10,111 --> 00:00:10,112
+49. waitForPageLoad(0)
+
+14
+00:00:10,131 --> 00:00:10,131
+53. verifyElementVisible(findTestObject("Accounting Search/Incoming Invoice Search Section"))
+
+15
+00:00:10,198 --> 00:00:10,199
+57. verifyElementVisible(findTestObject("Accounting Search/Asset Search Section"))
+
+16
+00:00:10,258 --> 00:00:10,259
+61. verifyElementVisible(findTestObject("Accounting Search/Outgoing Invoiced Search Section"))
+
+17
+00:00:10,308 --> 00:00:10,309
+65. verifyElementVisible(findTestObject("Accounting Search/Car Search Section"))
+
+18
+00:00:10,362 --> 00:00:10,362
+69. back()
+
+19
+00:00:10,538 --> 00:00:10,538
+73. waitForPageLoad(0)
+
+20
+00:00:10,662 --> 00:00:10,662
+77. verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+21
+00:00:10,697 --> 00:00:10,698
+81. click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+22
+00:00:10,774 --> 00:00:10,775
+85. click(findTestObject("GBMS Home Page Dropdowns/Approve AP Option"))
+
+23
+00:00:11,873 --> 00:00:11,874
+89. waitForPageLoad(0)
+
+24
+00:00:11,885 --> 00:00:11,886
+93. waitForElementVisible(findTestObject("Approve AP/Invoices Grid"), 0)
+
+25
+00:00:18,577 --> 00:00:18,577
+97. verifyElementVisible(findTestObject("Approve AP/Legend Img"))
+
+26
+00:00:18,609 --> 00:00:18,610
+101. back()
+
+27
+00:00:18,750 --> 00:00:18,751
+105. waitForPageLoad(0)
+
+28
+00:00:18,912 --> 00:00:18,913
+109. verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+29
+00:00:18,948 --> 00:00:18,949
+113. click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+30
+00:00:19,011 --> 00:00:19,011
+117. click(findTestObject("GBMS Home Page Dropdowns/On Hold Option"))
+
+31
+00:00:20,335 --> 00:00:20,336
+121. waitForPageLoad(0)
+
+32
+00:00:20,353 --> 00:00:20,354
+125. verifyElementVisible(findTestObject("On Hold/Invoices On Hold Header"))
+
+33
+00:00:20,389 --> 00:00:20,389
+129. verifyElementVisible(findTestObject("On Hold/Un-Hold"))
+
+34
+00:00:20,422 --> 00:00:20,422
+133. back()
+
+35
+00:00:21,128 --> 00:00:21,128
+137. waitForPageLoad(0)
+
+36
+00:00:21,142 --> 00:00:21,143
+141. verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+37
+00:00:21,171 --> 00:00:21,172
+145. click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+38
+00:00:21,235 --> 00:00:21,236
+149. click(findTestObject("GBMS Home Page Dropdowns/Approve AR Option"))
+
+39
+00:00:22,145 --> 00:00:22,146
+153. waitForPageLoad(0)
+
+40
+00:00:22,159 --> 00:00:22,159
+157. waitForElementVisible(findTestObject("Approve AR/AR Approvable Table"), 0)
+
+41
+00:00:22,199 --> 00:00:22,200
+161. waitForElementVisible(findTestObject("Approve AR/Invoice Response AR Approvable Table"), 0)
+
+42
+00:00:22,235 --> 00:00:22,235
+165. verifyElementVisible(findTestObject("Approve AR/CBA AR Approvable"))
+
+43
+00:00:22,275 --> 00:00:22,275
+169. verifyElementVisible(findTestObject("Approve AR/Legend Img"))
+
+44
+00:00:22,311 --> 00:00:22,311
+173. back()
+
+45
+00:00:23,715 --> 00:00:23,716
+177. waitForPageLoad(0)
+
+46
+00:00:23,731 --> 00:00:23,732
+181. verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+47
+00:00:23,774 --> 00:00:23,774
+185. click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+48
+00:00:23,836 --> 00:00:23,836
+189. click(findTestObject("GBMS Home Page Dropdowns/Extra Charges Option"))
+
+49
+00:00:25,393 --> 00:00:25,393
+193. waitForElementVisible(findTestObject("Extra Charges/Extra Charges Table"), 0)
+
+50
+00:00:25,443 --> 00:00:25,443
+197. waitForPageLoad(0)
+
+51
+00:00:25,457 --> 00:00:25,457
+201. verifyElementVisible(findTestObject("Extra Charges/Extra Charges Header"))
+
+52
+00:00:25,494 --> 00:00:25,495
+205. back()
+
+53
+00:00:25,999 --> 00:00:25,999
+209. waitForPageLoad(0)
+
+54
+00:00:26,012 --> 00:00:26,012
+213. verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+55
+00:00:26,055 --> 00:00:26,055
+217. click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+56
+00:00:26,123 --> 00:00:26,123
+221. click(findTestObject("GBMS Home Page Dropdowns/Invoiceable Option"))
+
+57
+00:00:27,293 --> 00:00:27,293
+225. verifyElementVisible(findTestObject("Invoiceable/Loading..."))
+
+58
+00:00:27,332 --> 00:00:27,333
+229. waitForElementVisible(findTestObject("Invoiceable/Pending Invoices Table"), 0)
+
+59
+00:00:27,367 --> 00:00:27,368
+233. waitForPageLoad(0)
+
+60
+00:00:27,378 --> 00:00:27,379
+237. verifyElementVisible(findTestObject("Invoiceable/Pending Invoices Header"))
+
+61
+00:00:27,407 --> 00:00:27,407
+241. verifyElementVisible(findTestObject("Invoiceable/Legend Img"))
+
+62
+00:00:27,442 --> 00:00:27,442
+245. back()
+
+63
+00:00:27,728 --> 00:00:27,729
+249. waitForPageLoad(0)
+
+64
+00:00:27,774 --> 00:00:27,774
+253. verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+65
+00:00:27,815 --> 00:00:27,815
+257. click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+66
+00:00:27,890 --> 00:00:27,890
+261. click(findTestObject("GBMS Home Page Dropdowns/Integration System Errors Option"))
+
+67
+00:00:30,636 --> 00:00:30,637
+265. waitForPageLoad(0)
+
+68
+00:00:30,649 --> 00:00:30,649
+269. verifyElementVisible(findTestObject("Integration System Errors/Integration System Errors Header"))
+
+69
+00:00:30,685 --> 00:00:30,686
+273. verifyElementVisible(findTestObject("Integration System Errors/System Erros Table"))
+
+70
+00:00:30,724 --> 00:00:30,726
+277. back()
+
+71
+00:00:31,018 --> 00:00:31,018
+281. waitForPageLoad(0)
+
+72
+00:00:31,060 --> 00:00:31,060
+285. verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+73
+00:00:31,095 --> 00:00:31,097
+289. click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+74
+00:00:31,167 --> 00:00:31,168
+293. click(findTestObject("GBMS Home Page Dropdowns/Outgoing Invoice Search Option"))
+
+75
+00:00:33,698 --> 00:00:33,698
+297. waitForPageLoad(0)
+
+76
+00:00:33,708 --> 00:00:33,708
+301. verifyElementVisible(findTestObject("Outgoing Invoice Search/Outgoing Invoice Search Header"))
+
+77
+00:00:33,738 --> 00:00:33,739
+305. verifyElementVisible(findTestObject("Outgoing Invoice Search/Search Results Header"))
+
+78
+00:00:33,778 --> 00:00:33,778
+309. back()
+
+79
+00:00:33,955 --> 00:00:33,956
+313. waitForPageLoad(0)
+
+80
+00:00:33,969 --> 00:00:33,969
+317. verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+81
+00:00:34,001 --> 00:00:34,002
+321. click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown"))
+
+82
+00:00:34,060 --> 00:00:34,061
+325. click(findTestObject("GBMS Home Page Dropdowns/Invoice Response Progress Option"))
+
+83
+00:00:47,786 --> 00:00:47,787
+329. waitForElementVisible(findTestObject("Invoice Responses In Progress/Invoice Response Progress Table"), 0)
+
+84
+00:00:47,838 --> 00:00:47,838
+333. waitForPageLoad(0)
+
+85
+00:00:47,848 --> 00:00:47,849
+337. verifyElementVisible(findTestObject("Invoice Responses In Progress/Invoice Responses In Progress Header"))
+
+86
+00:00:47,881 --> 00:00:47,881
+341. verifyElementVisible(findTestObject("Invoice Responses In Progress/Outgoing CBA Letters Header"))
+
+87
+00:00:47,917 --> 00:00:47,917
+345. back()
+
+88
+00:00:48,177 --> 00:00:48,177
+349. waitForPageLoad(0)
+
+89
+00:00:48,189 --> 00:00:48,190
+353. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+90
+00:00:48,224 --> 00:00:48,224
+357. closeBrowser()
+

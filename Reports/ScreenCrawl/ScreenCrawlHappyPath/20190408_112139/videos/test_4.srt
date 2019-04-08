@@ -1,0 +1,168 @@
+1
+00:00:00,230 --> 00:00:00,231
+1. openBrowser("")
+
+2
+00:00:04,367 --> 00:00:04,368
+5. deleteAllCookies()
+
+3
+00:00:04,382 --> 00:00:04,383
+9. maximizeWindow()
+
+4
+00:00:05,516 --> 00:00:05,517
+13. navigateToUrl("http://enspire-qa.gbrx.com/")
+
+5
+00:00:06,664 --> 00:00:06,665
+17. waitForPageLoad(0)
+
+6
+00:00:06,679 --> 00:00:06,680
+21. sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser)
+
+7
+00:00:06,870 --> 00:00:06,871
+25. sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass)
+
+8
+00:00:06,958 --> 00:00:06,960
+29. click(findTestObject("Login Page/Login Button"))
+
+9
+00:00:08,409 --> 00:00:08,410
+33. waitForPageLoad(0)
+
+10
+00:00:08,424 --> 00:00:08,425
+37. verifyElementVisible(findTestObject("GBMS Home Page/Maintenance Management"), STOP_ON_FAILURE)
+
+11
+00:00:08,499 --> 00:00:08,499
+41. click(findTestObject("GBMS Home Page/button_Mechanical Dashboard"))
+
+12
+00:00:09,038 --> 00:00:09,038
+45. waitForPageLoad(0)
+
+13
+00:00:09,054 --> 00:00:09,054
+49. verifyElementVisible(findTestObject("Mechanical Dashbord/b_Assets"))
+
+14
+00:00:09,617 --> 00:00:09,618
+53. verifyElementVisible(findTestObject("Mechanical Dashbord/b_Event Tracking"))
+
+15
+00:00:09,661 --> 00:00:09,662
+57. verifyElementVisible(findTestObject("Mechanical Dashbord/b_Audit Tracking"))
+
+16
+00:00:09,663 --> 00:00:09,664
+61. verifyElementVisible(findTestObject("Mechanical Dashbord/b_Car Events or Invoice Search"))
+
+17
+00:00:09,701 --> 00:00:09,702
+65. back()
+
+18
+00:00:09,853 --> 00:00:09,853
+69. waitForPageLoad(0)
+
+19
+00:00:10,164 --> 00:00:10,165
+73. verifyElementVisible(findTestObject("GBMS Home Page/Maintenance Management"), STOP_ON_FAILURE)
+
+20
+00:00:10,205 --> 00:00:10,205
+77. click(findTestObject("GBMS Home Page/button_Accounting Search"))
+
+21
+00:00:14,319 --> 00:00:14,320
+81. waitForPageLoad(0)
+
+22
+00:00:14,331 --> 00:00:14,332
+85. verifyElementVisible(findTestObject("Accounting Search/Incoming Invoice Search Section"))
+
+23
+00:00:14,388 --> 00:00:14,388
+89. verifyElementVisible(findTestObject("Accounting Search/Asset Search Section"))
+
+24
+00:00:14,441 --> 00:00:14,442
+93. verifyElementVisible(findTestObject("Accounting Search/Outgoing Invoiced Search Section"))
+
+25
+00:00:14,496 --> 00:00:14,496
+97. verifyElementVisible(findTestObject("Accounting Search/Car Search Section"))
+
+26
+00:00:14,541 --> 00:00:14,541
+101. back()
+
+27
+00:00:14,922 --> 00:00:14,923
+105. waitForPageLoad(0)
+
+28
+00:00:14,936 --> 00:00:14,937
+109. verifyElementVisible(findTestObject("GBMS Home Page/Maintenance Management"), STOP_ON_FAILURE)
+
+29
+00:00:14,977 --> 00:00:14,978
+113. click(findTestObject("GBMS Home Page/button_Gauge Tables"))
+
+30
+00:00:15,110 --> 00:00:15,111
+117. delay(5)
+
+31
+00:00:20,148 --> 00:00:20,148
+121. switchToWindowTitle("Tank Car: Gauge Table Data - The Greenbrier Companies")
+
+32
+00:00:21,270 --> 00:00:21,270
+125. waitForPageLoad(0)
+
+33
+00:00:21,287 --> 00:00:21,288
+129. verifyElementVisible(findTestObject("Tank Car Gauge/Car Mark"))
+
+34
+00:00:21,319 --> 00:00:21,320
+133. verifyElementVisible(findTestObject("Tank Car Gauge/Car Number (Start)"))
+
+35
+00:00:21,354 --> 00:00:21,355
+137. verifyElementVisible(findTestObject("Tank Car Gauge/Car Number (End)"))
+
+36
+00:00:21,387 --> 00:00:21,387
+141. click(findTestObject("Tank Car Gauge/Back to Gbrx.com"))
+
+37
+00:00:24,446 --> 00:00:24,446
+145. waitForPageLoad(0)
+
+38
+00:00:24,458 --> 00:00:24,458
+149. verifyElementVisible(findTestObject("Greenbrier Corp Home/NYSE_logo"))
+
+39
+00:00:25,518 --> 00:00:25,519
+153. switchToWindowUrl("http://enspire-qa.gbrx.com/Home/Landing")
+
+40
+00:00:25,572 --> 00:00:25,572
+157. waitForPageLoad(0)
+
+41
+00:00:25,587 --> 00:00:25,587
+161. verifyElementVisible(findTestObject("GBMS Home Page/Maintenance Management"), STOP_ON_FAILURE)
+
+42
+00:00:25,628 --> 00:00:25,629
+165. closeBrowser()
+

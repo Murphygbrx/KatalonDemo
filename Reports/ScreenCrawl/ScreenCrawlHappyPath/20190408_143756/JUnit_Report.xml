@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ScreenCrawlHappyPath" time="102" tests="5" failures="0" errors="0">
+   <testsuite name="ScreenCrawlHappyPath" tests="5" failures="0" errors="0" time="102" timestamp="2019-04-08 14:38:02" hostname="patrick.murphy - BOU-CH78ST2.corp.gbrx.com" id="Test Suites/ScreenCrawl/ScreenCrawlHappyPath">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Reports\\ScreenCrawl\\ScreenCrawlHappyPath\\20190408_143756"/>
+         <property name="logFiles" value="C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Reports\\ScreenCrawl\\ScreenCrawlHappyPath\\20190408_143756\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="patrick.murphy - BOU-CH78ST2.corp.gbrx.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="83c6963438b3a7e07052a99e1bf7da59"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ScreenCrawl/ScreenCrawlAssets" classname="Test Cases/ScreenCrawl/ScreenCrawlAssets" status="PASSED">
+         <system-out><![CDATA[2019-04-08 14:38:02 - [TEST_CASE][PASSED] - Test Cases/ScreenCrawl/ScreenCrawlAssets: Test Cases/ScreenCrawl/ScreenCrawlAssets
+
+2019-04-08 14:38:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 14:38:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 14:38:03 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-08 14:38:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 14:38:08 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-04-08 14:38:08 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-08 14:38:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-08 14:38:10 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-08 14:38:10 - [TEST_STEP][PASSED] - navigateToUrl("http://enspire-qa.gbrx.com/"): Navigate to 'http://enspire-qa.gbrx.com/' successfully
+
+2019-04-08 14:38:11 - [MESSAGE][PASSED] - Navigate to 'http://enspire-qa.gbrx.com/' successfully
+
+2019-04-08 14:38:11 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser): Keys 'GMS/ScreenCrawlAllRoles' sent to object: 'Object Repository/Login Page/Username Field'
+
+2019-04-08 14:38:11 - [MESSAGE][PASSED] - Keys 'GMS/ScreenCrawlAllRoles' sent to object: 'Object Repository/Login Page/Username Field'
+
+2019-04-08 14:38:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass): Keys '123456789' sent to object: 'Object Repository/Login Page/Password Field'
+
+2019-04-08 14:38:11 - [MESSAGE][PASSED] - Keys '123456789' sent to object: 'Object Repository/Login Page/Password Field'
+
+2019-04-08 14:38:11 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Login Button")): Object: 'Object Repository/Login Page/Login Button' is clicked on
+
+2019-04-08 14:38:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Login Button' is clicked on
+
+2019-04-08 14:38:12 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/Assets"), STOP_ON_FAILURE): Object 'Object Repository/GBMS Home Page/Assets' is visible
+
+2019-04-08 14:38:12 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/Assets' is visible
+
+2019-04-08 14:38:12 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page/button_Report Repository")): Object: 'Object Repository/GBMS Home Page/button_Report Repository' is clicked on
+
+2019-04-08 14:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page/button_Report Repository' is clicked on
+
+2019-04-08 14:38:13 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Report Repository/Search Results")): Object 'Object Repository/Report Repository/Search Results' is visible
+
+2019-04-08 14:38:13 - [MESSAGE][PASSED] - Object 'Object Repository/Report Repository/Search Results' is visible
+
+2019-04-08 14:38:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Report Repository/Report Repository Search Header"), STOP_ON_FAILURE): Object 'Object Repository/Report Repository/Report Repository Search Header' is visible
+
+2019-04-08 14:38:13 - [MESSAGE][PASSED] - Object 'Object Repository/Report Repository/Report Repository Search Header' is visible
+
+2019-04-08 14:38:13 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:38:13 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:38:13 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/Assets"), STOP_ON_FAILURE): Object 'Object Repository/GBMS Home Page/Assets' is visible
+
+2019-04-08 14:38:13 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/Assets' is visible
+
+2019-04-08 14:38:13 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page/button_Shop Forms")): Object: 'Object Repository/GBMS Home Page/button_Shop Forms' is clicked on
+
+2019-04-08 14:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page/button_Shop Forms' is clicked on
+
+2019-04-08 14:38:15 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Shop Reference Documents/Shop Reference Documents")): Object 'Object Repository/Shop Reference Documents/Shop Reference Documents' is visible
+
+2019-04-08 14:38:15 - [MESSAGE][PASSED] - Object 'Object Repository/Shop Reference Documents/Shop Reference Documents' is visible
+
+2019-04-08 14:38:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Shop Reference Documents/button_Clear Filter")): Object 'Object Repository/Shop Reference Documents/button_Clear Filter' is visible
+
+2019-04-08 14:38:15 - [MESSAGE][PASSED] - Object 'Object Repository/Shop Reference Documents/button_Clear Filter' is visible
+
+2019-04-08 14:38:15 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:38:15 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:38:15 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/Assets"), STOP_ON_FAILURE): Object 'Object Repository/GBMS Home Page/Assets' is visible
+
+2019-04-08 14:38:15 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/Assets' is visible
+
+2019-04-08 14:38:15 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page/button_Customer Portal")): Object: 'Object Repository/GBMS Home Page/button_Customer Portal' is clicked on
+
+2019-04-08 14:38:16 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page/button_Customer Portal' is clicked on
+
+2019-04-08 14:38:16 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:16 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:38:16 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:38:16 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/Assets"), STOP_ON_FAILURE): Object 'Object Repository/GBMS Home Page/Assets' is visible
+
+2019-04-08 14:38:16 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/Assets' is visible
+
+2019-04-08 14:38:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-08 14:38:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScreenCrawl/ScreenCrawlCarHire" classname="Test Cases/ScreenCrawl/ScreenCrawlCarHire" status="PASSED">
+         <system-out><![CDATA[2019-04-08 14:38:19 - [TEST_CASE][PASSED] - Test Cases/ScreenCrawl/ScreenCrawlCarHire: Test Cases/ScreenCrawl/ScreenCrawlCarHire
+
+2019-04-08 14:38:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 14:38:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 14:38:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 14:38:23 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-04-08 14:38:23 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-08 14:38:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-08 14:38:24 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-08 14:38:24 - [TEST_STEP][PASSED] - navigateToUrl("http://enspire-qa.gbrx.com/"): Navigate to 'http://enspire-qa.gbrx.com/' successfully
+
+2019-04-08 14:38:25 - [MESSAGE][PASSED] - Navigate to 'http://enspire-qa.gbrx.com/' successfully
+
+2019-04-08 14:38:25 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser): Keys 'GMS/ScreenCrawlAllRoles' sent to object: 'Object Repository/Login Page/Username Field'
+
+2019-04-08 14:38:25 - [MESSAGE][PASSED] - Keys 'GMS/ScreenCrawlAllRoles' sent to object: 'Object Repository/Login Page/Username Field'
+
+2019-04-08 14:38:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass): Keys '123456789' sent to object: 'Object Repository/Login Page/Password Field'
+
+2019-04-08 14:38:25 - [MESSAGE][PASSED] - Keys '123456789' sent to object: 'Object Repository/Login Page/Password Field'
+
+2019-04-08 14:38:25 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Login Button")): Object: 'Object Repository/Login Page/Login Button' is clicked on
+
+2019-04-08 14:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Login Button' is clicked on
+
+2019-04-08 14:38:27 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo")): Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:38:27 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:38:27 - [TEST_STEP][NOT_RUN] - click(findTestObject("GBMS Home Page/button_Payables")): NOT_RUN: click(findTestObject("GBMS Home Page/button_Payables"))
+
+2019-04-08 14:38:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("GBMS Home Page/button_Payables"))
+
+2019-04-08 14:38:27 - [TEST_STEP][NOT_RUN] - waitForPageLoad(0): NOT_RUN: waitForPageLoad(0)
+
+2019-04-08 14:38:27 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForPageLoad(0)
+
+2019-04-08 14:38:27 - [TEST_STEP][NOT_RUN] - switchToWindowTitle("cc.gbrx.com"): NOT_RUN: switchToWindowTitle("cc.gbrx.com")
+
+2019-04-08 14:38:27 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToWindowTitle("cc.gbrx.com")
+
+2019-04-08 14:38:27 - [TEST_STEP][NOT_RUN] - delay(3): NOT_RUN: delay(3)
+
+2019-04-08 14:38:27 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(3)
+
+2019-04-08 14:38:27 - [TEST_STEP][NOT_RUN] - back(): NOT_RUN: back()
+
+2019-04-08 14:38:27 - [MESSAGE][NOT_RUN] - NOT_RUN: back()
+
+2019-04-08 14:38:27 - [TEST_STEP][NOT_RUN] - waitForPageLoad(0): NOT_RUN: waitForPageLoad(0)
+
+2019-04-08 14:38:27 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForPageLoad(0)
+
+2019-04-08 14:38:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo")): Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:38:27 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:38:27 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page/button_Reclaim Validation")): Object: 'Object Repository/GBMS Home Page/button_Reclaim Validation' is clicked on
+
+2019-04-08 14:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page/button_Reclaim Validation' is clicked on
+
+2019-04-08 14:38:32 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Reclaim Validation Candidate Dashboard/Search Section"), 0): Object 'Object Repository/Reclaim Validation Candidate Dashboard/Search Section' is visible
+
+2019-04-08 14:38:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:32 - [MESSAGE][PASSED] - Object 'Object Repository/Reclaim Validation Candidate Dashboard/Search Section' is visible
+
+2019-04-08 14:38:32 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:38:32 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:38:32 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo")): Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:38:32 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:38:32 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page/button_Reporting Dashboard")): Object: 'Object Repository/GBMS Home Page/button_Reporting Dashboard' is clicked on
+
+2019-04-08 14:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page/button_Reporting Dashboard' is clicked on
+
+2019-04-08 14:38:33 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Reporting Dashboard/Report Parameters"), 0): Object 'Object Repository/Reporting Dashboard/Report Parameters' is visible
+
+2019-04-08 14:38:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:33 - [MESSAGE][PASSED] - Object 'Object Repository/Reporting Dashboard/Report Parameters' is visible
+
+2019-04-08 14:38:33 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:38:33 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:38:33 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo")): Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:38:33 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:38:33 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page/button_Claims Management")): Object: 'Object Repository/GBMS Home Page/button_Claims Management' is clicked on
+
+2019-04-08 14:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page/button_Claims Management' is clicked on
+
+2019-04-08 14:38:37 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Process Claims/Search Parameters"), 0): Object 'Object Repository/Process Claims/Search Parameters' is visible
+
+2019-04-08 14:38:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:37 - [MESSAGE][PASSED] - Object 'Object Repository/Process Claims/Search Parameters' is visible
+
+2019-04-08 14:38:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Process Claims/ReceiptReporting Dates"), 0): Object 'Object Repository/Process Claims/ReceiptReporting Dates' is visible
+
+2019-04-08 14:38:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:37 - [MESSAGE][PASSED] - Object 'Object Repository/Process Claims/ReceiptReporting Dates' is visible
+
+2019-04-08 14:38:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Process Claims/Claim Search Results"), 0): Object 'Object Repository/Process Claims/Claim Search Results' is visible
+
+2019-04-08 14:38:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:37 - [MESSAGE][PASSED] - Object 'Object Repository/Process Claims/Claim Search Results' is visible
+
+2019-04-08 14:38:37 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:38:37 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:38:37 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo")): Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:38:37 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:38:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-08 14:38:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScreenCrawl/ScreenCrawlMaintinance Management" classname="Test Cases/ScreenCrawl/ScreenCrawlMaintinance Management" status="PASSED">
+         <system-out><![CDATA[2019-04-08 14:38:40 - [TEST_CASE][PASSED] - Test Cases/ScreenCrawl/ScreenCrawlMaintinance Management: Test Cases/ScreenCrawl/ScreenCrawlMaintinance Management
+
+2019-04-08 14:38:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 14:38:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 14:38:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 14:38:43 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-04-08 14:38:43 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-08 14:38:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-08 14:38:44 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-08 14:38:44 - [TEST_STEP][PASSED] - navigateToUrl("http://enspire-qa.gbrx.com/"): Navigate to 'http://enspire-qa.gbrx.com/' successfully
+
+2019-04-08 14:38:46 - [MESSAGE][PASSED] - Navigate to 'http://enspire-qa.gbrx.com/' successfully
+
+2019-04-08 14:38:46 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser): Keys 'GMS/ScreenCrawlAllRoles' sent to object: 'Object Repository/Login Page/Username Field'
+
+2019-04-08 14:38:46 - [MESSAGE][PASSED] - Keys 'GMS/ScreenCrawlAllRoles' sent to object: 'Object Repository/Login Page/Username Field'
+
+2019-04-08 14:38:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass): Keys '123456789' sent to object: 'Object Repository/Login Page/Password Field'
+
+2019-04-08 14:38:46 - [MESSAGE][PASSED] - Keys '123456789' sent to object: 'Object Repository/Login Page/Password Field'
+
+2019-04-08 14:38:46 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Login Button")): Object: 'Object Repository/Login Page/Login Button' is clicked on
+
+2019-04-08 14:38:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Login Button' is clicked on
+
+2019-04-08 14:38:47 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/Maintenance Management"), STOP_ON_FAILURE): Object 'Object Repository/GBMS Home Page/Maintenance Management' is visible
+
+2019-04-08 14:38:47 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/Maintenance Management' is visible
+
+2019-04-08 14:38:47 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page/button_Mechanical Dashboard")): Object: 'Object Repository/GBMS Home Page/button_Mechanical Dashboard' is clicked on
+
+2019-04-08 14:38:47 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page/button_Mechanical Dashboard' is clicked on
+
+2019-04-08 14:38:47 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Mechanical Dashbord/b_Assets")): Object 'Object Repository/Mechanical Dashbord/b_Assets' is visible
+
+2019-04-08 14:38:48 - [MESSAGE][PASSED] - Object 'Object Repository/Mechanical Dashbord/b_Assets' is visible
+
+2019-04-08 14:38:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Mechanical Dashbord/b_Event Tracking")): Object 'Object Repository/Mechanical Dashbord/b_Event Tracking' is visible
+
+2019-04-08 14:38:48 - [MESSAGE][PASSED] - Object 'Object Repository/Mechanical Dashbord/b_Event Tracking' is visible
+
+2019-04-08 14:38:48 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("Mechanical Dashbord/b_Audit Tracking")): NOT_RUN: verifyElementVisible(findTestObject("Mechanical Dashbord/b_Audit Tracking"))
+
+2019-04-08 14:38:48 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("Mechanical Dashbord/b_Audit Tracking"))
+
+2019-04-08 14:38:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Mechanical Dashbord/b_Car Events or Invoice Search")): Object 'Object Repository/Mechanical Dashbord/b_Car Events or Invoice Search' is visible
+
+2019-04-08 14:38:48 - [MESSAGE][PASSED] - Object 'Object Repository/Mechanical Dashbord/b_Car Events or Invoice Search' is visible
+
+2019-04-08 14:38:48 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:38:48 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:38:48 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/Maintenance Management"), STOP_ON_FAILURE): Object 'Object Repository/GBMS Home Page/Maintenance Management' is visible
+
+2019-04-08 14:38:48 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/Maintenance Management' is visible
+
+2019-04-08 14:38:48 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page/button_Accounting Search")): Object: 'Object Repository/GBMS Home Page/button_Accounting Search' is clicked on
+
+2019-04-08 14:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page/button_Accounting Search' is clicked on
+
+2019-04-08 14:38:49 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Accounting Search/Incoming Invoice Search Section")): Object 'Object Repository/Accounting Search/Incoming Invoice Search Section' is visible
+
+2019-04-08 14:38:49 - [MESSAGE][PASSED] - Object 'Object Repository/Accounting Search/Incoming Invoice Search Section' is visible
+
+2019-04-08 14:38:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Accounting Search/Asset Search Section")): Object 'Object Repository/Accounting Search/Asset Search Section' is visible
+
+2019-04-08 14:38:49 - [MESSAGE][PASSED] - Object 'Object Repository/Accounting Search/Asset Search Section' is visible
+
+2019-04-08 14:38:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Accounting Search/Outgoing Invoiced Search Section")): Object 'Object Repository/Accounting Search/Outgoing Invoiced Search Section' is visible
+
+2019-04-08 14:38:49 - [MESSAGE][PASSED] - Object 'Object Repository/Accounting Search/Outgoing Invoiced Search Section' is visible
+
+2019-04-08 14:38:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Accounting Search/Car Search Section")): Object 'Object Repository/Accounting Search/Car Search Section' is visible
+
+2019-04-08 14:38:49 - [MESSAGE][PASSED] - Object 'Object Repository/Accounting Search/Car Search Section' is visible
+
+2019-04-08 14:38:49 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:38:49 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:38:49 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/Maintenance Management"), STOP_ON_FAILURE): Object 'Object Repository/GBMS Home Page/Maintenance Management' is visible
+
+2019-04-08 14:38:49 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/Maintenance Management' is visible
+
+2019-04-08 14:38:49 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page/button_Gauge Tables")): Object: 'Object Repository/GBMS Home Page/button_Gauge Tables' is clicked on
+
+2019-04-08 14:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page/button_Gauge Tables' is clicked on
+
+2019-04-08 14:38:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-08 14:38:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-08 14:38:55 - [TEST_STEP][PASSED] - switchToWindowTitle("Tank Car: Gauge Table Data - The Greenbrier Companies"): Switched to window with title: 'Tank Car: Gauge Table Data - The Greenbrier Companies'
+
+2019-04-08 14:38:56 - [MESSAGE][PASSED] - Switched to window with title: 'Tank Car: Gauge Table Data - The Greenbrier Companies'
+
+2019-04-08 14:38:56 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Tank Car Gauge/Car Mark")): Object 'Object Repository/Tank Car Gauge/Car Mark' is visible
+
+2019-04-08 14:38:56 - [MESSAGE][PASSED] - Object 'Object Repository/Tank Car Gauge/Car Mark' is visible
+
+2019-04-08 14:38:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Tank Car Gauge/Car Number (Start)")): Object 'Object Repository/Tank Car Gauge/Car Number (Start)' is visible
+
+2019-04-08 14:38:56 - [MESSAGE][PASSED] - Object 'Object Repository/Tank Car Gauge/Car Number (Start)' is visible
+
+2019-04-08 14:38:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Tank Car Gauge/Car Number (End)")): Object 'Object Repository/Tank Car Gauge/Car Number (End)' is visible
+
+2019-04-08 14:38:56 - [MESSAGE][PASSED] - Object 'Object Repository/Tank Car Gauge/Car Number (End)' is visible
+
+2019-04-08 14:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Tank Car Gauge/Back to Gbrx.com")): Object: 'Object Repository/Tank Car Gauge/Back to Gbrx.com' is clicked on
+
+2019-04-08 14:38:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Tank Car Gauge/Back to Gbrx.com' is clicked on
+
+2019-04-08 14:38:59 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:38:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:38:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:38:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Greenbrier Corp Home/NYSE_logo")): Object 'Object Repository/Greenbrier Corp Home/NYSE_logo' is visible
+
+2019-04-08 14:39:00 - [MESSAGE][PASSED] - Object 'Object Repository/Greenbrier Corp Home/NYSE_logo' is visible
+
+2019-04-08 14:39:00 - [TEST_STEP][PASSED] - switchToWindowUrl("http://enspire-qa.gbrx.com/Home/Landing"): Switched to window with url: 'http://enspire-qa.gbrx.com/Home/Landing'
+
+2019-04-08 14:39:00 - [MESSAGE][PASSED] - Switched to window with url: 'http://enspire-qa.gbrx.com/Home/Landing'
+
+2019-04-08 14:39:00 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/Maintenance Management"), STOP_ON_FAILURE): Object 'Object Repository/GBMS Home Page/Maintenance Management' is visible
+
+2019-04-08 14:39:00 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/Maintenance Management' is visible
+
+2019-04-08 14:39:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-08 14:39:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScreenCrawl/ScreenCrawlAccountingDropdown" classname="Test Cases/ScreenCrawl/ScreenCrawlAccountingDropdown" status="PASSED">
+         <system-out><![CDATA[2019-04-08 14:39:03 - [TEST_CASE][PASSED] - Test Cases/ScreenCrawl/ScreenCrawlAccountingDropdown: Test Cases/ScreenCrawl/ScreenCrawlAccountingDropdown
+
+2019-04-08 14:39:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 14:39:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 14:39:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 14:39:07 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-04-08 14:39:07 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-08 14:39:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-08 14:39:08 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-08 14:39:08 - [TEST_STEP][PASSED] - navigateToUrl("http://enspire-qa.gbrx.com/"): Navigate to 'http://enspire-qa.gbrx.com/' successfully
+
+2019-04-08 14:39:09 - [MESSAGE][PASSED] - Navigate to 'http://enspire-qa.gbrx.com/' successfully
+
+2019-04-08 14:39:09 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser): Keys 'GMS/ScreenCrawlAllRoles' sent to object: 'Object Repository/Login Page/Username Field'
+
+2019-04-08 14:39:09 - [MESSAGE][PASSED] - Keys 'GMS/ScreenCrawlAllRoles' sent to object: 'Object Repository/Login Page/Username Field'
+
+2019-04-08 14:39:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass): Keys '123456789' sent to object: 'Object Repository/Login Page/Password Field'
+
+2019-04-08 14:39:09 - [MESSAGE][PASSED] - Keys '123456789' sent to object: 'Object Repository/Login Page/Password Field'
+
+2019-04-08 14:39:09 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Login Button")): Object: 'Object Repository/Login Page/Login Button' is clicked on
+
+2019-04-08 14:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Login Button' is clicked on
+
+2019-04-08 14:39:11 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:11 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:11 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:11 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Accounting Search Option")): Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Search Option' is clicked on
+
+2019-04-08 14:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Search Option' is clicked on
+
+2019-04-08 14:39:12 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Accounting Search/Incoming Invoice Search Section")): Object 'Object Repository/Accounting Search/Incoming Invoice Search Section' is visible
+
+2019-04-08 14:39:12 - [MESSAGE][PASSED] - Object 'Object Repository/Accounting Search/Incoming Invoice Search Section' is visible
+
+2019-04-08 14:39:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Accounting Search/Asset Search Section")): Object 'Object Repository/Accounting Search/Asset Search Section' is visible
+
+2019-04-08 14:39:12 - [MESSAGE][PASSED] - Object 'Object Repository/Accounting Search/Asset Search Section' is visible
+
+2019-04-08 14:39:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Accounting Search/Outgoing Invoiced Search Section")): Object 'Object Repository/Accounting Search/Outgoing Invoiced Search Section' is visible
+
+2019-04-08 14:39:12 - [MESSAGE][PASSED] - Object 'Object Repository/Accounting Search/Outgoing Invoiced Search Section' is visible
+
+2019-04-08 14:39:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Accounting Search/Car Search Section")): Object 'Object Repository/Accounting Search/Car Search Section' is visible
+
+2019-04-08 14:39:12 - [MESSAGE][PASSED] - Object 'Object Repository/Accounting Search/Car Search Section' is visible
+
+2019-04-08 14:39:12 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:39:12 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:39:12 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:12 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:12 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:12 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Approve AP Option")): Object: 'Object Repository/GBMS Home Page Dropdowns/Approve AP Option' is clicked on
+
+2019-04-08 14:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Approve AP Option' is clicked on
+
+2019-04-08 14:39:13 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Approve AP/Invoices Grid"), 0): Object 'Object Repository/Approve AP/Invoices Grid' is visible
+
+2019-04-08 14:39:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:14 - [MESSAGE][PASSED] - Object 'Object Repository/Approve AP/Invoices Grid' is visible
+
+2019-04-08 14:39:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Approve AP/Legend Img")): Object 'Object Repository/Approve AP/Legend Img' is visible
+
+2019-04-08 14:39:14 - [MESSAGE][PASSED] - Object 'Object Repository/Approve AP/Legend Img' is visible
+
+2019-04-08 14:39:14 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:39:14 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:39:14 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:15 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:15 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:15 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/On Hold Option")): Object: 'Object Repository/GBMS Home Page Dropdowns/On Hold Option' is clicked on
+
+2019-04-08 14:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/On Hold Option' is clicked on
+
+2019-04-08 14:39:15 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("On Hold/Invoices On Hold Header")): Object 'Object Repository/On Hold/Invoices On Hold Header' is visible
+
+2019-04-08 14:39:15 - [MESSAGE][PASSED] - Object 'Object Repository/On Hold/Invoices On Hold Header' is visible
+
+2019-04-08 14:39:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("On Hold/Un-Hold")): Object 'Object Repository/On Hold/Un-Hold' is visible
+
+2019-04-08 14:39:15 - [MESSAGE][PASSED] - Object 'Object Repository/On Hold/Un-Hold' is visible
+
+2019-04-08 14:39:15 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:39:16 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:39:16 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:16 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:16 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:16 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Approve AR Option")): Object: 'Object Repository/GBMS Home Page Dropdowns/Approve AR Option' is clicked on
+
+2019-04-08 14:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Approve AR Option' is clicked on
+
+2019-04-08 14:39:16 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Approve AR/AR Approvable Table"), 0): Object 'Object Repository/Approve AR/AR Approvable Table' is visible
+
+2019-04-08 14:39:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:16 - [MESSAGE][PASSED] - Object 'Object Repository/Approve AR/AR Approvable Table' is visible
+
+2019-04-08 14:39:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Approve AR/Invoice Response AR Approvable Table"), 0): Object 'Object Repository/Approve AR/Invoice Response AR Approvable Table' is visible
+
+2019-04-08 14:39:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:16 - [MESSAGE][PASSED] - Object 'Object Repository/Approve AR/Invoice Response AR Approvable Table' is visible
+
+2019-04-08 14:39:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Approve AR/CBA AR Approvable")): Object 'Object Repository/Approve AR/CBA AR Approvable' is visible
+
+2019-04-08 14:39:16 - [MESSAGE][PASSED] - Object 'Object Repository/Approve AR/CBA AR Approvable' is visible
+
+2019-04-08 14:39:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Approve AR/Legend Img")): Object 'Object Repository/Approve AR/Legend Img' is visible
+
+2019-04-08 14:39:17 - [MESSAGE][PASSED] - Object 'Object Repository/Approve AR/Legend Img' is visible
+
+2019-04-08 14:39:17 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:39:17 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:39:17 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:17 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:17 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:17 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Extra Charges Option")): Object: 'Object Repository/GBMS Home Page Dropdowns/Extra Charges Option' is clicked on
+
+2019-04-08 14:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Extra Charges Option' is clicked on
+
+2019-04-08 14:39:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Extra Charges/Extra Charges Table"), 0): Object 'Object Repository/Extra Charges/Extra Charges Table' is visible
+
+2019-04-08 14:39:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:17 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Charges/Extra Charges Table' is visible
+
+2019-04-08 14:39:17 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Extra Charges/Extra Charges Header")): Object 'Object Repository/Extra Charges/Extra Charges Header' is visible
+
+2019-04-08 14:39:17 - [MESSAGE][PASSED] - Object 'Object Repository/Extra Charges/Extra Charges Header' is visible
+
+2019-04-08 14:39:17 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:39:18 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:39:18 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:18 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:18 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:18 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Invoiceable Option")): Object: 'Object Repository/GBMS Home Page Dropdowns/Invoiceable Option' is clicked on
+
+2019-04-08 14:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Invoiceable Option' is clicked on
+
+2019-04-08 14:39:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Invoiceable/Loading...")): Object 'Object Repository/Invoiceable/Loading...' is visible
+
+2019-04-08 14:39:18 - [MESSAGE][PASSED] - Object 'Object Repository/Invoiceable/Loading...' is visible
+
+2019-04-08 14:39:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Invoiceable/Pending Invoices Table"), 0): Object 'Object Repository/Invoiceable/Pending Invoices Table' is visible
+
+2019-04-08 14:39:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:18 - [MESSAGE][PASSED] - Object 'Object Repository/Invoiceable/Pending Invoices Table' is visible
+
+2019-04-08 14:39:18 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Invoiceable/Pending Invoices Header")): Object 'Object Repository/Invoiceable/Pending Invoices Header' is visible
+
+2019-04-08 14:39:18 - [MESSAGE][PASSED] - Object 'Object Repository/Invoiceable/Pending Invoices Header' is visible
+
+2019-04-08 14:39:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Invoiceable/Legend Img")): Object 'Object Repository/Invoiceable/Legend Img' is visible
+
+2019-04-08 14:39:18 - [MESSAGE][PASSED] - Object 'Object Repository/Invoiceable/Legend Img' is visible
+
+2019-04-08 14:39:18 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:39:19 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:39:19 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:19 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:19 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:19 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Integration System Errors Option")): Object: 'Object Repository/GBMS Home Page Dropdowns/Integration System Errors Option' is clicked on
+
+2019-04-08 14:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Integration System Errors Option' is clicked on
+
+2019-04-08 14:39:19 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Integration System Errors/Integration System Errors Header")): Object 'Object Repository/Integration System Errors/Integration System Errors Header' is visible
+
+2019-04-08 14:39:19 - [MESSAGE][PASSED] - Object 'Object Repository/Integration System Errors/Integration System Errors Header' is visible
+
+2019-04-08 14:39:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Integration System Errors/System Erros Table")): Object 'Object Repository/Integration System Errors/System Erros Table' is visible
+
+2019-04-08 14:39:20 - [MESSAGE][PASSED] - Object 'Object Repository/Integration System Errors/System Erros Table' is visible
+
+2019-04-08 14:39:20 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:39:20 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:39:20 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:20 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:20 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:20 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Outgoing Invoice Search Option")): Object: 'Object Repository/GBMS Home Page Dropdowns/Outgoing Invoice Search Option' is clicked on
+
+2019-04-08 14:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Outgoing Invoice Search Option' is clicked on
+
+2019-04-08 14:39:21 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Outgoing Invoice Search/Outgoing Invoice Search Header")): Object 'Object Repository/Outgoing Invoice Search/Outgoing Invoice Search Header' is visible
+
+2019-04-08 14:39:21 - [MESSAGE][PASSED] - Object 'Object Repository/Outgoing Invoice Search/Outgoing Invoice Search Header' is visible
+
+2019-04-08 14:39:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Outgoing Invoice Search/Search Results Header")): Object 'Object Repository/Outgoing Invoice Search/Search Results Header' is visible
+
+2019-04-08 14:39:21 - [MESSAGE][PASSED] - Object 'Object Repository/Outgoing Invoice Search/Search Results Header' is visible
+
+2019-04-08 14:39:21 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:39:21 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:39:21 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:21 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is visible
+
+2019-04-08 14:39:21 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Accounting Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Accounting Dropdown' is clicked on
+
+2019-04-08 14:39:21 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Invoice Response Progress Option")): Object: 'Object Repository/GBMS Home Page Dropdowns/Invoice Response Progress Option' is clicked on
+
+2019-04-08 14:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Invoice Response Progress Option' is clicked on
+
+2019-04-08 14:39:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Invoice Responses In Progress/Invoice Response Progress Table"), 0): Object 'Object Repository/Invoice Responses In Progress/Invoice Response Progress Table' is visible
+
+2019-04-08 14:39:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:23 - [MESSAGE][PASSED] - Object 'Object Repository/Invoice Responses In Progress/Invoice Response Progress Table' is visible
+
+2019-04-08 14:39:23 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Invoice Responses In Progress/Invoice Responses In Progress Header")): Object 'Object Repository/Invoice Responses In Progress/Invoice Responses In Progress Header' is visible
+
+2019-04-08 14:39:23 - [MESSAGE][PASSED] - Object 'Object Repository/Invoice Responses In Progress/Invoice Responses In Progress Header' is visible
+
+2019-04-08 14:39:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Invoice Responses In Progress/Outgoing CBA Letters Header")): Object 'Object Repository/Invoice Responses In Progress/Outgoing CBA Letters Header' is visible
+
+2019-04-08 14:39:23 - [MESSAGE][PASSED] - Object 'Object Repository/Invoice Responses In Progress/Outgoing CBA Letters Header' is visible
+
+2019-04-08 14:39:23 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:39:23 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:39:23 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo")): Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:23 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-08 14:39:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScreenCrawl/ScreenCrawlReclaimsDropdown" classname="Test Cases/ScreenCrawl/ScreenCrawlReclaimsDropdown" status="PASSED">
+         <system-out><![CDATA[2019-04-08 14:39:26 - [TEST_CASE][PASSED] - Test Cases/ScreenCrawl/ScreenCrawlReclaimsDropdown: Test Cases/ScreenCrawl/ScreenCrawlReclaimsDropdown
+
+2019-04-08 14:39:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-08 14:39:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 14:39:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-08 14:39:29 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2019-04-08 14:39:29 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2019-04-08 14:39:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-08 14:39:30 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-08 14:39:30 - [TEST_STEP][PASSED] - navigateToUrl("http://enspire-qa.gbrx.com/"): Navigate to 'http://enspire-qa.gbrx.com/' successfully
+
+2019-04-08 14:39:32 - [MESSAGE][PASSED] - Navigate to 'http://enspire-qa.gbrx.com/' successfully
+
+2019-04-08 14:39:32 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser): Keys 'GMS/ScreenCrawlAllRoles' sent to object: 'Object Repository/Login Page/Username Field'
+
+2019-04-08 14:39:32 - [MESSAGE][PASSED] - Keys 'GMS/ScreenCrawlAllRoles' sent to object: 'Object Repository/Login Page/Username Field'
+
+2019-04-08 14:39:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass): Keys '123456789' sent to object: 'Object Repository/Login Page/Password Field'
+
+2019-04-08 14:39:32 - [MESSAGE][PASSED] - Keys '123456789' sent to object: 'Object Repository/Login Page/Password Field'
+
+2019-04-08 14:39:32 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Login Button")): Object: 'Object Repository/Login Page/Login Button' is clicked on
+
+2019-04-08 14:39:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Login Button' is clicked on
+
+2019-04-08 14:39:33 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo")): Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:33 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:33 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clickable
+
+2019-04-08 14:39:33 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clickable
+
+2019-04-08 14:39:33 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clicked on
+
+2019-04-08 14:39:33 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clicked on
+
+2019-04-08 14:39:33 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reclaim Dashboard Option")): Object 'Object Repository/GBMS Home Page Dropdowns/Reclaim Dashboard Option' is clickable
+
+2019-04-08 14:39:33 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Reclaim Dashboard Option' is clickable
+
+2019-04-08 14:39:33 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Reclaim Dashboard Option")): Object: 'Object Repository/GBMS Home Page Dropdowns/Reclaim Dashboard Option' is clicked on
+
+2019-04-08 14:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Reclaim Dashboard Option' is clicked on
+
+2019-04-08 14:39:34 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Reclaim Dashboard/Reclaim Search")): Object 'Object Repository/Reclaim Dashboard/Reclaim Search' is visible
+
+2019-04-08 14:39:34 - [MESSAGE][PASSED] - Object 'Object Repository/Reclaim Dashboard/Reclaim Search' is visible
+
+2019-04-08 14:39:34 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:39:34 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:39:34 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo")): Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:35 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clickable
+
+2019-04-08 14:39:35 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clickable
+
+2019-04-08 14:39:35 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clicked on
+
+2019-04-08 14:39:35 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clicked on
+
+2019-04-08 14:39:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Single Car Detail Option")): Object 'Object Repository/GBMS Home Page Dropdowns/Single Car Detail Option' is clickable
+
+2019-04-08 14:39:35 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Single Car Detail Option' is clickable
+
+2019-04-08 14:39:35 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Single Car Detail Option")): Object: 'Object Repository/GBMS Home Page Dropdowns/Single Car Detail Option' is clicked on
+
+2019-04-08 14:39:35 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Single Car Detail Option' is clicked on
+
+2019-04-08 14:39:35 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Single Car Detail/Car Detail Section")): Object 'Object Repository/Single Car Detail/Car Detail Section' is visible
+
+2019-04-08 14:39:36 - [MESSAGE][PASSED] - Object 'Object Repository/Single Car Detail/Car Detail Section' is visible
+
+2019-04-08 14:39:36 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Single Car Detail/Show Processed Candidates")): Object 'Object Repository/Single Car Detail/Show Processed Candidates' is clickable
+
+2019-04-08 14:39:36 - [MESSAGE][PASSED] - Object 'Object Repository/Single Car Detail/Show Processed Candidates' is clickable
+
+2019-04-08 14:39:36 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:39:36 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:39:36 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo")): Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:36 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:36 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clickable
+
+2019-04-08 14:39:36 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clickable
+
+2019-04-08 14:39:36 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clicked on
+
+2019-04-08 14:39:36 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clicked on
+
+2019-04-08 14:39:36 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Multi-Car Lookup Option")): Object 'Object Repository/GBMS Home Page Dropdowns/Multi-Car Lookup Option' is clickable
+
+2019-04-08 14:39:36 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Multi-Car Lookup Option' is clickable
+
+2019-04-08 14:39:36 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Multi-Car Lookup Option")): Object: 'Object Repository/GBMS Home Page Dropdowns/Multi-Car Lookup Option' is clicked on
+
+2019-04-08 14:39:37 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Multi-Car Lookup Option' is clicked on
+
+2019-04-08 14:39:37 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:37 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Multi-Car Lookup/button_Clear Filter")): Object 'Object Repository/Multi-Car Lookup/button_Clear Filter' is clickable
+
+2019-04-08 14:39:37 - [MESSAGE][PASSED] - Object 'Object Repository/Multi-Car Lookup/button_Clear Filter' is clickable
+
+2019-04-08 14:39:37 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:39:37 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:39:37 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo")): Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:37 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:37 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clickable
+
+2019-04-08 14:39:38 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clickable
+
+2019-04-08 14:39:38 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clicked on
+
+2019-04-08 14:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clicked on
+
+2019-04-08 14:39:38 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Process Candidates Option")): Object 'Object Repository/GBMS Home Page Dropdowns/Process Candidates Option' is clickable
+
+2019-04-08 14:39:38 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Process Candidates Option' is clickable
+
+2019-04-08 14:39:38 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Process Candidates Option")): Object: 'Object Repository/GBMS Home Page Dropdowns/Process Candidates Option' is clicked on
+
+2019-04-08 14:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Process Candidates Option' is clicked on
+
+2019-04-08 14:39:38 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Counter Reclaim Management/Details")): Object 'Object Repository/Counter Reclaim Management/Details' is visible
+
+2019-04-08 14:39:38 - [MESSAGE][PASSED] - Object 'Object Repository/Counter Reclaim Management/Details' is visible
+
+2019-04-08 14:39:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Counter Reclaim Management/Date Range")): Object 'Object Repository/Counter Reclaim Management/Date Range' is visible
+
+2019-04-08 14:39:38 - [MESSAGE][PASSED] - Object 'Object Repository/Counter Reclaim Management/Date Range' is visible
+
+2019-04-08 14:39:38 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:39:38 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:39:38 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo")): Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:38 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:38 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clickable
+
+2019-04-08 14:39:38 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clickable
+
+2019-04-08 14:39:38 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clicked on
+
+2019-04-08 14:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clicked on
+
+2019-04-08 14:39:39 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Produce Counters Option")): Object 'Object Repository/GBMS Home Page Dropdowns/Produce Counters Option' is clickable
+
+2019-04-08 14:39:39 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Produce Counters Option' is clickable
+
+2019-04-08 14:39:39 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Produce Counters Option")): Object: 'Object Repository/GBMS Home Page Dropdowns/Produce Counters Option' is clicked on
+
+2019-04-08 14:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Produce Counters Option' is clicked on
+
+2019-04-08 14:39:39 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Produce Counters/Produce Counters")): Object 'Object Repository/Produce Counters/Produce Counters' is visible
+
+2019-04-08 14:39:39 - [MESSAGE][PASSED] - Object 'Object Repository/Produce Counters/Produce Counters' is visible
+
+2019-04-08 14:39:39 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:39:39 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:39:39 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo")): Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:39 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:39 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clickable
+
+2019-04-08 14:39:39 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clickable
+
+2019-04-08 14:39:39 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clicked on
+
+2019-04-08 14:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clicked on
+
+2019-04-08 14:39:39 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Relief Reclaims Option")): Object 'Object Repository/GBMS Home Page Dropdowns/Relief Reclaims Option' is clickable
+
+2019-04-08 14:39:39 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Relief Reclaims Option' is clickable
+
+2019-04-08 14:39:39 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Relief Reclaims Option")): Object: 'Object Repository/GBMS Home Page Dropdowns/Relief Reclaims Option' is clicked on
+
+2019-04-08 14:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Relief Reclaims Option' is clicked on
+
+2019-04-08 14:39:40 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Relief Reclaims Reconcile/Month Search")): Object 'Object Repository/Relief Reclaims Reconcile/Month Search' is visible
+
+2019-04-08 14:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/Relief Reclaims Reconcile/Month Search' is visible
+
+2019-04-08 14:39:40 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:39:40 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:39:40 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo")): Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:40 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown")): Object 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clickable
+
+2019-04-08 14:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clickable
+
+2019-04-08 14:39:40 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown")): Object: 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clicked on
+
+2019-04-08 14:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Reclaims Dropdown' is clicked on
+
+2019-04-08 14:39:40 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Investigator Option")): Object 'Object Repository/GBMS Home Page Dropdowns/Investigator Option' is clickable
+
+2019-04-08 14:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page Dropdowns/Investigator Option' is clickable
+
+2019-04-08 14:39:40 - [TEST_STEP][PASSED] - click(findTestObject("GBMS Home Page Dropdowns/Investigator Option")): Object: 'Object Repository/GBMS Home Page Dropdowns/Investigator Option' is clicked on
+
+2019-04-08 14:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GBMS Home Page Dropdowns/Investigator Option' is clicked on
+
+2019-04-08 14:39:41 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Reclaim Investigator/Investigator")): Object 'Object Repository/Reclaim Investigator/Investigator' is visible
+
+2019-04-08 14:39:41 - [MESSAGE][PASSED] - Object 'Object Repository/Reclaim Investigator/Investigator' is visible
+
+2019-04-08 14:39:41 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-04-08 14:39:41 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-04-08 14:39:41 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-04-08 14:39:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-08 14:39:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-04-08 14:39:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo")): Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:41 - [MESSAGE][PASSED] - Object 'Object Repository/GBMS Home Page/GBX Logo' is visible
+
+2019-04-08 14:39:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-08 14:39:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-08 14:38:02 - [TEST_SUITE][PASSED] - ScreenCrawlHappyPath: Test Cases/ScreenCrawl/ScreenCrawlReclaimsDropdown]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

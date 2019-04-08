@@ -25,7 +25,7 @@
    <testCaseLink>
       <guid>67f247a7-1acc-4051-b860-ab5af1d2dd0e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ScreenCrawl/ScreenCrawlVisabilityLogistics</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -43,7 +43,7 @@
    <testCaseLink>
       <guid>e79a69b1-3da4-407b-b18b-79f6bcb08afa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ScreenCrawl/ScreenCrawlIncomingCRBDropdown</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -51,5 +51,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ScreenCrawl/ScreenCrawlReclaimsDropdown</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1f4f19a7-b661-4cb2-89fa-ae542a44d3e3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ScreenCrawl/ScreenCrawlCounterClaimsDropdown</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>75f11461-91a6-4ff3-8518-e30479ba958b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ScreenCrawl/ScreenCrawlClaimsDropdown</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

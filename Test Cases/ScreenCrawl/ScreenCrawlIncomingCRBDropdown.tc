@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>~ 4m30s
+   <description>~ 4m30s Agreement Errors Page taking too long to load
 Functions on Chrome and IE. FF has issues finding some elements. </description>
    <name>ScreenCrawlIncomingCRBDropdown</name>
    <tag></tag>

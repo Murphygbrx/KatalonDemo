@@ -1,0 +1,120 @@
+1
+00:00:00,325 --> 00:00:00,328
+1. openBrowser("")
+
+2
+00:00:06,386 --> 00:00:06,387
+5. deleteAllCookies()
+
+3
+00:00:06,416 --> 00:00:06,417
+9. maximizeWindow()
+
+4
+00:00:07,558 --> 00:00:07,558
+13. navigateToUrl("http://enspire-qa.gbrx.com/")
+
+5
+00:00:08,712 --> 00:00:08,712
+17. waitForPageLoad(0)
+
+6
+00:00:08,784 --> 00:00:08,785
+21. sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser)
+
+7
+00:00:09,077 --> 00:00:09,079
+25. sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass)
+
+8
+00:00:09,174 --> 00:00:09,175
+29. click(findTestObject("Login Page/Login Button"))
+
+9
+00:00:10,109 --> 00:00:10,110
+33. waitForPageLoad(0)
+
+10
+00:00:10,124 --> 00:00:10,125
+37. verifyElementVisible(findTestObject("GBMS Home Page/Assets"), STOP_ON_FAILURE)
+
+11
+00:00:10,186 --> 00:00:10,187
+41. click(findTestObject("GBMS Home Page/button_Report Repository"))
+
+12
+00:00:10,892 --> 00:00:10,893
+45. waitForPageLoad(0)
+
+13
+00:00:10,907 --> 00:00:10,908
+49. verifyElementVisible(findTestObject("Report Repository/Search Results"))
+
+14
+00:00:10,957 --> 00:00:10,958
+53. verifyElementVisible(findTestObject("Report Repository/Report Repository Search Header"), STOP_ON_FAILURE)
+
+15
+00:00:11,011 --> 00:00:11,012
+57. back()
+
+16
+00:00:11,137 --> 00:00:11,139
+61. waitForPageLoad(0)
+
+17
+00:00:11,241 --> 00:00:11,242
+65. verifyElementVisible(findTestObject("GBMS Home Page/Assets"), STOP_ON_FAILURE)
+
+18
+00:00:11,274 --> 00:00:11,275
+69. click(findTestObject("GBMS Home Page/button_Shop Forms"))
+
+19
+00:00:12,763 --> 00:00:12,764
+73. waitForPageLoad(0)
+
+20
+00:00:12,781 --> 00:00:12,782
+77. verifyElementVisible(findTestObject("Object Repository/Shop Reference Documents/Shop Reference Documents"))
+
+21
+00:00:12,829 --> 00:00:12,831
+81. verifyElementVisible(findTestObject("Shop Reference Documents/button_Clear Filter"))
+
+22
+00:00:13,064 --> 00:00:13,064
+85. back()
+
+23
+00:00:13,260 --> 00:00:13,261
+89. waitForPageLoad(0)
+
+24
+00:00:13,279 --> 00:00:13,279
+93. verifyElementVisible(findTestObject("GBMS Home Page/Assets"), STOP_ON_FAILURE)
+
+25
+00:00:13,314 --> 00:00:13,315
+97. click(findTestObject("GBMS Home Page/button_Customer Portal"))
+
+26
+00:00:13,856 --> 00:00:13,857
+101. waitForPageLoad(0)
+
+27
+00:00:13,875 --> 00:00:13,876
+105. back()
+
+28
+00:00:13,984 --> 00:00:13,985
+109. waitForPageLoad(0)
+
+29
+00:00:14,231 --> 00:00:14,232
+113. verifyElementVisible(findTestObject("GBMS Home Page/Assets"), STOP_ON_FAILURE)
+
+30
+00:00:14,271 --> 00:00:14,272
+117. closeBrowser()
+

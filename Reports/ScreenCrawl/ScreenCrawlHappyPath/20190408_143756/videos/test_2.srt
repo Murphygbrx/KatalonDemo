@@ -1,0 +1,152 @@
+1
+00:00:00,239 --> 00:00:00,240
+1. openBrowser("")
+
+2
+00:00:03,573 --> 00:00:03,574
+5. deleteAllCookies()
+
+3
+00:00:03,593 --> 00:00:03,594
+9. maximizeWindow()
+
+4
+00:00:04,729 --> 00:00:04,729
+13. navigateToUrl("http://enspire-qa.gbrx.com/")
+
+5
+00:00:05,836 --> 00:00:05,836
+17. waitForPageLoad(0)
+
+6
+00:00:05,854 --> 00:00:05,855
+21. sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser)
+
+7
+00:00:06,034 --> 00:00:06,035
+25. sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass)
+
+8
+00:00:06,113 --> 00:00:06,114
+29. click(findTestObject("Login Page/Login Button"))
+
+9
+00:00:08,155 --> 00:00:08,155
+33. waitForPageLoad(0)
+
+10
+00:00:08,166 --> 00:00:08,167
+37. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+11
+00:00:08,206 --> 00:00:08,207
+41. click(findTestObject("GBMS Home Page/button_Payables"))
+
+12
+00:00:08,209 --> 00:00:08,210
+45. waitForPageLoad(0)
+
+13
+00:00:08,212 --> 00:00:08,212
+49. switchToWindowTitle("cc.gbrx.com")
+
+14
+00:00:08,214 --> 00:00:08,214
+53. delay(3)
+
+15
+00:00:08,216 --> 00:00:08,217
+57. back()
+
+16
+00:00:08,218 --> 00:00:08,219
+61. waitForPageLoad(0)
+
+17
+00:00:08,220 --> 00:00:08,220
+65. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+18
+00:00:08,247 --> 00:00:08,248
+69. click(findTestObject("GBMS Home Page/button_Reclaim Validation"))
+
+19
+00:00:12,539 --> 00:00:12,539
+73. waitForPageLoad(0)
+
+20
+00:00:12,550 --> 00:00:12,551
+77. waitForElementVisible(findTestObject("Object Repository/Reclaim Validation Candidate Dashboard/Search Section"), 0)
+
+21
+00:00:12,604 --> 00:00:12,604
+81. back()
+
+22
+00:00:12,720 --> 00:00:12,721
+85. waitForPageLoad(0)
+
+23
+00:00:12,798 --> 00:00:12,799
+89. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+24
+00:00:12,832 --> 00:00:12,833
+93. click(findTestObject("GBMS Home Page/button_Reporting Dashboard"))
+
+25
+00:00:13,525 --> 00:00:13,526
+97. waitForPageLoad(0)
+
+26
+00:00:13,542 --> 00:00:13,542
+101. waitForElementVisible(findTestObject("Object Repository/Reporting Dashboard/Report Parameters"), 0)
+
+27
+00:00:13,578 --> 00:00:13,579
+105. back()
+
+28
+00:00:13,805 --> 00:00:13,805
+109. waitForPageLoad(0)
+
+29
+00:00:13,819 --> 00:00:13,819
+113. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+30
+00:00:13,854 --> 00:00:13,855
+117. click(findTestObject("GBMS Home Page/button_Claims Management"))
+
+31
+00:00:17,615 --> 00:00:17,616
+121. waitForPageLoad(0)
+
+32
+00:00:17,633 --> 00:00:17,633
+125. waitForElementVisible(findTestObject("Object Repository/Process Claims/Search Parameters"), 0)
+
+33
+00:00:17,684 --> 00:00:17,685
+129. waitForElementVisible(findTestObject("Object Repository/Process Claims/ReceiptReporting Dates"), 0)
+
+34
+00:00:17,779 --> 00:00:17,780
+133. waitForElementVisible(findTestObject("Object Repository/Process Claims/Claim Search Results"), 0)
+
+35
+00:00:17,819 --> 00:00:17,819
+137. back()
+
+36
+00:00:17,920 --> 00:00:17,921
+141. waitForPageLoad(0)
+
+37
+00:00:18,006 --> 00:00:18,006
+145. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+38
+00:00:18,044 --> 00:00:18,044
+149. closeBrowser()
+

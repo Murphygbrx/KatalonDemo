@@ -1,0 +1,304 @@
+1
+00:00:00,188 --> 00:00:00,189
+1. openBrowser("")
+
+2
+00:00:03,271 --> 00:00:03,272
+5. deleteAllCookies()
+
+3
+00:00:03,284 --> 00:00:03,284
+9. maximizeWindow()
+
+4
+00:00:04,427 --> 00:00:04,427
+13. navigateToUrl("http://enspire-qa.gbrx.com/")
+
+5
+00:00:05,611 --> 00:00:05,612
+17. waitForPageLoad(0)
+
+6
+00:00:05,631 --> 00:00:05,631
+21. sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser)
+
+7
+00:00:05,785 --> 00:00:05,786
+25. sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass)
+
+8
+00:00:05,881 --> 00:00:05,881
+29. click(findTestObject("Login Page/Login Button"))
+
+9
+00:00:07,220 --> 00:00:07,221
+33. waitForPageLoad(0)
+
+10
+00:00:07,233 --> 00:00:07,234
+37. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+11
+00:00:07,281 --> 00:00:07,282
+41. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown"))
+
+12
+00:00:07,323 --> 00:00:07,324
+45. click(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown"))
+
+13
+00:00:07,394 --> 00:00:07,395
+49. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reclaim Dashboard Option"))
+
+14
+00:00:07,434 --> 00:00:07,434
+53. click(findTestObject("GBMS Home Page Dropdowns/Reclaim Dashboard Option"))
+
+15
+00:00:08,143 --> 00:00:08,144
+57. waitForPageLoad(0)
+
+16
+00:00:08,155 --> 00:00:08,155
+61. verifyElementVisible(findTestObject("Reclaim Dashboard/Reclaim Search"))
+
+17
+00:00:08,197 --> 00:00:08,198
+65. back()
+
+18
+00:00:08,472 --> 00:00:08,473
+69. waitForPageLoad(0)
+
+19
+00:00:08,488 --> 00:00:08,489
+73. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+20
+00:00:08,527 --> 00:00:08,527
+77. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown"))
+
+21
+00:00:08,554 --> 00:00:08,554
+81. click(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown"))
+
+22
+00:00:08,623 --> 00:00:08,623
+85. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Single Car Detail Option"))
+
+23
+00:00:08,668 --> 00:00:08,668
+89. click(findTestObject("GBMS Home Page Dropdowns/Single Car Detail Option"))
+
+24
+00:00:09,281 --> 00:00:09,282
+93. waitForPageLoad(0)
+
+25
+00:00:09,295 --> 00:00:09,295
+97. verifyElementVisible(findTestObject("Single Car Detail/Car Detail Section"))
+
+26
+00:00:09,848 --> 00:00:09,848
+101. verifyElementClickable(findTestObject("Single Car Detail/Show Processed Candidates"))
+
+27
+00:00:09,890 --> 00:00:09,891
+105. back()
+
+28
+00:00:10,106 --> 00:00:10,107
+109. waitForPageLoad(0)
+
+29
+00:00:10,225 --> 00:00:10,226
+113. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+30
+00:00:10,282 --> 00:00:10,282
+117. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown"))
+
+31
+00:00:10,320 --> 00:00:10,321
+121. click(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown"))
+
+32
+00:00:10,402 --> 00:00:10,402
+125. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Multi-Car Lookup Option"))
+
+33
+00:00:10,438 --> 00:00:10,439
+129. click(findTestObject("GBMS Home Page Dropdowns/Multi-Car Lookup Option"))
+
+34
+00:00:11,148 --> 00:00:11,148
+133. waitForPageLoad(0)
+
+35
+00:00:11,162 --> 00:00:11,162
+137. verifyElementClickable(findTestObject("Multi-Car Lookup/button_Clear Filter"))
+
+36
+00:00:11,200 --> 00:00:11,201
+141. back()
+
+37
+00:00:11,322 --> 00:00:11,322
+145. waitForPageLoad(0)
+
+38
+00:00:11,429 --> 00:00:11,429
+149. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+39
+00:00:11,459 --> 00:00:11,459
+153. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown"))
+
+40
+00:00:11,488 --> 00:00:11,489
+157. click(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown"))
+
+41
+00:00:11,550 --> 00:00:11,551
+161. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Process Candidates Option"))
+
+42
+00:00:11,585 --> 00:00:11,585
+165. click(findTestObject("GBMS Home Page Dropdowns/Process Candidates Option"))
+
+43
+00:00:12,094 --> 00:00:12,095
+169. waitForPageLoad(0)
+
+44
+00:00:12,106 --> 00:00:12,106
+173. verifyElementVisible(findTestObject("Counter Reclaim Management/Details"))
+
+45
+00:00:12,144 --> 00:00:12,144
+177. verifyElementVisible(findTestObject("Counter Reclaim Management/Date Range"))
+
+46
+00:00:12,191 --> 00:00:12,192
+181. back()
+
+47
+00:00:12,381 --> 00:00:12,381
+185. waitForPageLoad(0)
+
+48
+00:00:12,392 --> 00:00:12,392
+189. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+49
+00:00:12,421 --> 00:00:12,421
+193. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown"))
+
+50
+00:00:12,448 --> 00:00:12,449
+197. click(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown"))
+
+51
+00:00:12,508 --> 00:00:12,508
+201. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Produce Counters Option"))
+
+52
+00:00:12,549 --> 00:00:12,549
+205. click(findTestObject("GBMS Home Page Dropdowns/Produce Counters Option"))
+
+53
+00:00:12,881 --> 00:00:12,881
+209. waitForPageLoad(0)
+
+54
+00:00:12,892 --> 00:00:12,892
+213. verifyElementVisible(findTestObject("Produce Counters/Produce Counters"))
+
+55
+00:00:12,924 --> 00:00:12,925
+217. back()
+
+56
+00:00:13,140 --> 00:00:13,141
+221. waitForPageLoad(0)
+
+57
+00:00:13,154 --> 00:00:13,155
+225. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+58
+00:00:13,188 --> 00:00:13,189
+229. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown"))
+
+59
+00:00:13,214 --> 00:00:13,214
+233. click(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown"))
+
+60
+00:00:13,271 --> 00:00:13,271
+237. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Relief Reclaims Option"))
+
+61
+00:00:13,310 --> 00:00:13,310
+241. click(findTestObject("GBMS Home Page Dropdowns/Relief Reclaims Option"))
+
+62
+00:00:13,612 --> 00:00:13,612
+245. waitForPageLoad(0)
+
+63
+00:00:13,624 --> 00:00:13,624
+249. verifyElementVisible(findTestObject("Relief Reclaims Reconcile/Month Search"))
+
+64
+00:00:13,659 --> 00:00:13,659
+253. back()
+
+65
+00:00:13,845 --> 00:00:13,845
+257. waitForPageLoad(0)
+
+66
+00:00:13,855 --> 00:00:13,855
+261. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+67
+00:00:13,883 --> 00:00:13,884
+265. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown"))
+
+68
+00:00:13,910 --> 00:00:13,910
+269. click(findTestObject("GBMS Home Page Dropdowns/Reclaims Dropdown"))
+
+69
+00:00:13,965 --> 00:00:13,965
+273. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Investigator Option"))
+
+70
+00:00:13,998 --> 00:00:13,998
+277. click(findTestObject("GBMS Home Page Dropdowns/Investigator Option"))
+
+71
+00:00:14,846 --> 00:00:14,847
+281. waitForPageLoad(0)
+
+72
+00:00:14,861 --> 00:00:14,861
+285. verifyElementVisible(findTestObject("Object Repository/Reclaim Investigator/Investigator"))
+
+73
+00:00:14,904 --> 00:00:14,905
+289. back()
+
+74
+00:00:15,001 --> 00:00:15,001
+293. waitForPageLoad(0)
+
+75
+00:00:15,064 --> 00:00:15,065
+297. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+76
+00:00:15,094 --> 00:00:15,095
+301. closeBrowser()
+

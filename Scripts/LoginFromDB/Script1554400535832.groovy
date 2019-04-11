@@ -14,12 +14,12 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'com.database.DemoMySql.connectDB'('localhost', 'Umler', '1433', 'sa', 'boulder.1')
+//CustomKeywords.'com.database.DemoMySql.connectDB'('localhost', 'Umler', '1433', 'sa', 'boulder.1')
 
-//def data = TestDataFactory.findTestData('Data Files/GetAppPassword')
+def data = TestDataFactory.findTestData('Data Files/GetAppPassword')
 println('This is the data: ' + data.getObjectValue(1, 1))
 
 return data.getObjectValue(1, 1)
 
-CustomKeywords.'com.database.DemoMySql.closeDatabaseConnection'()
+//CustomKeywords.'com.database.DemoMySql.closeDatabaseConnection'()
 

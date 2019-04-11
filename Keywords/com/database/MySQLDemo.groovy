@@ -5,6 +5,7 @@ import java.sql.ResultSet
 import java.sql.Statement
 import com.kms.katalon.core.annotation.Keyword
 import com.mysql.jdbc.Connection
+import groovy.sql.Sql
 
 public class DemoMySql {
 	private static Connection connection = null;
@@ -22,16 +23,34 @@ public class DemoMySql {
 	def connectDB(String url, String dbname, String port, String username, String password){
 		//Load driver class for your specific database type
 
-		String conn = "jdbc:sqlserver://dev-ensp-sql06" + "\\" + "gbx17qa;databaseName=Enspire"
+		//String conn = "jdbc:sqlserver://localhost;databaseName=Umler"
 
 
-		if(connection != null && !connection.isClosed()){
-			connection.close()
+		//if(connection != null && !connection.isClosed()){
+		//connection.close()
+		//}
+
+		//connection = DriverManager.getConnection(conn, username, password)
+
+		//return connection
+
+
+
+		try{
+			def dbURL = 'jdbc:mysql://localhost:1433'
+			def dbUserName = 'sa'
+			def dbPassword = 'boulder.1'
+			def dbDriver = 'com.mysql.jdbc.Driver'
+			println('Good')
+			def db = Sql.newInstance(dbURL,dbUserName,dbPassword,dbDriver)
+			println('still Good')
+			return db;
+		}catch(Exception e){
+			println('DB Error')
+			println(e.getMessage())
+		}finally{
+
 		}
-
-		connection = DriverManager.getConnection(conn, username, password)
-
-		return connection
 
 	}
 

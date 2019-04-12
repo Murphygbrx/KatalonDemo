@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>~30seconds</description>
    <name>ScreenCrawlAssetsDropdown</name>
    <tag></tag>
    <comment></comment>

@@ -3,7 +3,7 @@
    <description></description>
    <name>Car History Map Option</name>
    <tag></tag>
-   <elementGuidId>27977839-d855-4804-9da9-05e6a4b302ed</elementGuidId>
+   <elementGuidId>7c66fbdf-43df-4787-8c98-5c6104a0fce4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

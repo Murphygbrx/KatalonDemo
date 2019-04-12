@@ -45,7 +45,9 @@ not_run: WebUI.back()
 
 not_run: WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('GBMS Home Page/GBX Logo'))
+not_run: WebUI.verifyElementVisible(findTestObject('GBMS Home Page/GBX Logo'))
+
+WebUI.verifyElementClickable(findTestObject('GBMS Home Page/button_Reclaim Validation'))
 
 WebUI.click(findTestObject('GBMS Home Page/button_Reclaim Validation'))
 

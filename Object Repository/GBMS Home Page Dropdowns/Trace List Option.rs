@@ -3,7 +3,7 @@
    <description></description>
    <name>Trace List Option</name>
    <tag></tag>
-   <elementGuidId>309c2a6c-9c4d-4441-b4ac-2a7431e800f0</elementGuidId>
+   <elementGuidId>1720c58a-99db-47f8-971b-2e4b10222c68</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

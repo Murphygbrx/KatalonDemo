@@ -3,7 +3,7 @@
    <description></description>
    <name>Current Location Map Option</name>
    <tag></tag>
-   <elementGuidId>b04b1a17-ca2e-48a1-9ea4-5846e6e9f77e</elementGuidId>
+   <elementGuidId>17cd1f06-c753-40fa-b74f-32a851b4646d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

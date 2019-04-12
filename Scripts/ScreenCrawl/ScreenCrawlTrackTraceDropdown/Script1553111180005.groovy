@@ -37,11 +37,13 @@ WebUI.verifyElementClickable(findTestObject('GBMS Home Page Dropdowns/Track Trac
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Track Trace Dropdown'))
 
-WebUI.verifyElementClickable(findTestObject(null))
+WebUI.verifyElementClickable(findTestObject('GBMS Home Page Dropdowns/Car Status'))
 
-WebUI.click(findTestObject(null))
+WebUI.click(findTestObject('GBMS Home Page Dropdowns/Car Status'))
 
 WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementVisible(findTestObject('Car Status/Enter Cars to See Status'))
 
 WebUI.back()
 
@@ -59,6 +61,8 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Search Existing CLMs Option
 
 WebUI.waitForPageLoad(0)
 
+WebUI.verifyElementVisible(findTestObject('CLM Search/CLM Search'))
+
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
@@ -72,6 +76,8 @@ WebUI.verifyElementClickable(findTestObject('GBMS Home Page Dropdowns/Trace List
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Trace List Option'))
 
 WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementVisible(findTestObject('Tracing Project Search/Tracing Project Search'))
 
 WebUI.back()
 
@@ -87,6 +93,8 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/CLM Request Option'))
 
 WebUI.waitForPageLoad(0)
 
+WebUI.verifyElementVisible(findTestObject('Object Repository/CLM Requests/25 Most Recent CLM Requests'))
+
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
@@ -101,6 +109,10 @@ WebUI.click(findTestObject('GBMS Home Page Dropdowns/Current Location Map Option
 
 WebUI.waitForPageLoad(0)
 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Current Location Map/Current Location Search'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Current Location Map/Pin Color Modes'))
+
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
@@ -114,6 +126,10 @@ WebUI.verifyElementClickable(findTestObject('GBMS Home Page Dropdowns/Car Histor
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Car History Map Option'))
 
 WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Car History Map/Car Search'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Car History Map/Legend'))
 
 WebUI.back()
 

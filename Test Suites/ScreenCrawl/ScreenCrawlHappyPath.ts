@@ -97,7 +97,7 @@
    <testCaseLink>
       <guid>64b4292a-b249-4e06-a67d-7415fb8b68f0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ScreenCrawl/ScreenCrawlYardDropdown</testCaseId>
    </testCaseLink>
    <testCaseLink>

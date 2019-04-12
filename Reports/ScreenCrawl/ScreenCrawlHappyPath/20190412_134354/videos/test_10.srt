@@ -1,0 +1,80 @@
+1
+00:00:00,239 --> 00:00:00,240
+1. openBrowser("")
+
+2
+00:00:03,361 --> 00:00:03,362
+5. deleteAllCookies()
+
+3
+00:00:03,373 --> 00:00:03,373
+9. maximizeWindow()
+
+4
+00:00:04,507 --> 00:00:04,508
+13. navigateToUrl("http://enspire-qa.gbrx.com/")
+
+5
+00:00:05,658 --> 00:00:05,658
+17. waitForPageLoad(0)
+
+6
+00:00:05,670 --> 00:00:05,671
+21. sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser)
+
+7
+00:00:05,861 --> 00:00:05,861
+25. sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass)
+
+8
+00:00:05,965 --> 00:00:05,965
+29. click(findTestObject("Login Page/Login Button"))
+
+9
+00:00:06,866 --> 00:00:06,867
+33. waitForPageLoad(0)
+
+10
+00:00:06,877 --> 00:00:06,877
+37. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+11
+00:00:06,913 --> 00:00:06,914
+41. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Tools Dropdown"))
+
+12
+00:00:06,942 --> 00:00:06,943
+45. click(findTestObject("GBMS Home Page Dropdowns/Tools Dropdown"))
+
+13
+00:00:07,005 --> 00:00:07,006
+49. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Search Documents Option"))
+
+14
+00:00:07,042 --> 00:00:07,042
+53. click(findTestObject("GBMS Home Page Dropdowns/Search Documents Option"))
+
+15
+00:00:07,673 --> 00:00:07,673
+57. waitForPageLoad(0)
+
+16
+00:00:07,685 --> 00:00:07,685
+61. verifyElementVisible(findTestObject("Object Repository/Tools Search Documents/Tools Search Documents"))
+
+17
+00:00:07,729 --> 00:00:07,729
+65. back()
+
+18
+00:00:07,873 --> 00:00:07,874
+69. waitForPageLoad(0)
+
+19
+00:00:07,975 --> 00:00:07,975
+73. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+20
+00:00:08,006 --> 00:00:08,007
+77. closeBrowser()
+

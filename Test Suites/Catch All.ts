@@ -14,7 +14,7 @@
       <guid>6778d070-bfa1-450d-90de-8ff4c56a1971</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Glen01Login</testCaseId>
+      <testCaseId>Test Cases/LoginPage/Glen01Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3a804fe5-2d53-4e6f-a7ee-21ad663dee89</guid>

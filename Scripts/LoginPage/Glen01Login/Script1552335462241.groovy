@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-def AppPassword = WebUI.callTestCase(findTestCase('LoginFromDB'), [:], FailureHandling.STOP_ON_FAILURE)
+def AppPassword = WebUI.callTestCase(findTestCase('LoginPage/LoginFromDB'), [:], FailureHandling.STOP_ON_FAILURE)
 
 def password = AppPassword.toString()
 

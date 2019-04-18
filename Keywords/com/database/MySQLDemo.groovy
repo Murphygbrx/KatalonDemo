@@ -3,14 +3,15 @@ package com.database
 //import java.sql.ResultSet
 //import java.sql.Statement
 
-import com.kms.katalon.core.annotation.Keyword
-//import com.mysql.jdbc.Connection
+import java.sql.ResultSet
 
-import groovy.sql.Sql
+import com.kms.katalon.core.annotation.Keyword
 import com.mysql.jdbc.*
 
+import groovy.sql.Sql
+
 public class DemoMySql {
-	//private static Connection connection = null;
+	private static Sql sql = null;
 
 	/**
 	 * Open and return a connection to database
@@ -23,31 +24,13 @@ public class DemoMySql {
 
 	@Keyword
 
-	def connectDB(String url, String dbname, String port, String username, String password){
+	def connectDB(String dbconnection, String username, String password, String schema){
 		//Load driver class for your specific database type
 
-		//String conn = "jdbc:sqlserver://localhost;databaseName=Umler"
+		//sql = Sql.newInstance("jdbc:sqlserver://dev-ensp-sql06\\gbx17qa;databaseName=Enspire", "sa","boulder.1", "com.mysql.jdbc.Driver")
+		sql = Sql.newInstance("jdbc:sqlserver://" + dbconnection + ";databaseName=" + schema, username, password, "com.mysql.jdbc.Driver")
 
-
-		//if(connection != null && !connection.isClosed()){
-		//connection.close()
-		//}
-
-		//connection = DriverManager.getConnection(conn, username, password)
-
-		//return connection
-		
-		println("starting the connect")
-		//jdbc:sqlserver://dev-ensp-sql06\gbx17qa;databaseName=Enspire
-		def sql = Sql.newInstance("jdbc:sqlserver://dev-ensp-sql06\\gbx17qa;databaseName=Enspire", "sa","boulder.1", "com.mysql.jdbc.Driver")
-
-
-		def row = sql.firstRow("select AppPassword from Ref.Appusers where UserCode = 'gms/glentest1gms'")
-
-		println('row is ' + row.apppassword)
-
-		return row.apppassword
-
+		return sql
 	}
 
 	/**
@@ -62,11 +45,9 @@ public class DemoMySql {
 
 	def executeQuery(String queryString) {
 
-		//Statement stm = connection.createStatement()
+		def rows = sql.rows(queryString)
 
-		//ResultSet rs = stm.executeQuery(queryString)
-
-		//return rs
+		return rows
 
 	}
 
@@ -76,11 +57,11 @@ public class DemoMySql {
 
 	def closeDatabaseConnection() {
 
-		if(connection != null && !connection.isClosed()){
-			connection.close()
+		if(sql != null){
+			sql.close()
 		}
 
-		connection = null
+		sql = null
 
 	}
 

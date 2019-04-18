@@ -8,8 +8,9 @@ try {
 	
 	String initialPW = rs2[0].AppPassword
 	String initialModuser = rs2[0].ModUser
+	String initialPasswordResetDate = rs2[0].PasswordResetDate
 	
-	println("password: " + initialPW + " ModUser " + initialModuser)
+	println("password: " + initialPW + " ModUser " + initialModuser + " date " + initialPasswordResetDate)
 	
 	//CustomKeywords.'com.database.DemoMySql.connectDB'('dev-ensp-sql06\\gbx17qa', 'sa', 'boulder.1', 'Enspire')
 	//

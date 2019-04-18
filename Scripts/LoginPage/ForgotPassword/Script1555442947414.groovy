@@ -6,12 +6,12 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 try {
-	CustomKeywords.'com.database.DemoMySql.connectDB'('tst-ensp-sql06\\gbx17', 'sa', 'boulder.1', 'Enspire')
+/*	CustomKeywords.'com.database.DemoMySql.connectDB'('tst-ensp-sql06\\gbx17', 'sa', 'boulder.1', 'Enspire')
 	ResultSet rowsa = CustomKeywords.'com.database.DemoMySql.executeQuery'('select * from ref.AppUsers where usercode = \'Halliburton/glen.key\'')
 	String initialPW = rowsa.getString("AppPassword")
 	String initialModuser = rowsa.getString("ModUser")
 	
-	println("password: " + initialPW + " ModUser " + initialModuser)
+	println("password: " + initialPW + " ModUser " + initialModuser)*/
 	
 	
 	WebUI.openBrowser('')
@@ -33,10 +33,10 @@ try {
 	WebUI.focus(findTestObject('Login Page/ForgotPasswordLoginText'))
 	
 	//WebUI.verifyTextPresent('Please check your email for instructions on how to log in to your account.', false)
-	def rowsb = CustomKeywords.'com.database.DemoMySql.executeQuery'('select * from ref.AppUsers where usercode = \'Halliburton/glen.key\'')
+/*	def rowsb = CustomKeywords.'com.database.DemoMySql.executeQuery'('select * from ref.AppUsers where usercode = \'Halliburton/glen.key\'')
 	
 	println("Rowsa " + rowsa.get(0))
-	println("Rowsb " + rowsb.get(0))
+	println("Rowsb " + rowsb.get(0))*/
 } finally {
 
 	CustomKeywords.'com.database.DemoMySql.closeDatabaseConnection'()

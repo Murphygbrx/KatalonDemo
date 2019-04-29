@@ -10,7 +10,7 @@
          <value>//div[@id='InvoiceEventAssignmentTable']/div[2]/div/div/div/h3</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

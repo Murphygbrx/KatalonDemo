@@ -1,0 +1,769 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ScreenCrawlHappyPath,Chrome 73.0.3683.103,"Just the avalible screens, no buttons or functionality, just verifying that the screen is there.",2019-04-12 13:44:01,2019-04-12 13:47:59,3m - 58.473s,PASSED
+,,,,,,
+Test Cases/ScreenCrawl/ScreenCrawlAccountingDropdown,Chrome 73.0.3683.103,"~30s
+Functions on Chrome and IE. FF has issues finding some elements. ",2019-04-12 13:44:01,2019-04-12 13:44:30,29.230s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 13:44:01,2019-04-12 13:44:07,5.710s,PASSED
+deleteAllCookies(),Chrome 73.0.3683.103,,2019-04-12 13:44:07,2019-04-12 13:44:07,0.036s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-12 13:44:07,2019-04-12 13:44:08,1.147s,PASSED
+"navigateToUrl(""http://enspire-qa.gbrx.com/"")",Chrome 73.0.3683.103,,2019-04-12 13:44:08,2019-04-12 13:44:09,1.181s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:09,2019-04-12 13:44:10,0.088s,PASSED
+"sendKeys(findTestObject(""Login Page/Username Field""), ScreenCrawlUser)",Chrome 73.0.3683.103,,2019-04-12 13:44:10,2019-04-12 13:44:10,0.312s,PASSED
+"sendKeys(findTestObject(""Login Page/Password Field""), ScreenCrawlPass)",Chrome 73.0.3683.103,,2019-04-12 13:44:10,2019-04-12 13:44:10,0.097s,PASSED
+"click(findTestObject(""Login Page/Login Button""))",Chrome 73.0.3683.103,,2019-04-12 13:44:10,2019-04-12 13:44:11,1.238s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:11,2019-04-12 13:44:11,0.018s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:11,2019-04-12 13:44:11,0.062s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:11,2019-04-12 13:44:11,0.070s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Accounting Search Option""))",Chrome 73.0.3683.103,,2019-04-12 13:44:11,2019-04-12 13:44:14,2.474s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:14,2019-04-12 13:44:14,0.021s,PASSED
+"verifyElementVisible(findTestObject(""Accounting Search/Incoming Invoice Search Section""))",Chrome 73.0.3683.103,,2019-04-12 13:44:14,2019-04-12 13:44:14,0.049s,PASSED
+"verifyElementVisible(findTestObject(""Accounting Search/Asset Search Section""))",Chrome 73.0.3683.103,,2019-04-12 13:44:14,2019-04-12 13:44:14,0.053s,PASSED
+"verifyElementVisible(findTestObject(""Accounting Search/Outgoing Invoiced Search Section""))",Chrome 73.0.3683.103,,2019-04-12 13:44:14,2019-04-12 13:44:14,0.043s,PASSED
+"verifyElementVisible(findTestObject(""Accounting Search/Car Search Section""))",Chrome 73.0.3683.103,,2019-04-12 13:44:14,2019-04-12 13:44:14,0.041s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:44:14,2019-04-12 13:44:14,0.137s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:14,2019-04-12 13:44:14,0.082s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:14,2019-04-12 13:44:14,0.055s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:14,2019-04-12 13:44:14,0.071s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Approve AP Option""))",Chrome 73.0.3683.103,,2019-04-12 13:44:14,2019-04-12 13:44:15,0.806s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:15,2019-04-12 13:44:15,0.015s,PASSED
+"waitForElementVisible(findTestObject(""Approve AP/Invoices Grid""), 0)",Chrome 73.0.3683.103,,2019-04-12 13:44:15,2019-04-12 13:44:18,2.609s,PASSED
+"verifyElementVisible(findTestObject(""Approve AP/Legend Img""))",Chrome 73.0.3683.103,,2019-04-12 13:44:18,2019-04-12 13:44:18,0.039s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:44:18,2019-04-12 13:44:18,0.198s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:18,2019-04-12 13:44:18,0.016s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:18,2019-04-12 13:44:18,0.033s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:18,2019-04-12 13:44:18,0.052s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/On Hold Option""))",Chrome 73.0.3683.103,,2019-04-12 13:44:18,2019-04-12 13:44:19,0.818s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:19,2019-04-12 13:44:19,0.015s,PASSED
+"verifyElementVisible(findTestObject(""On Hold/Invoices On Hold Header""))",Chrome 73.0.3683.103,,2019-04-12 13:44:19,2019-04-12 13:44:19,0.041s,PASSED
+"verifyElementVisible(findTestObject(""On Hold/Un-Hold""))",Chrome 73.0.3683.103,,2019-04-12 13:44:19,2019-04-12 13:44:19,0.227s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:44:19,2019-04-12 13:44:19,0.202s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:19,2019-04-12 13:44:19,0.012s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:19,2019-04-12 13:44:20,0.039s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:20,2019-04-12 13:44:20,0.064s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Approve AR Option""))",Chrome 73.0.3683.103,,2019-04-12 13:44:20,2019-04-12 13:44:20,0.532s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:20,2019-04-12 13:44:20,0.014s,PASSED
+"waitForElementVisible(findTestObject(""Approve AR/AR Approvable Table""), 0)",Chrome 73.0.3683.103,,2019-04-12 13:44:20,2019-04-12 13:44:20,0.039s,PASSED
+"waitForElementVisible(findTestObject(""Approve AR/Invoice Response AR Approvable Table""), 0)",Chrome 73.0.3683.103,,2019-04-12 13:44:20,2019-04-12 13:44:20,0.037s,PASSED
+"verifyElementVisible(findTestObject(""Approve AR/CBA AR Approvable""))",Chrome 73.0.3683.103,,2019-04-12 13:44:20,2019-04-12 13:44:20,0.034s,PASSED
+"verifyElementVisible(findTestObject(""Approve AR/Legend Img""))",Chrome 73.0.3683.103,,2019-04-12 13:44:20,2019-04-12 13:44:20,0.034s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:44:20,2019-04-12 13:44:20,0.113s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:20,2019-04-12 13:44:20,0.099s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:20,2019-04-12 13:44:21,0.031s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:21,2019-04-12 13:44:21,0.068s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Extra Charges Option""))",Chrome 73.0.3683.103,,2019-04-12 13:44:21,2019-04-12 13:44:21,0.553s,PASSED
+"waitForElementVisible(findTestObject(""Extra Charges/Extra Charges Table""), 0)",Chrome 73.0.3683.103,,2019-04-12 13:44:21,2019-04-12 13:44:21,0.042s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:21,2019-04-12 13:44:21,0.012s,PASSED
+"verifyElementVisible(findTestObject(""Extra Charges/Extra Charges Header""))",Chrome 73.0.3683.103,,2019-04-12 13:44:21,2019-04-12 13:44:21,0.030s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:44:21,2019-04-12 13:44:21,0.165s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:21,2019-04-12 13:44:21,0.013s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:21,2019-04-12 13:44:21,0.031s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:21,2019-04-12 13:44:21,0.059s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Invoiceable Option""))",Chrome 73.0.3683.103,,2019-04-12 13:44:21,2019-04-12 13:44:22,0.353s,PASSED
+"verifyElementVisible(findTestObject(""Invoiceable/Loading...""))",Chrome 73.0.3683.103,,2019-04-12 13:44:22,2019-04-12 13:44:22,0.055s,PASSED
+"waitForElementVisible(findTestObject(""Invoiceable/Pending Invoices Table""), 0)",Chrome 73.0.3683.103,,2019-04-12 13:44:22,2019-04-12 13:44:22,0.031s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:22,2019-04-12 13:44:22,0.015s,PASSED
+"verifyElementVisible(findTestObject(""Invoiceable/Pending Invoices Header""))",Chrome 73.0.3683.103,,2019-04-12 13:44:22,2019-04-12 13:44:22,0.034s,PASSED
+"verifyElementVisible(findTestObject(""Invoiceable/Legend Img""))",Chrome 73.0.3683.103,,2019-04-12 13:44:22,2019-04-12 13:44:22,0.033s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:44:22,2019-04-12 13:44:22,0.106s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:22,2019-04-12 13:44:22,0.082s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:22,2019-04-12 13:44:22,0.029s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:22,2019-04-12 13:44:22,0.078s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Integration System Errors Option""))",Chrome 73.0.3683.103,,2019-04-12 13:44:22,2019-04-12 13:44:23,0.967s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:23,2019-04-12 13:44:23,0.013s,PASSED
+"verifyElementVisible(findTestObject(""Integration System Errors/Integration System Errors Header""))",Chrome 73.0.3683.103,,2019-04-12 13:44:23,2019-04-12 13:44:23,0.044s,PASSED
+"verifyElementVisible(findTestObject(""Integration System Errors/System Erros Table""))",Chrome 73.0.3683.103,,2019-04-12 13:44:23,2019-04-12 13:44:23,0.036s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:44:23,2019-04-12 13:44:23,0.098s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:23,2019-04-12 13:44:24,0.125s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:24,2019-04-12 13:44:24,0.030s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:24,2019-04-12 13:44:24,0.053s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Outgoing Invoice Search Option""))",Chrome 73.0.3683.103,,2019-04-12 13:44:24,2019-04-12 13:44:24,0.801s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:24,2019-04-12 13:44:24,0.014s,PASSED
+"verifyElementVisible(findTestObject(""Outgoing Invoice Search/Outgoing Invoice Search Header""))",Chrome 73.0.3683.103,,2019-04-12 13:44:24,2019-04-12 13:44:25,0.036s,PASSED
+"verifyElementVisible(findTestObject(""Outgoing Invoice Search/Search Results Header""))",Chrome 73.0.3683.103,,2019-04-12 13:44:25,2019-04-12 13:44:25,0.037s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:44:25,2019-04-12 13:44:25,0.212s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:25,2019-04-12 13:44:25,0.010s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:25,2019-04-12 13:44:25,0.033s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Accounting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:25,2019-04-12 13:44:25,0.063s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Invoice Response Progress Option""))",Chrome 73.0.3683.103,,2019-04-12 13:44:25,2019-04-12 13:44:27,1.896s,PASSED
+"waitForElementVisible(findTestObject(""Invoice Responses In Progress/Invoice Response Progress Table""), 0)",Chrome 73.0.3683.103,,2019-04-12 13:44:27,2019-04-12 13:44:27,0.051s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:27,2019-04-12 13:44:27,0.010s,PASSED
+"verifyElementVisible(findTestObject(""Invoice Responses In Progress/Invoice Responses In Progress Header""))",Chrome 73.0.3683.103,,2019-04-12 13:44:27,2019-04-12 13:44:27,0.035s,PASSED
+"verifyElementVisible(findTestObject(""Invoice Responses In Progress/Outgoing CBA Letters Header""))",Chrome 73.0.3683.103,,2019-04-12 13:44:27,2019-04-12 13:44:27,0.029s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:44:27,2019-04-12 13:44:27,0.195s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:27,2019-04-12 13:44:27,0.011s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:44:27,2019-04-12 13:44:27,0.032s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 13:44:27,2019-04-12 13:44:28,0.727s,PASSED
+,,,,,,
+Test Cases/ScreenCrawl/ScreenCrawlAssets,Chrome 73.0.3683.103,"~20 seconds Test user given correct rights, test runs correctly. 
+",2019-04-12 13:44:30,2019-04-12 13:44:50,19.799s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 13:44:30,2019-04-12 13:44:34,3.234s,PASSED
+deleteAllCookies(),Chrome 73.0.3683.103,,2019-04-12 13:44:34,2019-04-12 13:44:34,0.016s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-12 13:44:34,2019-04-12 13:44:35,1.144s,PASSED
+"navigateToUrl(""http://enspire-qa.gbrx.com/"")",Chrome 73.0.3683.103,,2019-04-12 13:44:35,2019-04-12 13:44:36,1.261s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:36,2019-04-12 13:44:36,0.017s,PASSED
+"sendKeys(findTestObject(""Login Page/Username Field""), ScreenCrawlUser)",Chrome 73.0.3683.103,,2019-04-12 13:44:36,2019-04-12 13:44:36,0.155s,PASSED
+"sendKeys(findTestObject(""Login Page/Password Field""), ScreenCrawlPass)",Chrome 73.0.3683.103,,2019-04-12 13:44:36,2019-04-12 13:44:36,0.074s,PASSED
+"click(findTestObject(""Login Page/Login Button""))",Chrome 73.0.3683.103,,2019-04-12 13:44:36,2019-04-12 13:44:37,0.860s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:37,2019-04-12 13:44:37,0.014s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/Assets""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-12 13:44:37,2019-04-12 13:44:37,0.041s,PASSED
+"click(findTestObject(""GBMS Home Page/button_Report Repository""))",Chrome 73.0.3683.103,,2019-04-12 13:44:37,2019-04-12 13:44:41,3.951s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:41,2019-04-12 13:44:41,0.016s,PASSED
+"verifyElementVisible(findTestObject(""Report Repository/Search Results""))",Chrome 73.0.3683.103,,2019-04-12 13:44:41,2019-04-12 13:44:41,0.030s,PASSED
+"verifyElementVisible(findTestObject(""Report Repository/Report Repository Search Header""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-12 13:44:41,2019-04-12 13:44:41,0.031s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:44:41,2019-04-12 13:44:41,0.127s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:41,2019-04-12 13:44:41,0.074s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/Assets""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-12 13:44:41,2019-04-12 13:44:41,0.031s,PASSED
+"click(findTestObject(""GBMS Home Page/button_Shop Forms""))",Chrome 73.0.3683.103,,2019-04-12 13:44:41,2019-04-12 13:44:42,0.688s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:42,2019-04-12 13:44:42,0.015s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Shop Reference Documents/Shop Reference Documents""))",Chrome 73.0.3683.103,,2019-04-12 13:44:42,2019-04-12 13:44:42,0.058s,PASSED
+"verifyElementVisible(findTestObject(""Shop Reference Documents/button_Clear Filter""))",Chrome 73.0.3683.103,,2019-04-12 13:44:42,2019-04-12 13:44:42,0.230s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:44:42,2019-04-12 13:44:42,0.103s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:42,2019-04-12 13:44:43,0.089s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/Assets""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-12 13:44:43,2019-04-12 13:44:43,0.035s,PASSED
+"click(findTestObject(""GBMS Home Page/button_Customer Portal""))",Chrome 73.0.3683.103,,2019-04-12 13:44:43,2019-04-12 13:44:47,4.142s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:47,2019-04-12 13:44:47,0.012s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:44:47,2019-04-12 13:44:47,0.203s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:47,2019-04-12 13:44:47,0.012s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/Assets""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-12 13:44:47,2019-04-12 13:44:47,0.033s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 13:44:47,2019-04-12 13:44:48,0.687s,PASSED
+,,,,,,
+Test Cases/ScreenCrawl/ScreenCrawlAssetsDropdown,Chrome 73.0.3683.103,~30seconds,2019-04-12 13:44:50,2019-04-12 13:45:08,17.800s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 13:44:50,2019-04-12 13:44:53,3.288s,PASSED
+deleteAllCookies(),Chrome 73.0.3683.103,,2019-04-12 13:44:53,2019-04-12 13:44:53,0.014s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-12 13:44:53,2019-04-12 13:44:55,1.132s,PASSED
+"navigateToUrl(""http://enspire-qa.gbrx.com/"")",Chrome 73.0.3683.103,,2019-04-12 13:44:55,2019-04-12 13:44:56,1.130s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:56,2019-04-12 13:44:56,0.015s,PASSED
+"sendKeys(findTestObject(""Login Page/Username Field""), ScreenCrawlUser)",Chrome 73.0.3683.103,,2019-04-12 13:44:56,2019-04-12 13:44:56,0.152s,PASSED
+"sendKeys(findTestObject(""Login Page/Password Field""), ScreenCrawlPass)",Chrome 73.0.3683.103,,2019-04-12 13:44:56,2019-04-12 13:44:56,0.081s,PASSED
+"click(findTestObject(""Login Page/Login Button""))",Chrome 73.0.3683.103,,2019-04-12 13:44:56,2019-04-12 13:44:57,0.872s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:57,2019-04-12 13:44:57,0.012s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:44:57,2019-04-12 13:44:57,0.041s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Assets Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:57,2019-04-12 13:44:57,0.039s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Assets Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:57,2019-04-12 13:44:57,0.064s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/AssetView 360 Search Option""))",Chrome 73.0.3683.103,,2019-04-12 13:44:57,2019-04-12 13:44:57,0.039s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/AssetView 360 Search Option""))",Chrome 73.0.3683.103,,2019-04-12 13:44:57,2019-04-12 13:44:57,0.382s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:57,2019-04-12 13:44:57,0.013s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/AssetView 360 Search/Asset Mark""))",Chrome 73.0.3683.103,,2019-04-12 13:44:57,2019-04-12 13:44:57,0.040s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:44:57,2019-04-12 13:44:58,0.215s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:58,2019-04-12 13:44:58,0.017s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:44:58,2019-04-12 13:44:58,0.036s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Assets Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:58,2019-04-12 13:44:58,0.027s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Assets Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:58,2019-04-12 13:44:58,0.054s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Manage Asset Groups Option""))",Chrome 73.0.3683.103,,2019-04-12 13:44:58,2019-04-12 13:44:58,0.036s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Manage Asset Groups Option""))",Chrome 73.0.3683.103,,2019-04-12 13:44:58,2019-04-12 13:44:58,0.321s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:58,2019-04-12 13:44:58,0.012s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Asset Group Search/Asset Group Search""))",Chrome 73.0.3683.103,,2019-04-12 13:44:58,2019-04-12 13:44:58,0.041s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:44:58,2019-04-12 13:44:58,0.136s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:58,2019-04-12 13:44:58,0.088s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:44:58,2019-04-12 13:44:58,0.035s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Assets Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:58,2019-04-12 13:44:58,0.034s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Assets Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:58,2019-04-12 13:44:59,0.066s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Car Spec. Bulk Update Option""))",Chrome 73.0.3683.103,,2019-04-12 13:44:59,2019-04-12 13:44:59,0.033s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Car Spec. Bulk Update Option""))",Chrome 73.0.3683.103,,2019-04-12 13:44:59,2019-04-12 13:44:59,0.311s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:59,2019-04-12 13:44:59,0.012s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Car Spec. Bulk Entry - Asset Search/Car Specification Bulk Edit Asset Selection""))",Chrome 73.0.3683.103,,2019-04-12 13:44:59,2019-04-12 13:44:59,0.041s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:44:59,2019-04-12 13:44:59,0.214s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:44:59,2019-04-12 13:44:59,0.015s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:44:59,2019-04-12 13:44:59,0.031s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Assets Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:59,2019-04-12 13:44:59,0.026s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Assets Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:44:59,2019-04-12 13:44:59,0.074s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Clone Asset Specifications Option""))",Chrome 73.0.3683.103,,2019-04-12 13:44:59,2019-04-12 13:44:59,0.041s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Clone Asset Specifications Option""))",Chrome 73.0.3683.103,,2019-04-12 13:44:59,2019-04-12 13:45:00,0.253s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:00,2019-04-12 13:45:00,0.012s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Clone Car Find Assets/Asset to Clone""))",Chrome 73.0.3683.103,,2019-04-12 13:45:00,2019-04-12 13:45:00,0.040s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:45:00,2019-04-12 13:45:00,0.123s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:00,2019-04-12 13:45:00,0.148s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:45:00,2019-04-12 13:45:00,0.033s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Assets Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:45:00,2019-04-12 13:45:00,0.027s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Assets Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:45:00,2019-04-12 13:45:00,0.074s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Car Information Search Option""))",Chrome 73.0.3683.103,,2019-04-12 13:45:00,2019-04-12 13:45:00,0.035s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Car Information Search Option""))",Chrome 73.0.3683.103,,2019-04-12 13:45:00,2019-04-12 13:45:03,2.467s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:03,2019-04-12 13:45:03,0.013s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Car Information Search/Asset Search""))",Chrome 73.0.3683.103,,2019-04-12 13:45:03,2019-04-12 13:45:03,0.040s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:45:03,2019-04-12 13:45:03,0.287s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:03,2019-04-12 13:45:03,0.012s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:45:03,2019-04-12 13:45:03,0.031s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Assets Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:45:03,2019-04-12 13:45:03,0.029s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Assets Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:45:03,2019-04-12 13:45:03,0.072s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Add Notes  Documents Option""))",Chrome 73.0.3683.103,,2019-04-12 13:45:03,2019-04-12 13:45:03,0.036s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Add Notes  Documents Option""))",Chrome 73.0.3683.103,,2019-04-12 13:45:03,2019-04-12 13:45:03,0.303s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:03,2019-04-12 13:45:03,0.013s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Add Notes  Documents to Assets/Add Notes  Documents to Assets""))",Chrome 73.0.3683.103,,2019-04-12 13:45:03,2019-04-12 13:45:03,0.032s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:45:03,2019-04-12 13:45:04,0.104s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:04,2019-04-12 13:45:04,0.079s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:45:04,2019-04-12 13:45:04,0.036s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Assets Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:45:04,2019-04-12 13:45:04,0.023s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Assets Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:45:04,2019-04-12 13:45:04,0.068s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Shop Forms Option""))",Chrome 73.0.3683.103,,2019-04-12 13:45:04,2019-04-12 13:45:04,0.039s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Shop Forms Option""))",Chrome 73.0.3683.103,,2019-04-12 13:45:04,2019-04-12 13:45:05,0.759s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:05,2019-04-12 13:45:05,0.013s,PASSED
+"verifyElementVisible(findTestObject(""Shop Reference Documents/Shop Reference Documents""))",Chrome 73.0.3683.103,,2019-04-12 13:45:05,2019-04-12 13:45:05,0.037s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:45:05,2019-04-12 13:45:05,0.106s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:05,2019-04-12 13:45:05,0.114s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:45:05,2019-04-12 13:45:05,0.028s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 13:45:05,2019-04-12 13:45:06,0.711s,PASSED
+,,,,,,
+Test Cases/ScreenCrawl/ScreenCrawlCarHire,Chrome 73.0.3683.103,"CC.gbrx.com page not functonal, test not complete. ",2019-04-12 13:45:08,2019-04-12 13:45:28,19.997s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 13:45:08,2019-04-12 13:45:11,3.477s,PASSED
+deleteAllCookies(),Chrome 73.0.3683.103,,2019-04-12 13:45:11,2019-04-12 13:45:11,0.012s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-12 13:45:11,2019-04-12 13:45:13,1.129s,PASSED
+"navigateToUrl(""http://enspire-qa.gbrx.com/"")",Chrome 73.0.3683.103,,2019-04-12 13:45:13,2019-04-12 13:45:14,1.081s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:14,2019-04-12 13:45:14,0.013s,PASSED
+"sendKeys(findTestObject(""Login Page/Username Field""), ScreenCrawlUser)",Chrome 73.0.3683.103,,2019-04-12 13:45:14,2019-04-12 13:45:14,0.162s,PASSED
+"sendKeys(findTestObject(""Login Page/Password Field""), ScreenCrawlPass)",Chrome 73.0.3683.103,,2019-04-12 13:45:14,2019-04-12 13:45:14,0.077s,PASSED
+"click(findTestObject(""Login Page/Login Button""))",Chrome 73.0.3683.103,,2019-04-12 13:45:14,2019-04-12 13:45:15,0.910s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:15,2019-04-12 13:45:15,0.012s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:45:15,2019-04-12 13:45:15,0.049s,PASSED
+"click(findTestObject(""GBMS Home Page/button_Payables""))",Chrome 73.0.3683.103,,2019-04-12 13:45:15,2019-04-12 13:45:15,0.003s,NOT_RUN
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:15,2019-04-12 13:45:15,0.002s,NOT_RUN
+"switchToWindowTitle(""cc.gbrx.com"")",Chrome 73.0.3683.103,,2019-04-12 13:45:15,2019-04-12 13:45:15,0.003s,NOT_RUN
+delay(3),Chrome 73.0.3683.103,,2019-04-12 13:45:15,2019-04-12 13:45:15,0.002s,NOT_RUN
+back(),Chrome 73.0.3683.103,,2019-04-12 13:45:15,2019-04-12 13:45:15,0.002s,NOT_RUN
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:15,2019-04-12 13:45:15,0.003s,NOT_RUN
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:45:15,2019-04-12 13:45:15,0.002s,NOT_RUN
+"verifyElementClickable(findTestObject(""GBMS Home Page/button_Reclaim Validation""))",Chrome 73.0.3683.103,,2019-04-12 13:45:15,2019-04-12 13:45:15,0.036s,PASSED
+"click(findTestObject(""GBMS Home Page/button_Reclaim Validation""))",Chrome 73.0.3683.103,,2019-04-12 13:45:15,2019-04-12 13:45:19,4.227s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:19,2019-04-12 13:45:19,0.019s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Reclaim Validation Candidate Dashboard/Search Section""), 0)",Chrome 73.0.3683.103,,2019-04-12 13:45:19,2019-04-12 13:45:19,0.038s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:45:19,2019-04-12 13:45:19,0.125s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:19,2019-04-12 13:45:19,0.172s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:45:19,2019-04-12 13:45:20,0.034s,PASSED
+"click(findTestObject(""GBMS Home Page/button_Reporting Dashboard""))",Chrome 73.0.3683.103,,2019-04-12 13:45:20,2019-04-12 13:45:20,0.419s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:20,2019-04-12 13:45:20,0.011s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Reporting Dashboard/Report Parameters""), 0)",Chrome 73.0.3683.103,,2019-04-12 13:45:20,2019-04-12 13:45:20,0.050s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:45:20,2019-04-12 13:45:20,0.136s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:20,2019-04-12 13:45:20,0.065s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:45:20,2019-04-12 13:45:20,0.031s,PASSED
+"click(findTestObject(""GBMS Home Page/button_Claims Management""))",Chrome 73.0.3683.103,,2019-04-12 13:45:20,2019-04-12 13:45:24,4.175s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:24,2019-04-12 13:45:24,0.014s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Process Claims/Search Parameters""), 0)",Chrome 73.0.3683.103,,2019-04-12 13:45:24,2019-04-12 13:45:24,0.053s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Process Claims/ReceiptReporting Dates""), 0)",Chrome 73.0.3683.103,,2019-04-12 13:45:24,2019-04-12 13:45:25,0.089s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Process Claims/Claim Search Results""), 0)",Chrome 73.0.3683.103,,2019-04-12 13:45:25,2019-04-12 13:45:25,0.034s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:45:25,2019-04-12 13:45:25,0.190s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:25,2019-04-12 13:45:25,0.010s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:45:25,2019-04-12 13:45:25,0.028s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 13:45:25,2019-04-12 13:45:26,0.691s,PASSED
+,,,,,,
+Test Cases/ScreenCrawl/ScreenCrawlClaimsDropdown,Chrome 73.0.3683.103,~15 Seconds,2019-04-12 13:45:28,2019-04-12 13:45:40,12.587s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 13:45:28,2019-04-12 13:45:31,3.326s,PASSED
+deleteAllCookies(),Chrome 73.0.3683.103,,2019-04-12 13:45:31,2019-04-12 13:45:31,0.012s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-12 13:45:31,2019-04-12 13:45:32,1.129s,PASSED
+"navigateToUrl(""http://enspire-qa.gbrx.com/"")",Chrome 73.0.3683.103,,2019-04-12 13:45:32,2019-04-12 13:45:33,1.079s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:33,2019-04-12 13:45:33,0.015s,PASSED
+"sendKeys(findTestObject(""Login Page/Username Field""), ScreenCrawlUser)",Chrome 73.0.3683.103,,2019-04-12 13:45:33,2019-04-12 13:45:34,0.139s,PASSED
+"sendKeys(findTestObject(""Login Page/Password Field""), ScreenCrawlPass)",Chrome 73.0.3683.103,,2019-04-12 13:45:34,2019-04-12 13:45:34,0.067s,PASSED
+"click(findTestObject(""Login Page/Login Button""))",Chrome 73.0.3683.103,,2019-04-12 13:45:34,2019-04-12 13:45:35,0.894s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:35,2019-04-12 13:45:35,0.016s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:45:35,2019-04-12 13:45:35,0.034s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Claims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:45:35,2019-04-12 13:45:35,0.029s,PASSED
+"click(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Claims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:45:35,2019-04-12 13:45:35,0.058s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Process Claims Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:45:35,2019-04-12 13:45:35,0.030s,PASSED
+"click(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Process Claims Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:45:35,2019-04-12 13:45:35,0.556s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:35,2019-04-12 13:45:35,0.016s,PASSED
+"verifyElementVisible(findTestObject(""Process Claims/Search Parameters""))",Chrome 73.0.3683.103,,2019-04-12 13:45:35,2019-04-12 13:45:35,0.113s,PASSED
+"verifyElementVisible(findTestObject(""Process Claims/ReceiptReporting Dates""))",Chrome 73.0.3683.103,,2019-04-12 13:45:35,2019-04-12 13:45:35,0.042s,PASSED
+"verifyElementVisible(findTestObject(""Process Claims/Claim Search Results""))",Chrome 73.0.3683.103,,2019-04-12 13:45:35,2019-04-12 13:45:35,0.036s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:45:35,2019-04-12 13:45:36,0.120s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:36,2019-04-12 13:45:36,0.106s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:45:36,2019-04-12 13:45:36,0.038s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Claims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:45:36,2019-04-12 13:45:36,0.028s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Claims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:45:36,2019-04-12 13:45:36,0.074s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Reconcile Pay Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:45:36,2019-04-12 13:45:36,0.041s,PASSED
+"click(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Reconcile Pay Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:45:36,2019-04-12 13:45:36,0.382s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:36,2019-04-12 13:45:36,0.014s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Reconcile Claims/Reconcile Claims""))",Chrome 73.0.3683.103,,2019-04-12 13:45:36,2019-04-12 13:45:36,0.036s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:45:36,2019-04-12 13:45:36,0.134s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:36,2019-04-12 13:45:37,0.114s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:45:37,2019-04-12 13:45:37,0.043s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Claims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:45:37,2019-04-12 13:45:37,0.030s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Claims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:45:37,2019-04-12 13:45:37,0.082s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Work Time Claims Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:45:37,2019-04-12 13:45:37,0.052s,PASSED
+"click(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Work Time Claims Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:45:37,2019-04-12 13:45:37,0.313s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:37,2019-04-12 13:45:37,0.012s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Working Time Claims/Search Parameters""))",Chrome 73.0.3683.103,,2019-04-12 13:45:37,2019-04-12 13:45:37,0.041s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:45:37,2019-04-12 13:45:37,0.238s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:37,2019-04-12 13:45:37,0.015s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:45:37,2019-04-12 13:45:37,0.032s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 13:45:37,2019-04-12 13:45:38,0.704s,PASSED
+,,,,,,
+Test Cases/ScreenCrawl/ScreenCrawlCounterClaimsDropdown,Chrome 73.0.3683.103,~15 Seconds,2019-04-12 13:45:40,2019-04-12 13:45:52,11.824s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 13:45:40,2019-04-12 13:45:44,3.297s,PASSED
+deleteAllCookies(),Chrome 73.0.3683.103,,2019-04-12 13:45:44,2019-04-12 13:45:44,0.014s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-12 13:45:44,2019-04-12 13:45:45,1.129s,PASSED
+"navigateToUrl(""http://enspire-qa.gbrx.com/"")",Chrome 73.0.3683.103,,2019-04-12 13:45:45,2019-04-12 13:45:46,1.019s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:46,2019-04-12 13:45:46,0.014s,PASSED
+"sendKeys(findTestObject(""Login Page/Username Field""), ScreenCrawlUser)",Chrome 73.0.3683.103,,2019-04-12 13:45:46,2019-04-12 13:45:46,0.147s,PASSED
+"sendKeys(findTestObject(""Login Page/Password Field""), ScreenCrawlPass)",Chrome 73.0.3683.103,,2019-04-12 13:45:46,2019-04-12 13:45:46,0.075s,PASSED
+"click(findTestObject(""Login Page/Login Button""))",Chrome 73.0.3683.103,,2019-04-12 13:45:46,2019-04-12 13:45:47,0.965s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:47,2019-04-12 13:45:47,0.012s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:45:47,2019-04-12 13:45:47,0.037s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Counter Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:45:47,2019-04-12 13:45:47,0.037s,PASSED
+"click(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Counter Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:45:47,2019-04-12 13:45:47,0.068s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Manage Counter Reclaims Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:45:47,2019-04-12 13:45:47,0.032s,PASSED
+"click(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Manage Counter Reclaims Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:45:47,2019-04-12 13:45:48,0.684s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:48,2019-04-12 13:45:48,0.012s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Manage Counter Reclaims/Unprocessed Counter-Counter Reclaims""))",Chrome 73.0.3683.103,,2019-04-12 13:45:48,2019-04-12 13:45:48,0.040s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:45:48,2019-04-12 13:45:48,0.242s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:48,2019-04-12 13:45:48,0.098s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:45:48,2019-04-12 13:45:48,0.038s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Counter Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:45:48,2019-04-12 13:45:48,0.032s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Counter Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:45:48,2019-04-12 13:45:49,0.067s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Import Counter-Counters Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:45:49,2019-04-12 13:45:49,0.039s,PASSED
+"click(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Import Counter-Counters Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:45:49,2019-04-12 13:45:49,0.311s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:49,2019-04-12 13:45:49,0.010s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Import Counter-Counter/Upload Counter-Counter Reclaims""))",Chrome 73.0.3683.103,,2019-04-12 13:45:49,2019-04-12 13:45:49,0.036s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:45:49,2019-04-12 13:45:49,0.233s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:49,2019-04-12 13:45:49,0.012s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:45:49,2019-04-12 13:45:49,0.038s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 13:45:49,2019-04-12 13:45:50,0.732s,PASSED
+,,,,,,
+Test Cases/ScreenCrawl/ScreenCrawlMaintinance Management,Chrome 73.0.3683.103,~25 seconds Switching Windows will give browsers other than chrome issues. ,2019-04-12 13:45:52,2019-04-12 13:46:16,24.165s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 13:45:52,2019-04-12 13:45:56,3.274s,PASSED
+deleteAllCookies(),Chrome 73.0.3683.103,,2019-04-12 13:45:56,2019-04-12 13:45:56,0.013s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-12 13:45:56,2019-04-12 13:45:57,1.151s,PASSED
+"navigateToUrl(""http://enspire-qa.gbrx.com/"")",Chrome 73.0.3683.103,,2019-04-12 13:45:57,2019-04-12 13:45:58,1.295s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:58,2019-04-12 13:45:58,0.018s,PASSED
+"sendKeys(findTestObject(""Login Page/Username Field""), ScreenCrawlUser)",Chrome 73.0.3683.103,,2019-04-12 13:45:58,2019-04-12 13:45:58,0.175s,PASSED
+"sendKeys(findTestObject(""Login Page/Password Field""), ScreenCrawlPass)",Chrome 73.0.3683.103,,2019-04-12 13:45:58,2019-04-12 13:45:58,0.094s,PASSED
+"click(findTestObject(""Login Page/Login Button""))",Chrome 73.0.3683.103,,2019-04-12 13:45:58,2019-04-12 13:45:59,0.930s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:45:59,2019-04-12 13:45:59,0.013s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/Maintenance Management""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-12 13:45:59,2019-04-12 13:45:59,0.045s,PASSED
+"click(findTestObject(""GBMS Home Page/button_Mechanical Dashboard""))",Chrome 73.0.3683.103,,2019-04-12 13:45:59,2019-04-12 13:46:00,0.811s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:00,2019-04-12 13:46:00,0.012s,PASSED
+"verifyElementVisible(findTestObject(""Mechanical Dashbord/b_Assets""))",Chrome 73.0.3683.103,,2019-04-12 13:46:00,2019-04-12 13:46:01,0.553s,PASSED
+"verifyElementVisible(findTestObject(""Mechanical Dashbord/b_Event Tracking""))",Chrome 73.0.3683.103,,2019-04-12 13:46:01,2019-04-12 13:46:01,0.036s,PASSED
+"verifyElementVisible(findTestObject(""Mechanical Dashbord/b_Audit Tracking""))",Chrome 73.0.3683.103,,2019-04-12 13:46:01,2019-04-12 13:46:01,0.002s,NOT_RUN
+"verifyElementVisible(findTestObject(""Mechanical Dashbord/b_Car Events or Invoice Search""))",Chrome 73.0.3683.103,,2019-04-12 13:46:01,2019-04-12 13:46:01,0.035s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:01,2019-04-12 13:46:01,0.130s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:01,2019-04-12 13:46:01,0.068s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/Maintenance Management""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-12 13:46:01,2019-04-12 13:46:01,0.041s,PASSED
+"click(findTestObject(""GBMS Home Page/button_Accounting Search""))",Chrome 73.0.3683.103,,2019-04-12 13:46:01,2019-04-12 13:46:02,1.075s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:02,2019-04-12 13:46:02,0.016s,PASSED
+"verifyElementVisible(findTestObject(""Accounting Search/Incoming Invoice Search Section""))",Chrome 73.0.3683.103,,2019-04-12 13:46:02,2019-04-12 13:46:02,0.044s,PASSED
+"verifyElementVisible(findTestObject(""Accounting Search/Asset Search Section""))",Chrome 73.0.3683.103,,2019-04-12 13:46:02,2019-04-12 13:46:02,0.041s,PASSED
+"verifyElementVisible(findTestObject(""Accounting Search/Outgoing Invoiced Search Section""))",Chrome 73.0.3683.103,,2019-04-12 13:46:02,2019-04-12 13:46:02,0.034s,PASSED
+"verifyElementVisible(findTestObject(""Accounting Search/Car Search Section""))",Chrome 73.0.3683.103,,2019-04-12 13:46:02,2019-04-12 13:46:02,0.037s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:02,2019-04-12 13:46:02,0.118s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:02,2019-04-12 13:46:02,0.113s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/Maintenance Management""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-12 13:46:02,2019-04-12 13:46:03,0.034s,PASSED
+"click(findTestObject(""GBMS Home Page/button_Gauge Tables""))",Chrome 73.0.3683.103,,2019-04-12 13:46:03,2019-04-12 13:46:03,0.105s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-12 13:46:03,2019-04-12 13:46:08,5.040s,PASSED
+"switchToWindowTitle(""Tank Car: Gauge Table Data - The Greenbrier Companies"")",Chrome 73.0.3683.103,,2019-04-12 13:46:08,2019-04-12 13:46:09,1.122s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:09,2019-04-12 13:46:09,0.011s,PASSED
+"verifyElementVisible(findTestObject(""Tank Car Gauge/Car Mark""))",Chrome 73.0.3683.103,,2019-04-12 13:46:09,2019-04-12 13:46:09,0.037s,PASSED
+"verifyElementVisible(findTestObject(""Tank Car Gauge/Car Number (Start)""))",Chrome 73.0.3683.103,,2019-04-12 13:46:09,2019-04-12 13:46:09,0.032s,PASSED
+"verifyElementVisible(findTestObject(""Tank Car Gauge/Car Number (End)""))",Chrome 73.0.3683.103,,2019-04-12 13:46:09,2019-04-12 13:46:09,0.036s,PASSED
+"click(findTestObject(""Tank Car Gauge/Back to Gbrx.com""))",Chrome 73.0.3683.103,,2019-04-12 13:46:09,2019-04-12 13:46:12,3.273s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:12,2019-04-12 13:46:12,0.012s,PASSED
+"verifyElementVisible(findTestObject(""Greenbrier Corp Home/NYSE_logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:12,2019-04-12 13:46:13,1.063s,PASSED
+"switchToWindowUrl(""http://enspire-qa.gbrx.com/Home/Landing"")",Chrome 73.0.3683.103,,2019-04-12 13:46:13,2019-04-12 13:46:13,0.059s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:13,2019-04-12 13:46:13,0.015s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/Maintenance Management""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-12 13:46:13,2019-04-12 13:46:13,0.037s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 13:46:13,2019-04-12 13:46:14,0.758s,PASSED
+,,,,,,
+Test Cases/ScreenCrawl/ScreenCrawlReclaimsDropdown,Chrome 73.0.3683.103,"~30 Seconds. 
+Runs on Chrome. Further testing needed in FF and IE. ",2019-04-12 13:46:16,2019-04-12 13:46:34,17.781s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 13:46:16,2019-04-12 13:46:20,3.183s,PASSED
+deleteAllCookies(),Chrome 73.0.3683.103,,2019-04-12 13:46:20,2019-04-12 13:46:20,0.014s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-12 13:46:20,2019-04-12 13:46:21,1.132s,PASSED
+"navigateToUrl(""http://enspire-qa.gbrx.com/"")",Chrome 73.0.3683.103,,2019-04-12 13:46:21,2019-04-12 13:46:22,1.101s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:22,2019-04-12 13:46:22,0.013s,PASSED
+"sendKeys(findTestObject(""Login Page/Username Field""), ScreenCrawlUser)",Chrome 73.0.3683.103,,2019-04-12 13:46:22,2019-04-12 13:46:22,0.153s,PASSED
+"sendKeys(findTestObject(""Login Page/Password Field""), ScreenCrawlPass)",Chrome 73.0.3683.103,,2019-04-12 13:46:22,2019-04-12 13:46:22,0.077s,PASSED
+"click(findTestObject(""Login Page/Login Button""))",Chrome 73.0.3683.103,,2019-04-12 13:46:22,2019-04-12 13:46:23,0.881s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:23,2019-04-12 13:46:23,0.009s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:23,2019-04-12 13:46:23,0.041s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:23,2019-04-12 13:46:23,0.033s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:23,2019-04-12 13:46:23,0.069s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reclaim Dashboard Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:23,2019-04-12 13:46:23,0.038s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reclaim Dashboard Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:23,2019-04-12 13:46:24,0.776s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:24,2019-04-12 13:46:24,0.013s,PASSED
+"verifyElementVisible(findTestObject(""Reclaim Dashboard/Reclaim Search""))",Chrome 73.0.3683.103,,2019-04-12 13:46:24,2019-04-12 13:46:24,0.044s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:24,2019-04-12 13:46:24,0.219s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:24,2019-04-12 13:46:24,0.011s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:24,2019-04-12 13:46:24,0.028s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:24,2019-04-12 13:46:24,0.027s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:24,2019-04-12 13:46:24,0.063s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Single Car Detail Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:24,2019-04-12 13:46:24,0.047s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Single Car Detail Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:24,2019-04-12 13:46:25,0.689s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:25,2019-04-12 13:46:25,0.014s,PASSED
+"verifyElementVisible(findTestObject(""Single Car Detail/Car Detail Section""))",Chrome 73.0.3683.103,,2019-04-12 13:46:25,2019-04-12 13:46:26,0.546s,PASSED
+"verifyElementClickable(findTestObject(""Single Car Detail/Show Processed Candidates""))",Chrome 73.0.3683.103,,2019-04-12 13:46:26,2019-04-12 13:46:26,0.032s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:26,2019-04-12 13:46:26,0.129s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:26,2019-04-12 13:46:26,0.092s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:26,2019-04-12 13:46:26,0.032s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:26,2019-04-12 13:46:26,0.031s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:26,2019-04-12 13:46:26,0.075s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Multi-Car Lookup Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:26,2019-04-12 13:46:26,0.041s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Multi-Car Lookup Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:26,2019-04-12 13:46:27,0.917s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:27,2019-04-12 13:46:27,0.016s,PASSED
+"verifyElementClickable(findTestObject(""Multi-Car Lookup/button_Clear Filter""))",Chrome 73.0.3683.103,,2019-04-12 13:46:27,2019-04-12 13:46:27,0.036s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:27,2019-04-12 13:46:27,0.133s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:27,2019-04-12 13:46:27,0.087s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:27,2019-04-12 13:46:27,0.033s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:27,2019-04-12 13:46:27,0.028s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:27,2019-04-12 13:46:27,0.061s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Process Candidates Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:27,2019-04-12 13:46:27,0.047s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Process Candidates Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:27,2019-04-12 13:46:28,0.480s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:28,2019-04-12 13:46:28,0.012s,PASSED
+"verifyElementVisible(findTestObject(""Counter Reclaim Management/Details""))",Chrome 73.0.3683.103,,2019-04-12 13:46:28,2019-04-12 13:46:28,0.043s,PASSED
+"verifyElementVisible(findTestObject(""Counter Reclaim Management/Date Range""))",Chrome 73.0.3683.103,,2019-04-12 13:46:28,2019-04-12 13:46:28,0.050s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:28,2019-04-12 13:46:28,0.198s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:28,2019-04-12 13:46:28,0.012s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:28,2019-04-12 13:46:28,0.032s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:28,2019-04-12 13:46:28,0.027s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:28,2019-04-12 13:46:28,0.064s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Produce Counters Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:28,2019-04-12 13:46:28,0.045s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Produce Counters Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:28,2019-04-12 13:46:29,0.315s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:29,2019-04-12 13:46:29,0.011s,PASSED
+"verifyElementVisible(findTestObject(""Produce Counters/Produce Counters""))",Chrome 73.0.3683.103,,2019-04-12 13:46:29,2019-04-12 13:46:29,0.039s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:29,2019-04-12 13:46:29,0.216s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:29,2019-04-12 13:46:29,0.013s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:29,2019-04-12 13:46:29,0.032s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:29,2019-04-12 13:46:29,0.026s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:29,2019-04-12 13:46:29,0.066s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Relief Reclaims Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:29,2019-04-12 13:46:29,0.041s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Relief Reclaims Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:29,2019-04-12 13:46:30,0.323s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:30,2019-04-12 13:46:30,0.012s,PASSED
+"verifyElementVisible(findTestObject(""Relief Reclaims Reconcile/Month Search""))",Chrome 73.0.3683.103,,2019-04-12 13:46:30,2019-04-12 13:46:30,0.038s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:30,2019-04-12 13:46:30,0.208s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:30,2019-04-12 13:46:30,0.011s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:30,2019-04-12 13:46:30,0.033s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:30,2019-04-12 13:46:30,0.030s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reclaims Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:30,2019-04-12 13:46:30,0.067s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Investigator Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:30,2019-04-12 13:46:30,0.037s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Investigator Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:30,2019-04-12 13:46:31,0.900s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:31,2019-04-12 13:46:31,0.013s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Reclaim Investigator/Investigator""))",Chrome 73.0.3683.103,,2019-04-12 13:46:31,2019-04-12 13:46:31,0.049s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:31,2019-04-12 13:46:31,0.174s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:31,2019-04-12 13:46:31,0.011s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:31,2019-04-12 13:46:31,0.027s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 13:46:31,2019-04-12 13:46:32,0.743s,PASSED
+,,,,,,
+Test Cases/ScreenCrawl/ScreenCrawlReportingDropdown,Chrome 73.0.3683.103,~30 Seconds,2019-04-12 13:46:34,2019-04-12 13:46:58,23.739s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 13:46:34,2019-04-12 13:46:38,3.594s,PASSED
+deleteAllCookies(),Chrome 73.0.3683.103,,2019-04-12 13:46:38,2019-04-12 13:46:38,0.013s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-12 13:46:38,2019-04-12 13:46:39,1.141s,PASSED
+"navigateToUrl(""http://enspire-qa.gbrx.com/"")",Chrome 73.0.3683.103,,2019-04-12 13:46:39,2019-04-12 13:46:40,1.275s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:40,2019-04-12 13:46:40,0.013s,PASSED
+"sendKeys(findTestObject(""Login Page/Username Field""), ScreenCrawlUser)",Chrome 73.0.3683.103,,2019-04-12 13:46:40,2019-04-12 13:46:41,0.173s,PASSED
+"sendKeys(findTestObject(""Login Page/Password Field""), ScreenCrawlPass)",Chrome 73.0.3683.103,,2019-04-12 13:46:41,2019-04-12 13:46:41,0.095s,PASSED
+"click(findTestObject(""Login Page/Login Button""))",Chrome 73.0.3683.103,,2019-04-12 13:46:41,2019-04-12 13:46:42,0.933s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:42,2019-04-12 13:46:42,0.015s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:42,2019-04-12 13:46:42,0.062s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:42,2019-04-12 13:46:42,0.047s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:42,2019-04-12 13:46:42,0.109s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reporting Dashboard Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:42,2019-04-12 13:46:42,0.051s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reporting Dashboard Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:42,2019-04-12 13:46:42,0.576s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:42,2019-04-12 13:46:42,0.014s,PASSED
+"verifyElementVisible(findTestObject(""Reporting Dashboard/Report Parameters""))",Chrome 73.0.3683.103,,2019-04-12 13:46:42,2019-04-12 13:46:42,0.049s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:42,2019-04-12 13:46:43,0.328s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:43,2019-04-12 13:46:43,0.012s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:43,2019-04-12 13:46:43,0.036s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:43,2019-04-12 13:46:43,0.029s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:43,2019-04-12 13:46:43,0.075s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reports Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:43,2019-04-12 13:46:43,0.043s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reports Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:43,2019-04-12 13:46:44,1.162s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:44,2019-04-12 13:46:44,0.014s,PASSED
+"verifyElementVisible(findTestObject(""Reports/Reports""))",Chrome 73.0.3683.103,,2019-04-12 13:46:44,2019-04-12 13:46:44,0.045s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:44,2019-04-12 13:46:44,0.138s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:44,2019-04-12 13:46:44,0.067s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:44,2019-04-12 13:46:44,0.037s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:44,2019-04-12 13:46:45,0.031s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:45,2019-04-12 13:46:45,0.086s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Dashboards Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:45,2019-04-12 13:46:45,0.038s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Dashboards Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:45,2019-04-12 13:46:46,0.968s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:46,2019-04-12 13:46:46,0.013s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/Reporting Dashboard""))",Chrome 73.0.3683.103,,2019-04-12 13:46:46,2019-04-12 13:46:46,0.040s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:46,2019-04-12 13:46:46,0.199s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:46,2019-04-12 13:46:46,0.013s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:46,2019-04-12 13:46:46,0.031s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:46,2019-04-12 13:46:46,0.028s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:46,2019-04-12 13:46:46,0.059s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Saved Reports Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:46,2019-04-12 13:46:46,0.033s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Saved Reports Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:46,2019-04-12 13:46:47,0.820s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:47,2019-04-12 13:46:47,0.011s,PASSED
+"verifyElementVisible(findTestObject(""Saved Reports/Saved Reports""))",Chrome 73.0.3683.103,,2019-04-12 13:46:47,2019-04-12 13:46:47,0.039s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:47,2019-04-12 13:46:47,0.183s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:47,2019-04-12 13:46:47,0.012s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:47,2019-04-12 13:46:47,0.031s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:47,2019-04-12 13:46:47,0.026s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:47,2019-04-12 13:46:47,0.066s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/AAR Car Type Codes""))",Chrome 73.0.3683.103,,2019-04-12 13:46:47,2019-04-12 13:46:47,0.033s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/AAR Car Type Codes""))",Chrome 73.0.3683.103,,2019-04-12 13:46:47,2019-04-12 13:46:48,0.633s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:48,2019-04-12 13:46:48,0.016s,PASSED
+"verifyElementVisible(findTestObject(""AAR Car Type Code Search/AAR Car Type Code Search""))",Chrome 73.0.3683.103,,2019-04-12 13:46:48,2019-04-12 13:46:48,0.038s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:48,2019-04-12 13:46:48,0.126s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:48,2019-04-12 13:46:48,0.083s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:48,2019-04-12 13:46:48,0.032s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:48,2019-04-12 13:46:48,0.028s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:48,2019-04-12 13:46:48,0.061s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Manage Reports Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:48,2019-04-12 13:46:48,0.033s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Manage Reports Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:48,2019-04-12 13:46:49,0.928s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:49,2019-04-12 13:46:49,0.013s,PASSED
+"verifyElementVisible(findTestObject(""Report Management/Report Management""))",Chrome 73.0.3683.103,,2019-04-12 13:46:49,2019-04-12 13:46:49,0.068s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:49,2019-04-12 13:46:49,0.200s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:49,2019-04-12 13:46:50,0.014s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:50,2019-04-12 13:46:50,0.034s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:50,2019-04-12 13:46:50,0.028s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:50,2019-04-12 13:46:50,0.056s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Report Repository Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:50,2019-04-12 13:46:50,0.033s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Report Repository Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:50,2019-04-12 13:46:50,0.398s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:50,2019-04-12 13:46:50,0.010s,PASSED
+"verifyElementVisible(findTestObject(""Report Repository Search/Report Repository Search""))",Chrome 73.0.3683.103,,2019-04-12 13:46:50,2019-04-12 13:46:50,0.032s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:50,2019-04-12 13:46:50,0.206s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:50,2019-04-12 13:46:50,0.030s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:50,2019-04-12 13:46:50,0.030s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:50,2019-04-12 13:46:50,0.026s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:50,2019-04-12 13:46:50,0.069s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Report Images Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:50,2019-04-12 13:46:50,0.036s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Report Images Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:50,2019-04-12 13:46:51,0.444s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:51,2019-04-12 13:46:51,0.010s,PASSED
+"verifyElementVisible(findTestObject(""Report Images/Report Images""))",Chrome 73.0.3683.103,,2019-04-12 13:46:51,2019-04-12 13:46:51,0.033s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:51,2019-04-12 13:46:51,0.162s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:51,2019-04-12 13:46:51,0.070s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:51,2019-04-12 13:46:51,0.032s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:51,2019-04-12 13:46:51,0.030s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:51,2019-04-12 13:46:51,0.056s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Report Themes Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:51,2019-04-12 13:46:51,0.034s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Report Themes Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:51,2019-04-12 13:46:53,1.199s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:53,2019-04-12 13:46:53,0.013s,PASSED
+"verifyElementVisible(findTestObject(""Report Themes/Report Themes""))",Chrome 73.0.3683.103,,2019-04-12 13:46:53,2019-04-12 13:46:53,0.038s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:53,2019-04-12 13:46:53,0.126s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:53,2019-04-12 13:46:53,0.094s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:53,2019-04-12 13:46:53,0.035s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:53,2019-04-12 13:46:53,0.028s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:53,2019-04-12 13:46:53,0.060s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Plant Dashboard Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:53,2019-04-12 13:46:53,0.033s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Plant Dashboard Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:53,2019-04-12 13:46:53,0.498s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:53,2019-04-12 13:46:54,0.009s,PASSED
+"verifyElementVisible(findTestObject(""Plant Dashboard/Select Company""))",Chrome 73.0.3683.103,,2019-04-12 13:46:54,2019-04-12 13:46:54,0.038s,PASSED
+"verifyElementVisible(findTestObject(""Plant Dashboard/Latest Trips by Car Mark""))",Chrome 73.0.3683.103,,2019-04-12 13:46:54,2019-04-12 13:46:54,0.039s,PASSED
+"verifyElementVisible(findTestObject(""Plant Dashboard/Search Trips by PO Number""))",Chrome 73.0.3683.103,,2019-04-12 13:46:54,2019-04-12 13:46:54,0.035s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:54,2019-04-12 13:46:54,0.182s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:54,2019-04-12 13:46:54,0.017s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:54,2019-04-12 13:46:54,0.033s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:54,2019-04-12 13:46:54,0.024s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Reporting Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:46:54,2019-04-12 13:46:54,0.057s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Problem Trip Dashboard Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:54,2019-04-12 13:46:54,0.033s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Problem Trip Dashboard Option""))",Chrome 73.0.3683.103,,2019-04-12 13:46:54,2019-04-12 13:46:54,0.477s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:54,2019-04-12 13:46:54,0.013s,PASSED
+"verifyElementVisible(findTestObject(""Trip Problem Overview/Car Status by Car Mark""))",Chrome 73.0.3683.103,,2019-04-12 13:46:54,2019-04-12 13:46:54,0.041s,PASSED
+"verifyElementVisible(findTestObject(""Trip Problem Overview/Search Trips by PO Number""))",Chrome 73.0.3683.103,,2019-04-12 13:46:54,2019-04-12 13:46:55,0.043s,PASSED
+"verifyElementVisible(findTestObject(""Trip Problem Overview/Trip Problems""))",Chrome 73.0.3683.103,,2019-04-12 13:46:55,2019-04-12 13:46:55,0.077s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:46:55,2019-04-12 13:46:55,0.196s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:46:55,2019-04-12 13:46:55,0.013s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:46:55,2019-04-12 13:46:55,0.033s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 13:46:55,2019-04-12 13:46:56,0.745s,PASSED
+,,,,,,
+Test Cases/ScreenCrawl/ScreenCrawlToolsDropdown,Chrome 73.0.3683.103,~10 Seconds,2019-04-12 13:46:58,2019-04-12 13:47:09,10.791s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 13:46:58,2019-04-12 13:47:01,3.121s,PASSED
+deleteAllCookies(),Chrome 73.0.3683.103,,2019-04-12 13:47:01,2019-04-12 13:47:01,0.011s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-12 13:47:01,2019-04-12 13:47:02,1.134s,PASSED
+"navigateToUrl(""http://enspire-qa.gbrx.com/"")",Chrome 73.0.3683.103,,2019-04-12 13:47:02,2019-04-12 13:47:03,1.151s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:03,2019-04-12 13:47:03,0.012s,PASSED
+"sendKeys(findTestObject(""Login Page/Username Field""), ScreenCrawlUser)",Chrome 73.0.3683.103,,2019-04-12 13:47:03,2019-04-12 13:47:04,0.191s,PASSED
+"sendKeys(findTestObject(""Login Page/Password Field""), ScreenCrawlPass)",Chrome 73.0.3683.103,,2019-04-12 13:47:04,2019-04-12 13:47:04,0.104s,PASSED
+"click(findTestObject(""Login Page/Login Button""))",Chrome 73.0.3683.103,,2019-04-12 13:47:04,2019-04-12 13:47:05,0.901s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:05,2019-04-12 13:47:05,0.010s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:05,2019-04-12 13:47:05,0.037s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Tools Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:05,2019-04-12 13:47:05,0.028s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Tools Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:05,2019-04-12 13:47:05,0.062s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Search Documents Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:05,2019-04-12 13:47:05,0.037s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Search Documents Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:05,2019-04-12 13:47:05,0.631s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:05,2019-04-12 13:47:05,0.012s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Tools Search Documents/Tools Search Documents""))",Chrome 73.0.3683.103,,2019-04-12 13:47:05,2019-04-12 13:47:05,0.044s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:05,2019-04-12 13:47:06,0.144s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:06,2019-04-12 13:47:06,0.102s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:06,2019-04-12 13:47:06,0.031s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 13:47:06,2019-04-12 13:47:06,0.702s,PASSED
+,,,,,,
+Test Cases/ScreenCrawl/ScreenCrawlTrackTraceDropdown,Chrome 73.0.3683.103,~20 Seconds,2019-04-12 13:47:09,2019-04-12 13:47:27,17.985s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 13:47:09,2019-04-12 13:47:12,3.147s,PASSED
+deleteAllCookies(),Chrome 73.0.3683.103,,2019-04-12 13:47:12,2019-04-12 13:47:12,0.013s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-12 13:47:12,2019-04-12 13:47:13,1.134s,PASSED
+"navigateToUrl(""http://enspire-qa.gbrx.com/"")",Chrome 73.0.3683.103,,2019-04-12 13:47:13,2019-04-12 13:47:14,1.134s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:14,2019-04-12 13:47:14,0.014s,PASSED
+"sendKeys(findTestObject(""Login Page/Username Field""), ScreenCrawlUser)",Chrome 73.0.3683.103,,2019-04-12 13:47:14,2019-04-12 13:47:14,0.169s,PASSED
+"sendKeys(findTestObject(""Login Page/Password Field""), ScreenCrawlPass)",Chrome 73.0.3683.103,,2019-04-12 13:47:14,2019-04-12 13:47:15,0.091s,PASSED
+"click(findTestObject(""Login Page/Login Button""))",Chrome 73.0.3683.103,,2019-04-12 13:47:15,2019-04-12 13:47:15,0.873s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:15,2019-04-12 13:47:15,0.012s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:15,2019-04-12 13:47:15,0.049s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Track Trace Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:15,2019-04-12 13:47:15,0.037s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Track Trace Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:15,2019-04-12 13:47:16,0.067s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Car Status""))",Chrome 73.0.3683.103,,2019-04-12 13:47:16,2019-04-12 13:47:16,0.034s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Car Status""))",Chrome 73.0.3683.103,,2019-04-12 13:47:16,2019-04-12 13:47:16,0.576s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:16,2019-04-12 13:47:16,0.011s,PASSED
+"verifyElementVisible(findTestObject(""Car Status/Enter Cars to See Status""))",Chrome 73.0.3683.103,,2019-04-12 13:47:16,2019-04-12 13:47:16,0.043s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:16,2019-04-12 13:47:16,0.242s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:16,2019-04-12 13:47:16,0.012s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:16,2019-04-12 13:47:17,0.036s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Track Trace Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:17,2019-04-12 13:47:17,0.030s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Track Trace Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:17,2019-04-12 13:47:17,0.073s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Search Existing CLMs Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:17,2019-04-12 13:47:17,0.042s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Search Existing CLMs Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:17,2019-04-12 13:47:17,0.719s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:17,2019-04-12 13:47:17,0.011s,PASSED
+"verifyElementVisible(findTestObject(""CLM Search/CLM Search""))",Chrome 73.0.3683.103,,2019-04-12 13:47:17,2019-04-12 13:47:17,0.045s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:17,2019-04-12 13:47:18,0.155s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:18,2019-04-12 13:47:18,0.093s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Track Trace Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:18,2019-04-12 13:47:18,0.030s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Track Trace Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:18,2019-04-12 13:47:18,0.063s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Trace List Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:18,2019-04-12 13:47:18,0.043s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Trace List Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:18,2019-04-12 13:47:18,0.535s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:18,2019-04-12 13:47:18,0.009s,PASSED
+"verifyElementVisible(findTestObject(""Tracing Project Search/Tracing Project Search""))",Chrome 73.0.3683.103,,2019-04-12 13:47:18,2019-04-12 13:47:18,0.043s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:18,2019-04-12 13:47:19,0.237s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:19,2019-04-12 13:47:19,0.019s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Track Trace Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:19,2019-04-12 13:47:19,0.032s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Track Trace Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:19,2019-04-12 13:47:19,0.065s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/CLM Request Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:19,2019-04-12 13:47:19,0.039s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/CLM Request Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:19,2019-04-12 13:47:20,1.133s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:20,2019-04-12 13:47:20,0.017s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/CLM Requests/25 Most Recent CLM Requests""))",Chrome 73.0.3683.103,,2019-04-12 13:47:20,2019-04-12 13:47:20,0.038s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:20,2019-04-12 13:47:20,0.219s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:20,2019-04-12 13:47:20,0.011s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Track Trace Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:20,2019-04-12 13:47:20,0.028s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Track Trace Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:20,2019-04-12 13:47:20,0.068s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Current Location Map Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:20,2019-04-12 13:47:20,0.035s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Current Location Map Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:20,2019-04-12 13:47:22,1.310s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:22,2019-04-12 13:47:22,0.022s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Current Location Map/Current Location Search""))",Chrome 73.0.3683.103,,2019-04-12 13:47:22,2019-04-12 13:47:22,0.050s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Current Location Map/Pin Color Modes""))",Chrome 73.0.3683.103,,2019-04-12 13:47:22,2019-04-12 13:47:22,0.037s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:22,2019-04-12 13:47:22,0.152s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:22,2019-04-12 13:47:22,0.117s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Track Trace Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:22,2019-04-12 13:47:22,0.030s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Track Trace Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:22,2019-04-12 13:47:22,0.061s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Car History Map Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:22,2019-04-12 13:47:22,0.034s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Car History Map Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:22,2019-04-12 13:47:23,0.773s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:23,2019-04-12 13:47:23,0.058s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Car History Map/Car Search""))",Chrome 73.0.3683.103,,2019-04-12 13:47:23,2019-04-12 13:47:23,0.067s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Car History Map/Legend""))",Chrome 73.0.3683.103,,2019-04-12 13:47:23,2019-04-12 13:47:23,0.279s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:23,2019-04-12 13:47:24,0.181s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:24,2019-04-12 13:47:24,0.084s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:24,2019-04-12 13:47:24,0.033s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 13:47:24,2019-04-12 13:47:24,0.760s,PASSED
+,,,,,,
+Test Cases/ScreenCrawl/ScreenCrawlTripsDropdown,Chrome 73.0.3683.103,~15 Seconds,2019-04-12 13:47:27,2019-04-12 13:47:43,16.487s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 13:47:27,2019-04-12 13:47:30,3.299s,PASSED
+deleteAllCookies(),Chrome 73.0.3683.103,,2019-04-12 13:47:30,2019-04-12 13:47:30,0.011s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-12 13:47:30,2019-04-12 13:47:31,1.132s,PASSED
+"navigateToUrl(""http://enspire-qa.gbrx.com/"")",Chrome 73.0.3683.103,,2019-04-12 13:47:31,2019-04-12 13:47:32,1.061s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:32,2019-04-12 13:47:32,0.013s,PASSED
+"sendKeys(findTestObject(""Login Page/Username Field""), ScreenCrawlUser)",Chrome 73.0.3683.103,,2019-04-12 13:47:32,2019-04-12 13:47:32,0.142s,PASSED
+"sendKeys(findTestObject(""Login Page/Password Field""), ScreenCrawlPass)",Chrome 73.0.3683.103,,2019-04-12 13:47:32,2019-04-12 13:47:33,0.075s,PASSED
+"click(findTestObject(""Login Page/Login Button""))",Chrome 73.0.3683.103,,2019-04-12 13:47:33,2019-04-12 13:47:33,0.856s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:33,2019-04-12 13:47:33,0.014s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:33,2019-04-12 13:47:33,0.044s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Trips Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:33,2019-04-12 13:47:33,0.031s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Trips Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:33,2019-04-12 13:47:34,0.059s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Trip Search Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:34,2019-04-12 13:47:34,0.041s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Trip Search Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:34,2019-04-12 13:47:34,0.897s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:34,2019-04-12 13:47:34,0.012s,PASSED
+"verifyElementVisible(findTestObject(""Trip Search/Trip Search""))",Chrome 73.0.3683.103,,2019-04-12 13:47:34,2019-04-12 13:47:35,0.056s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:35,2019-04-12 13:47:35,0.174s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:35,2019-04-12 13:47:35,0.011s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:35,2019-04-12 13:47:35,0.029s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Trips Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:35,2019-04-12 13:47:35,0.029s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Trips Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:35,2019-04-12 13:47:35,0.056s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Unit Train Trips Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:35,2019-04-12 13:47:35,0.037s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Unit Train Trips Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:35,2019-04-12 13:47:35,0.535s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:35,2019-04-12 13:47:35,0.012s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Unit Train Search/Unit Train Search""))",Chrome 73.0.3683.103,,2019-04-12 13:47:35,2019-04-12 13:47:35,0.042s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:35,2019-04-12 13:47:36,0.148s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:36,2019-04-12 13:47:36,0.072s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:36,2019-04-12 13:47:36,0.034s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Trips Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:36,2019-04-12 13:47:36,0.026s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Trips Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:36,2019-04-12 13:47:36,0.068s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Create Trips Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:36,2019-04-12 13:47:36,0.039s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Create Trips Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:36,2019-04-12 13:47:37,1.500s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:37,2019-04-12 13:47:37,0.030s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Create Trips/Car Details""))",Chrome 73.0.3683.103,,2019-04-12 13:47:37,2019-04-12 13:47:37,0.047s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Create Trips/Common BOL Data""))",Chrome 73.0.3683.103,,2019-04-12 13:47:37,2019-04-12 13:47:37,0.043s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Create Trips/Movement""))",Chrome 73.0.3683.103,,2019-04-12 13:47:37,2019-04-12 13:47:38,0.046s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:38,2019-04-12 13:47:38,0.136s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:38,2019-04-12 13:47:38,0.107s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:38,2019-04-12 13:47:38,0.032s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Trips Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:38,2019-04-12 13:47:38,0.026s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Trips Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:38,2019-04-12 13:47:38,0.055s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Trip Patterns Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:38,2019-04-12 13:47:38,0.042s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Trip Patterns Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:38,2019-04-12 13:47:38,0.428s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:38,2019-04-12 13:47:38,0.044s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Trip Pattern Search/Trip Pattern Search""))",Chrome 73.0.3683.103,,2019-04-12 13:47:38,2019-04-12 13:47:38,0.048s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:38,2019-04-12 13:47:39,0.163s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:39,2019-04-12 13:47:39,0.089s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:39,2019-04-12 13:47:39,0.035s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Trips Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:39,2019-04-12 13:47:39,0.027s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Trips Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:39,2019-04-12 13:47:39,0.068s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/In-Progress Trips Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:39,2019-04-12 13:47:39,0.039s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/In-Progress Trips Dropdown Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:39,2019-04-12 13:47:40,0.895s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:40,2019-04-12 13:47:40,0.020s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/In-Progress Trips/In-Progress Trips""))",Chrome 73.0.3683.103,,2019-04-12 13:47:40,2019-04-12 13:47:40,0.064s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:40,2019-04-12 13:47:40,0.219s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:40,2019-04-12 13:47:40,0.085s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:40,2019-04-12 13:47:40,0.035s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 13:47:40,2019-04-12 13:47:41,0.726s,PASSED
+,,,,,,
+Test Cases/ScreenCrawl/ScreenCrawlHelpDropdown,Chrome 73.0.3683.103,~15 Seconds,2019-04-12 13:47:43,2019-04-12 13:47:59,15.991s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-12 13:47:43,2019-04-12 13:47:47,3.264s,PASSED
+deleteAllCookies(),Chrome 73.0.3683.103,,2019-04-12 13:47:47,2019-04-12 13:47:47,0.010s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-12 13:47:47,2019-04-12 13:47:48,1.130s,PASSED
+"navigateToUrl(""http://enspire-qa.gbrx.com/"")",Chrome 73.0.3683.103,,2019-04-12 13:47:48,2019-04-12 13:47:49,1.219s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:49,2019-04-12 13:47:49,0.013s,PASSED
+"sendKeys(findTestObject(""Login Page/Username Field""), ScreenCrawlUser)",Chrome 73.0.3683.103,,2019-04-12 13:47:49,2019-04-12 13:47:49,0.178s,PASSED
+"sendKeys(findTestObject(""Login Page/Password Field""), ScreenCrawlPass)",Chrome 73.0.3683.103,,2019-04-12 13:47:49,2019-04-12 13:47:49,0.096s,PASSED
+"click(findTestObject(""Login Page/Login Button""))",Chrome 73.0.3683.103,,2019-04-12 13:47:49,2019-04-12 13:47:50,0.904s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:50,2019-04-12 13:47:50,0.019s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:50,2019-04-12 13:47:50,0.052s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Help Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:50,2019-04-12 13:47:50,0.051s,PASSED
+"click(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Help Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:50,2019-04-12 13:47:50,0.084s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/About Enspire Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:50,2019-04-12 13:47:50,0.043s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/About Enspire Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:50,2019-04-12 13:47:51,0.305s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:51,2019-04-12 13:47:51,0.014s,PASSED
+"verifyElementVisible(findTestObject(""About Enspire/About Enspire""))",Chrome 73.0.3683.103,,2019-04-12 13:47:51,2019-04-12 13:47:51,0.048s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:51,2019-04-12 13:47:51,0.264s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:51,2019-04-12 13:47:51,0.012s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:51,2019-04-12 13:47:51,0.036s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Help Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:51,2019-04-12 13:47:51,0.027s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Help Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:51,2019-04-12 13:47:51,0.069s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/About Entrust Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:51,2019-04-12 13:47:51,0.041s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/About Entrust Option""))",Chrome 73.0.3683.103,,2019-04-12 13:47:51,2019-04-12 13:47:52,0.379s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:52,2019-04-12 13:47:52,0.012s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/About Entrust/About Entrust""))",Chrome 73.0.3683.103,,2019-04-12 13:47:52,2019-04-12 13:47:52,0.034s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:52,2019-04-12 13:47:52,0.132s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:52,2019-04-12 13:47:52,0.075s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:52,2019-04-12 13:47:52,0.037s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Help Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:52,2019-04-12 13:47:52,0.028s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Help Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:52,2019-04-12 13:47:52,0.061s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/GBMS Home Page Dropdowns/About Envizion""))",Chrome 73.0.3683.103,,2019-04-12 13:47:52,2019-04-12 13:47:52,0.038s,PASSED
+"click(findTestObject(""Object Repository/GBMS Home Page Dropdowns/About Envizion""))",Chrome 73.0.3683.103,,2019-04-12 13:47:52,2019-04-12 13:47:53,0.661s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:53,2019-04-12 13:47:53,0.012s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:53,2019-04-12 13:47:53,0.144s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:53,2019-04-12 13:47:53,0.084s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:53,2019-04-12 13:47:53,0.038s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Help Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:53,2019-04-12 13:47:53,0.033s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Help Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:53,2019-04-12 13:47:53,0.075s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Envizion - Tech Support""))",Chrome 73.0.3683.103,,2019-04-12 13:47:53,2019-04-12 13:47:53,0.046s,PASSED
+"click(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Envizion - Tech Support""))",Chrome 73.0.3683.103,,2019-04-12 13:47:53,2019-04-12 13:47:53,0.332s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:53,2019-04-12 13:47:53,0.013s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Help/Help""))",Chrome 73.0.3683.103,,2019-04-12 13:47:53,2019-04-12 13:47:53,0.041s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:53,2019-04-12 13:47:54,0.220s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:54,2019-04-12 13:47:54,0.012s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:54,2019-04-12 13:47:54,0.048s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Help Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:54,2019-04-12 13:47:54,0.029s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Help Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:54,2019-04-12 13:47:54,0.072s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Fleet Overview""))",Chrome 73.0.3683.103,,2019-04-12 13:47:54,2019-04-12 13:47:54,0.039s,PASSED
+"click(findTestObject(""Object Repository/GBMS Home Page Dropdowns/Fleet Overview""))",Chrome 73.0.3683.103,,2019-04-12 13:47:54,2019-04-12 13:47:55,0.827s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:55,2019-04-12 13:47:55,0.011s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Fleet Diagram/Fleet Diagram""))",Chrome 73.0.3683.103,,2019-04-12 13:47:55,2019-04-12 13:47:55,0.049s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:55,2019-04-12 13:47:55,0.140s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:55,2019-04-12 13:47:55,0.098s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:55,2019-04-12 13:47:55,0.036s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Help Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:55,2019-04-12 13:47:55,0.030s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Help Dropdown""))",Chrome 73.0.3683.103,,2019-04-12 13:47:55,2019-04-12 13:47:55,0.061s,PASSED
+"verifyElementClickable(findTestObject(""GBMS Home Page Dropdowns/Fleet Overview""))",Chrome 73.0.3683.103,,2019-04-12 13:47:55,2019-04-12 13:47:55,0.037s,PASSED
+"click(findTestObject(""GBMS Home Page Dropdowns/Fleet Overview""))",Chrome 73.0.3683.103,,2019-04-12 13:47:55,2019-04-12 13:47:56,0.779s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:56,2019-04-12 13:47:56,0.011s,PASSED
+back(),Chrome 73.0.3683.103,,2019-04-12 13:47:56,2019-04-12 13:47:56,0.125s,PASSED
+waitForPageLoad(0),Chrome 73.0.3683.103,,2019-04-12 13:47:56,2019-04-12 13:47:56,0.081s,PASSED
+"verifyElementVisible(findTestObject(""GBMS Home Page/GBX Logo""))",Chrome 73.0.3683.103,,2019-04-12 13:47:56,2019-04-12 13:47:56,0.037s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-12 13:47:56,2019-04-12 13:47:57,0.723s,PASSED

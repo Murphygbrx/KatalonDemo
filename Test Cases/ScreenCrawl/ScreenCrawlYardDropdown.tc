@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Yard Dropdown has a user permissions issue and will not be included in the test. </description>
    <name>ScreenCrawlYardDropdown</name>
    <tag></tag>
    <comment></comment>

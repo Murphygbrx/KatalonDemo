@@ -37,13 +37,13 @@ WebUI.click(findTestObject('GBMS Home Page/button_Mechanical Dashboard'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Mechanical Dashbord/b_Assets'))
+WebUI.verifyElementVisible(findTestObject('Mechanical Dashbord/b_Assets'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Mechanical Dashbord/b_Event Tracking'))
+WebUI.verifyElementVisible(findTestObject('Mechanical Dashbord/b_Event Tracking'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Mechanical Dashbord/b_Audit Tracking'))
+not_run: WebUI.verifyElementVisible(findTestObject('Mechanical Dashbord/b_Audit Tracking'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Mechanical Dashbord/b_Car Events or Invoice Search'))
+WebUI.verifyElementVisible(findTestObject('Mechanical Dashbord/b_Car Events or Invoice Search'))
 
 WebUI.back()
 
@@ -55,13 +55,13 @@ WebUI.click(findTestObject('GBMS Home Page/button_Accounting Search'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Accounting Search/Incoming Invoice Search Section'))
+WebUI.verifyElementVisible(findTestObject('Accounting Search/Incoming Invoice Search Section'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Accounting Search/Asset Search Section'))
+WebUI.verifyElementVisible(findTestObject('Accounting Search/Asset Search Section'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Accounting Search/Outgoing Invoiced Search Section'))
+WebUI.verifyElementVisible(findTestObject('Accounting Search/Outgoing Invoiced Search Section'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Accounting Search/Car Search Section'))
+WebUI.verifyElementVisible(findTestObject('Accounting Search/Car Search Section'))
 
 WebUI.back()
 
@@ -71,17 +71,19 @@ WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Maintenance Management
 
 WebUI.click(findTestObject('GBMS Home Page/button_Gauge Tables'))
 
-WebUI.switchToWindowUrl('http://tankcar.gbrx.com/#/')
+WebUI.delay(5)
+
+WebUI.switchToWindowTitle('Tank Car: Gauge Table Data - The Greenbrier Companies')
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Tank Car Gauge/Car Mark'))
+WebUI.verifyElementVisible(findTestObject('Tank Car Gauge/Car Mark'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Tank Car Gauge/Car Number (Start)'))
+WebUI.verifyElementVisible(findTestObject('Tank Car Gauge/Car Number (Start)'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Tank Car Gauge/Car Number (End)'))
+WebUI.verifyElementVisible(findTestObject('Tank Car Gauge/Car Number (End)'))
 
-WebUI.click(findTestObject('Object Repository/Tank Car Gauge/Back to Gbrx.com'))
+WebUI.click(findTestObject('Tank Car Gauge/Back to Gbrx.com'))
 
 WebUI.waitForPageLoad(0)
 

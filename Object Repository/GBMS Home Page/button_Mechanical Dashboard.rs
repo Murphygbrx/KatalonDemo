@@ -6,6 +6,10 @@
    <elementGuidId>7b267ab8-d61d-46e4-8c41-e9bd639a63a2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Mechanical Dashboard' or . = 'Mechanical Dashboard')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//button[@id='Mechanical Dashboard']</value>
       </entry>
@@ -18,7 +22,7 @@
          <value>id(&quot;Mechanical Dashboard&quot;)</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -6,11 +6,15 @@
    <elementGuidId>df526e6c-816c-4b74-b39d-79ea57f8fa37</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Reclaim Validation' or . = 'Reclaim Validation')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//button[@id='Reclaim Validation']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,14 +38,14 @@
       <value>N</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
       <value>Reclaim Validation is not available.</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

@@ -1,0 +1,156 @@
+1
+00:00:00,238 --> 00:00:00,238
+1. openBrowser("")
+
+2
+00:00:03,544 --> 00:00:03,544
+5. deleteAllCookies()
+
+3
+00:00:03,555 --> 00:00:03,555
+9. maximizeWindow()
+
+4
+00:00:04,692 --> 00:00:04,693
+13. navigateToUrl("http://enspire-qa.gbrx.com/")
+
+5
+00:00:05,857 --> 00:00:05,858
+17. waitForPageLoad(0)
+
+6
+00:00:05,869 --> 00:00:05,870
+21. sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser)
+
+7
+00:00:06,022 --> 00:00:06,023
+25. sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass)
+
+8
+00:00:06,097 --> 00:00:06,097
+29. click(findTestObject("Login Page/Login Button"))
+
+9
+00:00:06,997 --> 00:00:06,997
+33. waitForPageLoad(0)
+
+10
+00:00:07,007 --> 00:00:07,007
+37. verifyElementVisible(findTestObject("GBMS Home Page/Visibility  Logistics"), STOP_ON_FAILURE)
+
+11
+00:00:07,040 --> 00:00:07,041
+41. click(findTestObject("GBMS Home Page/button_Problem Trips"))
+
+12
+00:00:07,625 --> 00:00:07,625
+45. waitForPageLoad(0)
+
+13
+00:00:07,634 --> 00:00:07,634
+49. waitForElementVisible(findTestObject("Object Repository/Trip Problem Overview/Car Status by Car Mark"), 0)
+
+14
+00:00:07,674 --> 00:00:07,675
+53. waitForElementVisible(findTestObject("Object Repository/Trip Problem Overview/Search Trips by PO Number"), 0)
+
+15
+00:00:07,718 --> 00:00:07,718
+57. waitForElementVisible(findTestObject("Object Repository/Trip Problem Overview/Trip Problems"), 0)
+
+16
+00:00:07,751 --> 00:00:07,751
+61. back()
+
+17
+00:00:07,949 --> 00:00:07,950
+65. waitForPageLoad(0)
+
+18
+00:00:07,967 --> 00:00:07,968
+69. verifyElementVisible(findTestObject("GBMS Home Page/Visibility  Logistics"), STOP_ON_FAILURE)
+
+19
+00:00:08,006 --> 00:00:08,006
+73. click(findTestObject("GBMS Home Page/button_CLM Search"))
+
+20
+00:00:08,730 --> 00:00:08,730
+77. waitForPageLoad(0)
+
+21
+00:00:08,748 --> 00:00:08,748
+81. waitForElementVisible(findTestObject("Object Repository/CLM Search/CLM Search"), 0)
+
+22
+00:00:08,785 --> 00:00:08,785
+85. back()
+
+23
+00:00:08,893 --> 00:00:08,893
+89. waitForPageLoad(0)
+
+24
+00:00:09,072 --> 00:00:09,073
+93. verifyElementVisible(findTestObject("GBMS Home Page/Visibility  Logistics"), STOP_ON_FAILURE)
+
+25
+00:00:09,100 --> 00:00:09,101
+97. click(findTestObject("GBMS Home Page/button_Trace Projects"))
+
+26
+00:00:09,570 --> 00:00:09,571
+101. waitForPageLoad(0)
+
+27
+00:00:09,582 --> 00:00:09,583
+105. waitForElementVisible(findTestObject("Object Repository/Tracing Project Search/Tracing Project Search"), 0)
+
+28
+00:00:09,622 --> 00:00:09,622
+109. back()
+
+29
+00:00:09,729 --> 00:00:09,730
+113. waitForPageLoad(0)
+
+30
+00:00:09,825 --> 00:00:09,826
+117. verifyElementVisible(findTestObject("GBMS Home Page/Visibility  Logistics"), STOP_ON_FAILURE)
+
+31
+00:00:09,857 --> 00:00:09,857
+121. click(findTestObject("GBMS Home Page/button_Trip Search"))
+
+32
+00:00:10,969 --> 00:00:10,969
+125. waitForPageLoad(0)
+
+33
+00:00:10,986 --> 00:00:10,987
+129. waitForElementVisible(findTestObject("Object Repository/Trip Search/Trip Search"), 0)
+
+34
+00:00:11,049 --> 00:00:11,050
+133. back()
+
+35
+00:00:11,161 --> 00:00:11,161
+137. waitForPageLoad(0)
+
+36
+00:00:11,246 --> 00:00:11,246
+141. verifyElementVisible(findTestObject("GBMS Home Page/Visibility  Logistics"), STOP_ON_FAILURE)
+
+37
+00:00:11,276 --> 00:00:11,276
+147. User does not have perms for this button. Page loads a blank page and error is thrown on the back end. 
+
+38
+00:00:14,575 --> 00:00:14,575
+151. waitForPageLoad(0)
+
+39
+00:00:14,587 --> 00:00:14,587
+155. waitForElementVisible(findTestObject(null), 0)
+

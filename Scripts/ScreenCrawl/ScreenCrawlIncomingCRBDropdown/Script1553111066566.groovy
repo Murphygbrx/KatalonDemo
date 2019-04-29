@@ -31,9 +31,13 @@ WebUI.click(findTestObject('Login Page/Login Button'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/GBX Logo'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Mechanical Dashboard Option'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Mechanical Dashboard Option'))
 
@@ -51,9 +55,13 @@ WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/GBX Logo'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Loading Option'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Loading Option'))
 
@@ -67,9 +75,13 @@ WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/GBX Logo'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Assignment Option'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Assignment Option'))
 
@@ -84,14 +96,21 @@ WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/GBX Logo'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'), 0)
 
 'Page stays on Home while loading Agreement Errors. Takes 2-3 min for page to load. '
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
 
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Agreement Errors Option'), 0)
+
+'Blocking the test being run on FF'
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Agreement Errors Option'))
 
 WebUI.waitForPageLoad(0)
+
+WebUI.delay(180)
 
 WebUI.verifyElementVisible(findTestObject('Agreement Errors/Errors Grid View'))
 
@@ -99,9 +118,13 @@ WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/GBX Logo'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Multiple Car Invoice Option'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Multiple Car Invoice Option'))
 
@@ -117,9 +140,13 @@ WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/GBX Logo'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Load Cover Sheets Option'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Load Cover Sheets Option'))
 
@@ -133,9 +160,13 @@ WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/GBX Logo'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Manage Invoices Option'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Manage Invoices Option'))
 
@@ -149,65 +180,77 @@ WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/GBX Logo'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Rejectable Invoices Option'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Rejectable Invoices Option'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Rejectable Invoices/Rejectable Invoices Header'))
+WebUI.verifyElementVisible(findTestObject('Rejectable Invoices/Rejectable Invoices Header'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Rejectable Invoices/Invoice Number Table'))
+WebUI.verifyElementVisible(findTestObject('Rejectable Invoices/Invoice Number Table'))
 
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/GBX Logo'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Unsent Rejection Letters Option'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Unsent Rejection Letters Option'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Rejection Letters Not Sent/Unsent Rejection Letters Header'))
+WebUI.verifyElementVisible(findTestObject('Rejection Letters Not Sent/Unsent Rejection Letters Header'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Rejection Letters Not Sent/Unsent Invoice Table'))
+WebUI.verifyElementVisible(findTestObject('Rejection Letters Not Sent/Unsent Invoice Table'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Rejection Letters Not Sent/Bulk Options'))
+WebUI.verifyElementVisible(findTestObject('Rejection Letters Not Sent/Bulk Options'))
 
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/GBX Logo'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+
+WebUI.waitForElementClickable(findTestObject('GBMS Home Page Dropdowns/Exception Dashboard Option'), 0)
 
 WebUI.click(findTestObject('GBMS Home Page Dropdowns/Exception Dashboard Option'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Exception Dashboard/Exceptionable Invoices'))
+WebUI.verifyElementVisible(findTestObject('Exception Dashboard/Exceptionable Invoices'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Exception Dashboard/CBA Entry'))
+WebUI.verifyElementVisible(findTestObject('Exception Dashboard/CBA Entry'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Exception Dashboard/Completed CBA Search'))
+WebUI.verifyElementVisible(findTestObject('Exception Dashboard/Completed CBA Search'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Exception Dashboard/Exception Letters'))
+WebUI.verifyElementVisible(findTestObject('Exception Dashboard/Exception Letters'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Exception Dashboard/1st Tracer'))
+WebUI.verifyElementVisible(findTestObject('Exception Dashboard/1st Tracer'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Exception Dashboard/2nd Tracer'))
+WebUI.verifyElementVisible(findTestObject('Exception Dashboard/2nd Tracer'))
 
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementVisible(findTestObject('GBMS Home Page Dropdowns/Incoming CRB Dropdown'))
+WebUI.verifyElementVisible(findTestObject('GBMS Home Page/GBX Logo'))
 
 WebUI.closeBrowser()
 

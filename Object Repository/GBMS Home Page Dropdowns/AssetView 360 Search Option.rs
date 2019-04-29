@@ -6,6 +6,10 @@
    <elementGuidId>0289ab5b-b276-4dce-998f-1e1744b45af2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/AssetManagement/AssetSearch/AssetSearchPage']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='MenuBarTabs']/ul/li[6]/ul/li/a</value>
       </entry>
@@ -27,7 +31,7 @@
       <value>/AssetManagement/AssetSearch/AssetSearchPage</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

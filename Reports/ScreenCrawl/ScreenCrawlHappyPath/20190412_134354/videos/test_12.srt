@@ -1,0 +1,232 @@
+1
+00:00:00,248 --> 00:00:00,249
+1. openBrowser("")
+
+2
+00:00:03,548 --> 00:00:03,549
+5. deleteAllCookies()
+
+3
+00:00:03,560 --> 00:00:03,560
+9. maximizeWindow()
+
+4
+00:00:04,692 --> 00:00:04,692
+13. navigateToUrl("http://enspire-qa.gbrx.com/")
+
+5
+00:00:05,753 --> 00:00:05,753
+17. waitForPageLoad(0)
+
+6
+00:00:05,766 --> 00:00:05,767
+21. sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser)
+
+7
+00:00:05,908 --> 00:00:05,909
+25. sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass)
+
+8
+00:00:05,984 --> 00:00:05,985
+29. click(findTestObject("Login Page/Login Button"))
+
+9
+00:00:06,839 --> 00:00:06,841
+33. waitForPageLoad(0)
+
+10
+00:00:06,854 --> 00:00:06,854
+37. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+11
+00:00:06,898 --> 00:00:06,898
+41. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Trips Dropdown"))
+
+12
+00:00:06,929 --> 00:00:06,929
+45. click(findTestObject("GBMS Home Page Dropdowns/Trips Dropdown"))
+
+13
+00:00:06,988 --> 00:00:06,989
+49. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Trip Search Dropdown Option"))
+
+14
+00:00:07,030 --> 00:00:07,030
+53. click(findTestObject("GBMS Home Page Dropdowns/Trip Search Dropdown Option"))
+
+15
+00:00:07,927 --> 00:00:07,928
+57. waitForPageLoad(0)
+
+16
+00:00:07,939 --> 00:00:07,940
+61. verifyElementVisible(findTestObject("Trip Search/Trip Search"))
+
+17
+00:00:07,996 --> 00:00:07,996
+65. back()
+
+18
+00:00:08,170 --> 00:00:08,170
+69. waitForPageLoad(0)
+
+19
+00:00:08,181 --> 00:00:08,182
+73. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+20
+00:00:08,210 --> 00:00:08,211
+77. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Trips Dropdown"))
+
+21
+00:00:08,240 --> 00:00:08,240
+81. click(findTestObject("GBMS Home Page Dropdowns/Trips Dropdown"))
+
+22
+00:00:08,296 --> 00:00:08,297
+85. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Unit Train Trips Dropdown Option"))
+
+23
+00:00:08,333 --> 00:00:08,334
+89. click(findTestObject("GBMS Home Page Dropdowns/Unit Train Trips Dropdown Option"))
+
+24
+00:00:08,867 --> 00:00:08,868
+93. waitForPageLoad(0)
+
+25
+00:00:08,880 --> 00:00:08,880
+97. verifyElementVisible(findTestObject("Object Repository/Unit Train Search/Unit Train Search"))
+
+26
+00:00:08,922 --> 00:00:08,922
+101. back()
+
+27
+00:00:09,070 --> 00:00:09,071
+105. waitForPageLoad(0)
+
+28
+00:00:09,143 --> 00:00:09,143
+109. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+29
+00:00:09,177 --> 00:00:09,178
+113. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Trips Dropdown"))
+
+30
+00:00:09,204 --> 00:00:09,204
+117. click(findTestObject("GBMS Home Page Dropdowns/Trips Dropdown"))
+
+31
+00:00:09,272 --> 00:00:09,273
+121. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Create Trips Dropdown Option"))
+
+32
+00:00:09,310 --> 00:00:09,311
+125. click(findTestObject("GBMS Home Page Dropdowns/Create Trips Dropdown Option"))
+
+33
+00:00:10,811 --> 00:00:10,812
+129. waitForPageLoad(0)
+
+34
+00:00:10,842 --> 00:00:10,842
+133. verifyElementVisible(findTestObject("Object Repository/Create Trips/Car Details"))
+
+35
+00:00:10,889 --> 00:00:10,889
+137. verifyElementVisible(findTestObject("Object Repository/Create Trips/Common BOL Data"))
+
+36
+00:00:10,932 --> 00:00:10,933
+141. verifyElementVisible(findTestObject("Object Repository/Create Trips/Movement"))
+
+37
+00:00:10,979 --> 00:00:10,979
+145. back()
+
+38
+00:00:11,115 --> 00:00:11,116
+149. waitForPageLoad(0)
+
+39
+00:00:11,222 --> 00:00:11,223
+153. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+40
+00:00:11,254 --> 00:00:11,254
+157. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Trips Dropdown"))
+
+41
+00:00:11,280 --> 00:00:11,281
+161. click(findTestObject("GBMS Home Page Dropdowns/Trips Dropdown"))
+
+42
+00:00:11,336 --> 00:00:11,337
+165. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Trip Patterns Dropdown Option"))
+
+43
+00:00:11,378 --> 00:00:11,378
+169. click(findTestObject("GBMS Home Page Dropdowns/Trip Patterns Dropdown Option"))
+
+44
+00:00:11,805 --> 00:00:11,806
+173. waitForPageLoad(0)
+
+45
+00:00:11,850 --> 00:00:11,850
+177. verifyElementVisible(findTestObject("Object Repository/Trip Pattern Search/Trip Pattern Search"))
+
+46
+00:00:11,897 --> 00:00:11,898
+181. back()
+
+47
+00:00:12,061 --> 00:00:12,062
+185. waitForPageLoad(0)
+
+48
+00:00:12,150 --> 00:00:12,151
+189. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+49
+00:00:12,186 --> 00:00:12,186
+193. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Trips Dropdown"))
+
+50
+00:00:12,213 --> 00:00:12,214
+197. click(findTestObject("GBMS Home Page Dropdowns/Trips Dropdown"))
+
+51
+00:00:12,282 --> 00:00:12,283
+201. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/In-Progress Trips Dropdown Option"))
+
+52
+00:00:12,321 --> 00:00:12,322
+205. click(findTestObject("GBMS Home Page Dropdowns/In-Progress Trips Dropdown Option"))
+
+53
+00:00:13,217 --> 00:00:13,218
+209. waitForPageLoad(0)
+
+54
+00:00:13,238 --> 00:00:13,238
+213. verifyElementVisible(findTestObject("Object Repository/In-Progress Trips/In-Progress Trips"))
+
+55
+00:00:13,301 --> 00:00:13,302
+217. back()
+
+56
+00:00:13,521 --> 00:00:13,522
+221. waitForPageLoad(0)
+
+57
+00:00:13,607 --> 00:00:13,607
+225. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+58
+00:00:13,641 --> 00:00:13,642
+229. closeBrowser()
+

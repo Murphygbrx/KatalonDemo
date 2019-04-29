@@ -1,0 +1,456 @@
+1
+00:00:00,314 --> 00:00:00,315
+1. openBrowser("")
+
+2
+00:00:03,909 --> 00:00:03,909
+5. deleteAllCookies()
+
+3
+00:00:03,922 --> 00:00:03,922
+9. maximizeWindow()
+
+4
+00:00:05,063 --> 00:00:05,063
+13. navigateToUrl("http://enspire-qa.gbrx.com/")
+
+5
+00:00:06,338 --> 00:00:06,338
+17. waitForPageLoad(0)
+
+6
+00:00:06,351 --> 00:00:06,352
+21. sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser)
+
+7
+00:00:06,525 --> 00:00:06,526
+25. sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass)
+
+8
+00:00:06,620 --> 00:00:06,620
+29. click(findTestObject("Login Page/Login Button"))
+
+9
+00:00:07,553 --> 00:00:07,554
+33. waitForPageLoad(0)
+
+10
+00:00:07,569 --> 00:00:07,570
+37. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+11
+00:00:07,632 --> 00:00:07,633
+41. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+12
+00:00:07,680 --> 00:00:07,680
+45. click(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+13
+00:00:07,789 --> 00:00:07,789
+49. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reporting Dashboard Option"))
+
+14
+00:00:07,840 --> 00:00:07,840
+53. click(findTestObject("GBMS Home Page Dropdowns/Reporting Dashboard Option"))
+
+15
+00:00:08,416 --> 00:00:08,416
+57. waitForPageLoad(0)
+
+16
+00:00:08,430 --> 00:00:08,430
+61. verifyElementVisible(findTestObject("Reporting Dashboard/Report Parameters"))
+
+17
+00:00:08,479 --> 00:00:08,479
+65. back()
+
+18
+00:00:08,807 --> 00:00:08,807
+69. waitForPageLoad(0)
+
+19
+00:00:08,819 --> 00:00:08,819
+73. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+20
+00:00:08,855 --> 00:00:08,856
+77. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+21
+00:00:08,884 --> 00:00:08,884
+81. click(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+22
+00:00:08,959 --> 00:00:08,959
+85. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reports Option"))
+
+23
+00:00:09,001 --> 00:00:09,002
+89. click(findTestObject("GBMS Home Page Dropdowns/Reports Option"))
+
+24
+00:00:10,164 --> 00:00:10,165
+93. waitForPageLoad(0)
+
+25
+00:00:10,179 --> 00:00:10,179
+97. verifyElementVisible(findTestObject("Reports/Reports"))
+
+26
+00:00:10,224 --> 00:00:10,224
+101. back()
+
+27
+00:00:10,362 --> 00:00:10,362
+105. waitForPageLoad(0)
+
+28
+00:00:10,429 --> 00:00:10,430
+109. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+29
+00:00:10,467 --> 00:00:10,468
+113. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+30
+00:00:10,499 --> 00:00:10,500
+117. click(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+31
+00:00:10,586 --> 00:00:10,587
+121. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Dashboards Option"))
+
+32
+00:00:10,623 --> 00:00:10,624
+125. click(findTestObject("GBMS Home Page Dropdowns/Dashboards Option"))
+
+33
+00:00:11,592 --> 00:00:11,592
+129. waitForPageLoad(0)
+
+34
+00:00:11,605 --> 00:00:11,605
+133. verifyElementVisible(findTestObject("Object Repository/Dashboard/Reporting Dashboard"))
+
+35
+00:00:11,645 --> 00:00:11,645
+137. back()
+
+36
+00:00:11,843 --> 00:00:11,844
+141. waitForPageLoad(0)
+
+37
+00:00:11,857 --> 00:00:11,857
+145. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+38
+00:00:11,888 --> 00:00:11,888
+149. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+39
+00:00:11,916 --> 00:00:11,916
+153. click(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+40
+00:00:11,975 --> 00:00:11,975
+157. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Saved Reports Option"))
+
+41
+00:00:12,008 --> 00:00:12,008
+161. click(findTestObject("GBMS Home Page Dropdowns/Saved Reports Option"))
+
+42
+00:00:12,828 --> 00:00:12,829
+165. waitForPageLoad(0)
+
+43
+00:00:12,840 --> 00:00:12,840
+169. verifyElementVisible(findTestObject("Saved Reports/Saved Reports"))
+
+44
+00:00:12,878 --> 00:00:12,879
+173. back()
+
+45
+00:00:13,062 --> 00:00:13,062
+177. waitForPageLoad(0)
+
+46
+00:00:13,074 --> 00:00:13,075
+181. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+47
+00:00:13,106 --> 00:00:13,106
+185. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+48
+00:00:13,132 --> 00:00:13,132
+189. click(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+49
+00:00:13,198 --> 00:00:13,199
+193. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/AAR Car Type Codes"))
+
+50
+00:00:13,232 --> 00:00:13,232
+197. click(findTestObject("GBMS Home Page Dropdowns/AAR Car Type Codes"))
+
+51
+00:00:13,865 --> 00:00:13,865
+201. waitForPageLoad(0)
+
+52
+00:00:13,881 --> 00:00:13,881
+205. verifyElementVisible(findTestObject("AAR Car Type Code Search/AAR Car Type Code Search"))
+
+53
+00:00:13,919 --> 00:00:13,920
+209. back()
+
+54
+00:00:14,045 --> 00:00:14,045
+213. waitForPageLoad(0)
+
+55
+00:00:14,128 --> 00:00:14,129
+217. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+56
+00:00:14,160 --> 00:00:14,160
+221. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+57
+00:00:14,188 --> 00:00:14,189
+225. click(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+58
+00:00:14,249 --> 00:00:14,249
+229. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Manage Reports Option"))
+
+59
+00:00:14,281 --> 00:00:14,282
+233. click(findTestObject("GBMS Home Page Dropdowns/Manage Reports Option"))
+
+60
+00:00:15,210 --> 00:00:15,211
+237. waitForPageLoad(0)
+
+61
+00:00:15,223 --> 00:00:15,224
+241. verifyElementVisible(findTestObject("Report Management/Report Management"))
+
+62
+00:00:15,291 --> 00:00:15,291
+245. back()
+
+63
+00:00:15,491 --> 00:00:15,492
+249. waitForPageLoad(0)
+
+64
+00:00:15,504 --> 00:00:15,505
+253. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+65
+00:00:15,539 --> 00:00:15,539
+257. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+66
+00:00:15,567 --> 00:00:15,567
+261. click(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+67
+00:00:15,623 --> 00:00:15,624
+265. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Report Repository Option"))
+
+68
+00:00:15,657 --> 00:00:15,657
+269. click(findTestObject("GBMS Home Page Dropdowns/Report Repository Option"))
+
+69
+00:00:16,054 --> 00:00:16,055
+273. waitForPageLoad(0)
+
+70
+00:00:16,065 --> 00:00:16,065
+277. verifyElementVisible(findTestObject("Report Repository Search/Report Repository Search"))
+
+71
+00:00:16,097 --> 00:00:16,098
+281. back()
+
+72
+00:00:16,304 --> 00:00:16,304
+285. waitForPageLoad(0)
+
+73
+00:00:16,334 --> 00:00:16,334
+289. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+74
+00:00:16,364 --> 00:00:16,365
+293. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+75
+00:00:16,391 --> 00:00:16,392
+297. click(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+76
+00:00:16,461 --> 00:00:16,461
+301. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Report Images Option"))
+
+77
+00:00:16,497 --> 00:00:16,497
+305. click(findTestObject("GBMS Home Page Dropdowns/Report Images Option"))
+
+78
+00:00:16,941 --> 00:00:16,941
+309. waitForPageLoad(0)
+
+79
+00:00:16,951 --> 00:00:16,951
+313. verifyElementVisible(findTestObject("Report Images/Report Images"))
+
+80
+00:00:16,984 --> 00:00:16,984
+317. back()
+
+81
+00:00:17,146 --> 00:00:17,147
+321. waitForPageLoad(0)
+
+82
+00:00:17,216 --> 00:00:17,216
+325. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+83
+00:00:17,247 --> 00:00:17,248
+329. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+84
+00:00:17,278 --> 00:00:17,278
+333. click(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+85
+00:00:17,334 --> 00:00:17,335
+337. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Report Themes Option"))
+
+86
+00:00:17,368 --> 00:00:17,369
+341. click(findTestObject("GBMS Home Page Dropdowns/Report Themes Option"))
+
+87
+00:00:18,568 --> 00:00:18,568
+345. waitForPageLoad(0)
+
+88
+00:00:18,581 --> 00:00:18,582
+349. verifyElementVisible(findTestObject("Report Themes/Report Themes"))
+
+89
+00:00:18,620 --> 00:00:18,620
+353. back()
+
+90
+00:00:18,746 --> 00:00:18,747
+357. waitForPageLoad(0)
+
+91
+00:00:18,841 --> 00:00:18,841
+361. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+92
+00:00:18,876 --> 00:00:18,876
+365. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+93
+00:00:18,904 --> 00:00:18,904
+369. click(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+94
+00:00:18,964 --> 00:00:18,964
+373. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Plant Dashboard Option"))
+
+95
+00:00:18,997 --> 00:00:18,997
+377. click(findTestObject("GBMS Home Page Dropdowns/Plant Dashboard Option"))
+
+96
+00:00:19,495 --> 00:00:19,495
+381. waitForPageLoad(0)
+
+97
+00:00:19,504 --> 00:00:19,504
+385. verifyElementVisible(findTestObject("Plant Dashboard/Select Company"))
+
+98
+00:00:19,542 --> 00:00:19,543
+389. verifyElementVisible(findTestObject("Plant Dashboard/Latest Trips by Car Mark"))
+
+99
+00:00:19,581 --> 00:00:19,581
+393. verifyElementVisible(findTestObject("Plant Dashboard/Search Trips by PO Number"))
+
+100
+00:00:19,616 --> 00:00:19,616
+397. back()
+
+101
+00:00:19,797 --> 00:00:19,798
+401. waitForPageLoad(0)
+
+102
+00:00:19,815 --> 00:00:19,815
+405. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+103
+00:00:19,847 --> 00:00:19,848
+409. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+104
+00:00:19,872 --> 00:00:19,872
+413. click(findTestObject("GBMS Home Page Dropdowns/Reporting Dropdown"))
+
+105
+00:00:19,929 --> 00:00:19,930
+417. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Problem Trip Dashboard Option"))
+
+106
+00:00:19,963 --> 00:00:19,963
+421. click(findTestObject("GBMS Home Page Dropdowns/Problem Trip Dashboard Option"))
+
+107
+00:00:20,440 --> 00:00:20,441
+425. waitForPageLoad(0)
+
+108
+00:00:20,453 --> 00:00:20,453
+429. verifyElementVisible(findTestObject("Trip Problem Overview/Car Status by Car Mark"))
+
+109
+00:00:20,494 --> 00:00:20,494
+433. verifyElementVisible(findTestObject("Trip Problem Overview/Search Trips by PO Number"))
+
+110
+00:00:20,537 --> 00:00:20,538
+437. verifyElementVisible(findTestObject("Trip Problem Overview/Trip Problems"))
+
+111
+00:00:20,615 --> 00:00:20,616
+441. back()
+
+112
+00:00:20,812 --> 00:00:20,813
+445. waitForPageLoad(0)
+
+113
+00:00:20,824 --> 00:00:20,825
+449. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+114
+00:00:20,858 --> 00:00:20,858
+453. closeBrowser()
+

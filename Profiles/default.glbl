@@ -6,12 +6,12 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'glentest1gms'</initValue>
+      <initValue>'GMS/ScreenCrawlAllRoles'</initValue>
       <name>ScreenCrawlUser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'12345678'</initValue>
+      <initValue>'123456789'</initValue>
       <name>ScreenCrawlPass</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

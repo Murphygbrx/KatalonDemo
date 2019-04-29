@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='MenuBarTabs']/ul/li[2]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#' and (text() = 'Accounting' or . = 'Accounting')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

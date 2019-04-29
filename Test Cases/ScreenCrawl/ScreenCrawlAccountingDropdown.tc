@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>~30s
+Functions on Chrome and IE. FF has issues finding some elements. </description>
    <name>ScreenCrawlAccountingDropdown</name>
    <tag></tag>
    <comment></comment>

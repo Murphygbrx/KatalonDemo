@@ -61,7 +61,6 @@ WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Assets'), FailureHandling.STOP_ON_FAILURE)
 
-'User doenst have acces to Cust portal. \r\n'
 WebUI.click(findTestObject('GBMS Home Page/button_Customer Portal'))
 
 WebUI.waitForPageLoad(0)

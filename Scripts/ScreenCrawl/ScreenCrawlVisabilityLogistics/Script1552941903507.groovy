@@ -37,6 +37,12 @@ WebUI.click(findTestObject('GBMS Home Page/button_Problem Trips'))
 
 WebUI.waitForPageLoad(0)
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Trip Problem Overview/Car Status by Car Mark'), 0)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Trip Problem Overview/Search Trips by PO Number'), 0)
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Trip Problem Overview/Trip Problems'), 0)
+
 WebUI.back()
 
 WebUI.waitForPageLoad(0)
@@ -47,7 +53,7 @@ WebUI.click(findTestObject('GBMS Home Page/button_CLM Search'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject(null), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/CLM Search/CLM Search'), 0)
 
 WebUI.back()
 
@@ -59,7 +65,7 @@ WebUI.click(findTestObject('GBMS Home Page/button_Trace Projects'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject(null), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Tracing Project Search/Tracing Project Search'), 0)
 
 WebUI.back()
 
@@ -71,7 +77,7 @@ WebUI.click(findTestObject('GBMS Home Page/button_Trip Search'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject(null), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Trip Search/Trip Search'), 0)
 
 WebUI.back()
 
@@ -79,6 +85,7 @@ WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementVisible(findTestObject('GBMS Home Page/Visibility  Logistics'), FailureHandling.STOP_ON_FAILURE)
 
+'User does not have perms for this button. Page loads a blank page and error is thrown on the back end. '
 WebUI.click(findTestObject('GBMS Home Page/button_Yard Dashboard'))
 
 WebUI.waitForPageLoad(0)

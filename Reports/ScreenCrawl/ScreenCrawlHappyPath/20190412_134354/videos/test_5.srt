@@ -1,0 +1,160 @@
+1
+00:00:00,252 --> 00:00:00,252
+1. openBrowser("")
+
+2
+00:00:03,578 --> 00:00:03,578
+5. deleteAllCookies()
+
+3
+00:00:03,590 --> 00:00:03,591
+9. maximizeWindow()
+
+4
+00:00:04,720 --> 00:00:04,721
+13. navigateToUrl("http://enspire-qa.gbrx.com/")
+
+5
+00:00:05,799 --> 00:00:05,799
+17. waitForPageLoad(0)
+
+6
+00:00:05,814 --> 00:00:05,814
+21. sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser)
+
+7
+00:00:05,953 --> 00:00:05,953
+25. sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass)
+
+8
+00:00:06,020 --> 00:00:06,020
+29. click(findTestObject("Login Page/Login Button"))
+
+9
+00:00:06,913 --> 00:00:06,914
+33. waitForPageLoad(0)
+
+10
+00:00:06,930 --> 00:00:06,931
+37. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+11
+00:00:06,965 --> 00:00:06,965
+41. verifyElementClickable(findTestObject("Object Repository/GBMS Home Page Dropdowns/Claims Dropdown"))
+
+12
+00:00:06,994 --> 00:00:06,994
+45. click(findTestObject("Object Repository/GBMS Home Page Dropdowns/Claims Dropdown"))
+
+13
+00:00:07,052 --> 00:00:07,052
+49. verifyElementClickable(findTestObject("Object Repository/GBMS Home Page Dropdowns/Process Claims Dropdown Option"))
+
+14
+00:00:07,082 --> 00:00:07,082
+53. click(findTestObject("Object Repository/GBMS Home Page Dropdowns/Process Claims Dropdown Option"))
+
+15
+00:00:07,638 --> 00:00:07,638
+57. waitForPageLoad(0)
+
+16
+00:00:07,654 --> 00:00:07,654
+61. verifyElementVisible(findTestObject("Process Claims/Search Parameters"))
+
+17
+00:00:07,767 --> 00:00:07,768
+65. verifyElementVisible(findTestObject("Process Claims/ReceiptReporting Dates"))
+
+18
+00:00:07,810 --> 00:00:07,810
+69. verifyElementVisible(findTestObject("Process Claims/Claim Search Results"))
+
+19
+00:00:07,846 --> 00:00:07,846
+73. back()
+
+20
+00:00:07,966 --> 00:00:07,966
+77. waitForPageLoad(0)
+
+21
+00:00:08,072 --> 00:00:08,073
+81. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+22
+00:00:08,110 --> 00:00:08,110
+85. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Claims Dropdown"))
+
+23
+00:00:08,138 --> 00:00:08,138
+89. click(findTestObject("GBMS Home Page Dropdowns/Claims Dropdown"))
+
+24
+00:00:08,212 --> 00:00:08,213
+93. verifyElementClickable(findTestObject("Object Repository/GBMS Home Page Dropdowns/Reconcile Pay Dropdown Option"))
+
+25
+00:00:08,253 --> 00:00:08,254
+97. click(findTestObject("Object Repository/GBMS Home Page Dropdowns/Reconcile Pay Dropdown Option"))
+
+26
+00:00:08,635 --> 00:00:08,635
+101. waitForPageLoad(0)
+
+27
+00:00:08,649 --> 00:00:08,649
+105. verifyElementVisible(findTestObject("Object Repository/Reconcile Claims/Reconcile Claims"))
+
+28
+00:00:08,685 --> 00:00:08,686
+109. back()
+
+29
+00:00:08,819 --> 00:00:08,819
+113. waitForPageLoad(0)
+
+30
+00:00:08,933 --> 00:00:08,934
+117. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+31
+00:00:08,976 --> 00:00:08,976
+121. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Claims Dropdown"))
+
+32
+00:00:09,006 --> 00:00:09,007
+125. click(findTestObject("GBMS Home Page Dropdowns/Claims Dropdown"))
+
+33
+00:00:09,087 --> 00:00:09,088
+129. verifyElementClickable(findTestObject("Object Repository/GBMS Home Page Dropdowns/Work Time Claims Dropdown Option"))
+
+34
+00:00:09,140 --> 00:00:09,141
+133. click(findTestObject("Object Repository/GBMS Home Page Dropdowns/Work Time Claims Dropdown Option"))
+
+35
+00:00:09,453 --> 00:00:09,453
+137. waitForPageLoad(0)
+
+36
+00:00:09,464 --> 00:00:09,465
+141. verifyElementVisible(findTestObject("Object Repository/Working Time Claims/Search Parameters"))
+
+37
+00:00:09,506 --> 00:00:09,506
+145. back()
+
+38
+00:00:09,744 --> 00:00:09,745
+149. waitForPageLoad(0)
+
+39
+00:00:09,758 --> 00:00:09,759
+153. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+40
+00:00:09,790 --> 00:00:09,791
+157. closeBrowser()
+

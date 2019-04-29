@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>~25 seconds Switching Windows will give browsers other than chrome issues. </description>
    <name>ScreenCrawlMaintinance Management</name>
    <tag></tag>
    <comment></comment>

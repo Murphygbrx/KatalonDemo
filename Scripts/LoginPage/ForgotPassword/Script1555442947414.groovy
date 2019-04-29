@@ -1,12 +1,13 @@
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import java.sql.ResultSet as ResultSet
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
@@ -15,25 +16,25 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+WebUI.navigateToUrl('https://enspire-ua.gbrx.com/')
+
 WebUI.deleteAllCookies()
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('http://enspire-qa.gbrx.com/')
+WebUI.click(findTestObject('Object Repository/Login Page/Forgot Password Link'))
 
 WebUI.waitForPageLoad(0)
 
-WebUI.sendKeys(findTestObject('Login Page/Username Field'), 'Smith')
+WebUI.focus(findTestObject('Object Repository/Login Page/PasswordModal'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Login Page/Password Field'), 'Smith')
+WebUI.setText(findTestObject('Object Repository/Login Page/ForgotPassword_UserName'), 'halliburton/glen.key')
 
-WebUI.click(findTestObject('Login Page/Login Button'))
+WebUI.click(findTestObject('Object Repository/Login Page/button_Reset Password'))
 
-WebUI.waitForPageLoad(0)
+WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Login Page/Enspire Image'), 0)
-
-not_run: WebUI.takeScreenshot('C:\\Users\\patrick.murphy\\Katalon Studio\\KatalonDemo\\Screenshots\\Smith Fail1.jpg', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Login Page/ForgotPasswordText'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Just a test to show the shared functionality</description>
+   <name>ClickProblemTripsTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d86a1be8-6c29-48ea-bb6d-2dc4c9ec78b8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,116 @@
+1
+00:00:00,112 --> 00:00:00,113
+1. openBrowser("")
+
+2
+00:00:03,293 --> 00:00:03,293
+5. deleteAllCookies()
+
+3
+00:00:04,005 --> 00:00:04,015
+9. maximizeWindow()
+
+4
+00:00:05,139 --> 00:00:05,139
+13. navigateToUrl("http://enspire-qa.gbrx.com/")
+
+5
+00:00:06,376 --> 00:00:06,377
+17. waitForPageLoad(0)
+
+6
+00:00:06,404 --> 00:00:06,404
+21. sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser)
+
+7
+00:00:06,500 --> 00:00:06,500
+25. sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass)
+
+8
+00:00:06,558 --> 00:00:06,558
+29. click(findTestObject("Login Page/Login Button"))
+
+9
+00:00:07,520 --> 00:00:07,520
+33. waitForPageLoad(0)
+
+10
+00:00:07,538 --> 00:00:07,539
+37. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+11
+00:00:07,575 --> 00:00:07,575
+41. verifyElementClickable(findTestObject("Object Repository/GBMS Home Page Dropdowns/Counter Reclaims Dropdown"))
+
+12
+00:00:07,609 --> 00:00:07,609
+45. click(findTestObject("Object Repository/GBMS Home Page Dropdowns/Counter Reclaims Dropdown"))
+
+13
+00:00:07,660 --> 00:00:07,660
+49. verifyElementClickable(findTestObject("Object Repository/GBMS Home Page Dropdowns/Manage Counter Reclaims Dropdown Option"))
+
+14
+00:00:07,703 --> 00:00:07,704
+53. click(findTestObject("Object Repository/GBMS Home Page Dropdowns/Manage Counter Reclaims Dropdown Option"))
+
+15
+00:00:08,380 --> 00:00:08,381
+57. waitForPageLoad(0)
+
+16
+00:00:08,389 --> 00:00:08,389
+61. verifyElementVisible(findTestObject("Object Repository/Manage Counter Reclaims/Unprocessed Counter-Counter Reclaims"))
+
+17
+00:00:08,544 --> 00:00:08,544
+65. back()
+
+18
+00:00:08,686 --> 00:00:08,686
+69. waitForPageLoad(0)
+
+19
+00:00:08,694 --> 00:00:08,694
+73. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+20
+00:00:08,719 --> 00:00:08,719
+77. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Counter Reclaims Dropdown"))
+
+21
+00:00:08,743 --> 00:00:08,743
+81. click(findTestObject("GBMS Home Page Dropdowns/Counter Reclaims Dropdown"))
+
+22
+00:00:08,789 --> 00:00:08,790
+85. verifyElementClickable(findTestObject("Object Repository/GBMS Home Page Dropdowns/Import Counter-Counters Dropdown Option"))
+
+23
+00:00:08,821 --> 00:00:08,821
+89. click(findTestObject("Object Repository/GBMS Home Page Dropdowns/Import Counter-Counters Dropdown Option"))
+
+24
+00:00:09,118 --> 00:00:09,118
+93. waitForPageLoad(0)
+
+25
+00:00:09,125 --> 00:00:09,125
+97. verifyElementVisible(findTestObject("Object Repository/Import Counter-Counter/Upload Counter-Counter Reclaims"))
+
+26
+00:00:09,173 --> 00:00:09,173
+101. back()
+
+27
+00:00:09,309 --> 00:00:09,310
+105. waitForPageLoad(0)
+
+28
+00:00:09,325 --> 00:00:09,325
+109. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+29
+00:00:09,349 --> 00:00:09,350
+113. closeBrowser()
+

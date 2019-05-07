@@ -1,0 +1,252 @@
+1
+00:00:00,126 --> 00:00:00,126
+1. openBrowser("")
+
+2
+00:00:04,595 --> 00:00:04,595
+5. deleteAllCookies()
+
+3
+00:00:04,625 --> 00:00:04,625
+9. maximizeWindow()
+
+4
+00:00:05,746 --> 00:00:05,746
+13. navigateToUrl("http://enspire-qa.gbrx.com/")
+
+5
+00:00:06,905 --> 00:00:06,905
+17. waitForPageLoad(0)
+
+6
+00:00:06,928 --> 00:00:06,928
+21. sendKeys(findTestObject("Login Page/Username Field"), ScreenCrawlUser)
+
+7
+00:00:07,029 --> 00:00:07,029
+25. sendKeys(findTestObject("Login Page/Password Field"), ScreenCrawlPass)
+
+8
+00:00:07,086 --> 00:00:07,086
+29. click(findTestObject("Login Page/Login Button"))
+
+9
+00:00:07,972 --> 00:00:07,972
+33. waitForPageLoad(0)
+
+10
+00:00:07,982 --> 00:00:07,982
+37. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+11
+00:00:08,006 --> 00:00:08,007
+41. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Track Trace Dropdown"))
+
+12
+00:00:08,024 --> 00:00:08,025
+45. click(findTestObject("GBMS Home Page Dropdowns/Track Trace Dropdown"))
+
+13
+00:00:08,069 --> 00:00:08,070
+49. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Car Status"))
+
+14
+00:00:08,105 --> 00:00:08,105
+53. click(findTestObject("GBMS Home Page Dropdowns/Car Status"))
+
+15
+00:00:09,461 --> 00:00:09,461
+57. waitForPageLoad(0)
+
+16
+00:00:09,470 --> 00:00:09,470
+61. verifyElementVisible(findTestObject("Car Status/Enter Cars to See Status"))
+
+17
+00:00:09,509 --> 00:00:09,510
+65. back()
+
+18
+00:00:09,670 --> 00:00:09,670
+69. waitForPageLoad(0)
+
+19
+00:00:09,683 --> 00:00:09,683
+73. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+20
+00:00:09,709 --> 00:00:09,709
+77. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Track Trace Dropdown"))
+
+21
+00:00:09,728 --> 00:00:09,728
+81. click(findTestObject("GBMS Home Page Dropdowns/Track Trace Dropdown"))
+
+22
+00:00:09,771 --> 00:00:09,771
+85. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Search Existing CLMs Option"))
+
+23
+00:00:09,798 --> 00:00:09,798
+89. click(findTestObject("GBMS Home Page Dropdowns/Search Existing CLMs Option"))
+
+24
+00:00:10,956 --> 00:00:10,956
+93. waitForPageLoad(0)
+
+25
+00:00:10,963 --> 00:00:10,964
+97. verifyElementVisible(findTestObject("CLM Search/CLM Search"))
+
+26
+00:00:11,005 --> 00:00:11,005
+101. back()
+
+27
+00:00:11,240 --> 00:00:11,240
+105. waitForPageLoad(0)
+
+28
+00:00:11,249 --> 00:00:11,249
+109. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Track Trace Dropdown"))
+
+29
+00:00:11,281 --> 00:00:11,281
+113. click(findTestObject("GBMS Home Page Dropdowns/Track Trace Dropdown"))
+
+30
+00:00:11,331 --> 00:00:11,331
+117. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Trace List Option"))
+
+31
+00:00:11,367 --> 00:00:11,367
+121. click(findTestObject("GBMS Home Page Dropdowns/Trace List Option"))
+
+32
+00:00:12,373 --> 00:00:12,374
+125. waitForPageLoad(0)
+
+33
+00:00:12,383 --> 00:00:12,383
+129. verifyElementVisible(findTestObject("Tracing Project Search/Tracing Project Search"))
+
+34
+00:00:12,448 --> 00:00:12,448
+133. back()
+
+35
+00:00:12,531 --> 00:00:12,531
+137. waitForPageLoad(0)
+
+36
+00:00:12,589 --> 00:00:12,589
+141. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Track Trace Dropdown"))
+
+37
+00:00:12,613 --> 00:00:12,613
+145. click(findTestObject("GBMS Home Page Dropdowns/Track Trace Dropdown"))
+
+38
+00:00:12,656 --> 00:00:12,656
+149. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/CLM Request Option"))
+
+39
+00:00:12,689 --> 00:00:12,689
+153. click(findTestObject("GBMS Home Page Dropdowns/CLM Request Option"))
+
+40
+00:00:13,791 --> 00:00:13,792
+157. waitForPageLoad(0)
+
+41
+00:00:13,816 --> 00:00:13,817
+161. verifyElementVisible(findTestObject("Object Repository/CLM Requests/25 Most Recent CLM Requests"))
+
+42
+00:00:13,846 --> 00:00:13,846
+165. back()
+
+43
+00:00:13,990 --> 00:00:13,990
+169. waitForPageLoad(0)
+
+44
+00:00:13,999 --> 00:00:13,999
+173. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Track Trace Dropdown"))
+
+45
+00:00:14,021 --> 00:00:14,021
+177. click(findTestObject("GBMS Home Page Dropdowns/Track Trace Dropdown"))
+
+46
+00:00:14,066 --> 00:00:14,067
+181. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Current Location Map Option"))
+
+47
+00:00:14,100 --> 00:00:14,100
+185. click(findTestObject("GBMS Home Page Dropdowns/Current Location Map Option"))
+
+48
+00:00:16,245 --> 00:00:16,245
+189. waitForPageLoad(0)
+
+49
+00:00:16,263 --> 00:00:16,263
+193. verifyElementVisible(findTestObject("Object Repository/Current Location Map/Current Location Search"))
+
+50
+00:00:16,412 --> 00:00:16,412
+197. verifyElementVisible(findTestObject("Object Repository/Current Location Map/Pin Color Modes"))
+
+51
+00:00:16,441 --> 00:00:16,442
+201. back()
+
+52
+00:00:16,577 --> 00:00:16,577
+205. waitForPageLoad(0)
+
+53
+00:00:16,585 --> 00:00:16,585
+209. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Track Trace Dropdown"))
+
+54
+00:00:16,615 --> 00:00:16,615
+213. click(findTestObject("GBMS Home Page Dropdowns/Track Trace Dropdown"))
+
+55
+00:00:16,681 --> 00:00:16,682
+217. verifyElementClickable(findTestObject("GBMS Home Page Dropdowns/Car History Map Option"))
+
+56
+00:00:16,729 --> 00:00:16,730
+221. click(findTestObject("GBMS Home Page Dropdowns/Car History Map Option"))
+
+57
+00:00:18,123 --> 00:00:18,123
+225. waitForPageLoad(0)
+
+58
+00:00:18,155 --> 00:00:18,155
+229. verifyElementVisible(findTestObject("Object Repository/Car History Map/Car Search"))
+
+59
+00:00:18,210 --> 00:00:18,210
+233. verifyElementVisible(findTestObject("Object Repository/Car History Map/Legend"))
+
+60
+00:00:18,382 --> 00:00:18,382
+237. back()
+
+61
+00:00:19,800 --> 00:00:19,800
+241. waitForPageLoad(0)
+
+62
+00:00:19,807 --> 00:00:19,808
+245. verifyElementVisible(findTestObject("GBMS Home Page/GBX Logo"))
+
+63
+00:00:19,840 --> 00:00:19,841
+249. closeBrowser()
+
